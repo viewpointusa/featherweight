@@ -216,12 +216,8 @@
 		</Item>
 		<Item Name="Templates" Type="Folder">
 			<Item Name="Actor Template" Type="Folder">
-				<Item Name="Actor Template-Core.lvclass" Type="LVClass" URL="../Actor/templates/Actor Template/Actor Template-Core.lvclass"/>
+				<Item Name="Actor Template-Core.lvclass" Type="LVClass" URL="../Actor/templates/Actor Template/Core/Actor Template-Core.lvclass"/>
 				<Item Name="Actor Template.lvclass" Type="LVClass" URL="../Actor/templates/Actor Template/Actor Template.lvclass"/>
-			</Item>
-			<Item Name="Timed Message Helper" Type="Folder">
-				<Item Name="Timed Message-Core.lvclass" Type="LVClass" URL="../Actor/templates/Timed Message Helper/Timed Message-Core.lvclass"/>
-				<Item Name="Timed Message.lvclass" Type="LVClass" URL="../Actor/templates/Timed Message Helper/Timed Message.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="UI" Type="Folder">
