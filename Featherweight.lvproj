@@ -219,6 +219,9 @@
 				<Item Name="Actor Template-Core.lvclass" Type="LVClass" URL="../Actor/templates/Actor Template/Core/Actor Template-Core.lvclass"/>
 				<Item Name="Actor Template.lvclass" Type="LVClass" URL="../Actor/templates/Actor Template/Actor Template.lvclass"/>
 			</Item>
+			<Item Name="Data Producer Worker Template" Type="Folder">
+				<Item Name="Data Producer Worker Template.lvclass" Type="LVClass" URL="../Actor/templates/Data Producer Worker Template/Data Producer Worker Template.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="FileSystem" Type="Folder">
