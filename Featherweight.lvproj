@@ -222,6 +222,7 @@
 			<Item Name="Data Producer Worker Template" Type="Folder">
 				<Item Name="Data Producer Worker Template.lvclass" Type="LVClass" URL="../Actor/templates/Data Producer Worker Template/Data Producer Worker Template.lvclass"/>
 			</Item>
+			<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../Actor/templates/FTW-ActorTemplate.vi"/>
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="FileSystem" Type="Folder">
