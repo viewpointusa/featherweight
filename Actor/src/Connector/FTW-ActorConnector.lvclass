@@ -43,13 +43,13 @@
 		</Item>
 	</Item>
 	<Item Name="FTW-Connector-Ask.vi" Type="VI" URL="../FTW-Connector-Ask.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(N!!!!$Q"+1(!!(A!!,!^'6&amp;=N17.U&lt;X)O&lt;(:M;7);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!".'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S!!1!!!"/1(!!(A!!,!^'6&amp;=N17.U&lt;X)O&lt;(:M;7);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!"&gt;'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S)'^V&gt;!!91$$`````$F*F=86F=X1A3'6B:'6S!!!91$$`````$V*F=X"P&lt;H.F)%BF972F=A!71$$`````$&amp;*F=86F=X1A1G^E?1!!&amp;E!Q`````QV3:8.Q&lt;WZT:3"#&lt;W2Z!!V!!Q!(6'FN:7^V&gt;!!11#%+6'FN:71A&lt;X6U0Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!#1!+!!M):8*S&lt;X)A;7Y!!":!5!!$!!E!#A!,#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!1!"!!)!!Q!%!!5!"A!(!!A!$!!"!!%!!1!.!Q!"#!!!%A!!!!!!!!!!!!!!!!!!!!U!!!)1!!!!#1!!!AA!!!!*!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!$A!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)#!!!!%!"+1(!!(A!!,!^'6&amp;=N17.U&lt;X)O&lt;(:M;7);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!".'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S!!1!!!"/1(!!(A!!,!^'6&amp;=N17.U&lt;X)O&lt;(:M;7);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!"&gt;'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S)'^V&gt;!!91$$`````$F*F=86F=X1A3'6B:'6S!!!91$$`````$V*F=X"P&lt;H.F)%BF972F=A!71$$`````$&amp;*F=86F=X1A1G^E?1!!&amp;E!Q`````QV3:8.Q&lt;WZT:3"#&lt;W2Z!!V!!Q!(6'FN:7^V&gt;!!11#%+6'FN:71A&lt;X6U0Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!#1!+!!M):8*S&lt;X)A;7Y!!"6!#A!/5G^V&lt;G2U=GFQ)&amp;2J&lt;75!!":!5!!$!!E!#A!,#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!1!"!!)!!Q!%!!5!"A!(!!A!$!!"!!%!$1!/!Q!"#!!!%A!!!!!!!!!!!!!!!!!!!!U!!!)1!!!!#1!!!AA!!!!*!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!!"!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!$Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="FTW-Connector-Close.vi" Type="VI" URL="../FTW-Connector-Close.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%6!!!!#!"+1(!!(A!!,!^'6&amp;=N17.U&lt;X)O&lt;(:M;7);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!".'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!#!!-!"!BF=H*P=C"J&lt;A!!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!1!"!!%!!1!"!!%!!1!&amp;!!%!!1!"!!9$!!%)!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!"Q!!!!!</Property>
@@ -69,6 +69,15 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1352671760</Property>
+	</Item>
+	<Item Name="FTW-Connector-Ping.vi" Type="VI" URL="../FTW-Connector-Ping.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(3!!!!$A"+1(!!(A!!,!^'6&amp;=N17.U&lt;X)O&lt;(:M;7);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!".'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S!!1!!!"/1(!!(A!!,!^'6&amp;=N17.U&lt;X)O&lt;(:M;7);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!"&gt;'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S)'^V&gt;!!71$$`````$&amp;*F=86F=X1A1G^E?1!!&amp;E!Q`````QV3:8.Q&lt;WZT:3"#&lt;W2Z!!V!!Q!(6'FN:7^V&gt;!!11#%+6'FN:71A&lt;X6U0Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"Q!)!!E):8*S&lt;X)A;7Y!!"6!#A!/5G^V&lt;G2U=GFQ)&amp;2J&lt;75!!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!1!"!!)!!1!"!!-!"!!&amp;!!9!#A!"!!%!#Q!-!Q!"#!!!%A!!!!!!!!!!!!!!!!!!!!U!!!!!!!!!!!!!!AA!!!!*!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!!"!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!$1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
 	<Item Name="FTW-Connector-SendPoisonPill.vi" Type="VI" URL="../FTW-Connector-SendPoisonPill.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'O!!!!$1"+1(!!(A!!,!^'6&amp;=N17.U&lt;X)O&lt;(:M;7);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!".'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S!!1!!!"/1(!!(A!!,!^'6&amp;=N17.U&lt;X)O&lt;(:M;7);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!"&gt;'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S)'^V&gt;!!.1!-!"V2J&lt;76P&gt;81!'%!Q`````Q^3:8.Q&lt;WZT:3"):7&amp;E:8)!&amp;E!Q`````QV3:8.Q&lt;WZT:3"#&lt;W2Z!""!)1J5;7VF:#"P&gt;81`!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!(!!A!#1BF=H*P=C"J&lt;A!!&amp;E"1!!-!"Q!)!!E*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!$!!1!!1!&amp;!!%!"A!+!!%!!1!"!!M$!!%)!!#3!!!!!!!!!!!!!!!!!!!!D1!!!!A!!!!*!!!!!!!!!!E!!!!!!!!!#1!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!$!!!!!!</Property>
