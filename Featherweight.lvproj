@@ -35,6 +35,7 @@
 			<Item Name="FTW-Logger.lvclass" Type="LVClass" URL="../Actor/src/EventLogger/FTW-Logger.lvclass"/>
 			<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../Actor/src/Message/Request/FTW-Message-IncomingRequest.lvclass"/>
 			<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../Actor/src/Message/Base/FTW-Message.lvclass"/>
+			<Item Name="FTW-Router.lvclass" Type="LVClass" URL="../Actor/src/Router/FTW-Router.lvclass"/>
 		</Item>
 		<Item Name="CodeGen" Type="Folder">
 			<Item Name="FTW-CodeGen.lvlib" Type="Library" URL="../Core/utils/CodeGen/FTW-CodeGen.lvlib"/>
