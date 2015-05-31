@@ -22,20 +22,25 @@
 			<Item Name="Framework" Type="Folder">
 				<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../Actor/src/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			</Item>
+			<Item Name="Scalability" Type="Folder">
+				<Item Name="FTW-Client.lvclass" Type="LVClass" URL="../Actor/src/Client/FTW-Client.lvclass"/>
+				<Item Name="FTW-Router.lvclass" Type="LVClass" URL="../Actor/src/Router/FTW-Router.lvclass"/>
+			</Item>
+			<Item Name="Transport" Type="Folder">
+				<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../Actor/src/TCP/FTW-Endpoint-TCP.lvclass"/>
+				<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../Actor/src/Endpoint/FTW-Endpoint.lvclass"/>
+				<Item Name="FTW-Listener-LVQ.lvclass" Type="LVClass" URL="../Actor/src/Listener-LVQ/FTW-Listener-LVQ.lvclass"/>
+				<Item Name="FTW-Listener-TCP.lvclass" Type="LVClass" URL="../Actor/src/Listener-TCP/FTW-Listener-TCP.lvclass"/>
+				<Item Name="FTW-Listener.lvclass" Type="LVClass" URL="../Actor/src/Listener/FTW-Listener.lvclass"/>
+			</Item>
 			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../Actor/src/Connector/FTW-ActorConnector.lvclass"/>
 			<Item Name="FTW-ActorInstance.lvclass" Type="LVClass" URL="../Actor/src/Instance/FTW-ActorInstance.lvclass"/>
-			<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../Actor/src/TCP/FTW-Endpoint-TCP.lvclass"/>
-			<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../Actor/src/Endpoint/FTW-Endpoint.lvclass"/>
 			<Item Name="FTW-Ether.lvclass" Type="LVClass" URL="../Actor/src/Ether/FTW-Ether.lvclass"/>
 			<Item Name="FTW-JobSequencer.lvclass" Type="LVClass" URL="../Actor/src/JobSequencer/FTW-JobSequencer.lvclass"/>
-			<Item Name="FTW-Listener-LVQ.lvclass" Type="LVClass" URL="../Actor/src/Listener-LVQ/FTW-Listener-LVQ.lvclass"/>
-			<Item Name="FTW-Listener-TCP.lvclass" Type="LVClass" URL="../Actor/src/Listener-TCP/FTW-Listener-TCP.lvclass"/>
-			<Item Name="FTW-Listener.lvclass" Type="LVClass" URL="../Actor/src/Listener/FTW-Listener.lvclass"/>
 			<Item Name="FTW-Logger-Core.lvclass" Type="LVClass" URL="../Actor/src/EventLogger/Core/FTW-Logger-Core.lvclass"/>
 			<Item Name="FTW-Logger.lvclass" Type="LVClass" URL="../Actor/src/EventLogger/FTW-Logger.lvclass"/>
 			<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../Actor/src/Message/Request/FTW-Message-IncomingRequest.lvclass"/>
 			<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../Actor/src/Message/Base/FTW-Message.lvclass"/>
-			<Item Name="FTW-Router.lvclass" Type="LVClass" URL="../Actor/src/Router/FTW-Router.lvclass"/>
 		</Item>
 		<Item Name="CodeGen" Type="Folder">
 			<Item Name="FTW-CodeGen.lvlib" Type="Library" URL="../Core/utils/CodeGen/FTW-CodeGen.lvlib"/>
@@ -240,6 +245,12 @@
 				<Item Name="Data Producer Worker Template.lvclass" Type="LVClass" URL="../Actor/templates/Data Producer Worker Template/Data Producer Worker Template.lvclass"/>
 			</Item>
 			<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../Actor/templates/FTW-ActorTemplate.vi"/>
+		</Item>
+		<Item Name="test" Type="Folder">
+			<Item Name="ReqRep" Type="Folder">
+				<Item Name="Gmsg_RR_Handler.vi" Type="VI" URL="../test/ReqRep/Gmsg_RR_Handler.vi"/>
+				<Item Name="Gmsg_RR_Sender.vi" Type="VI" URL="../test/ReqRep/Gmsg_RR_Sender.vi"/>
+			</Item>
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="FileSystem" Type="Folder">
