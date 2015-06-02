@@ -22,13 +22,9 @@
 		<Item Name="FTW-Example-SlasdClient-Core.lvclass" Type="LVClass" URL="../SLASD Client/Core/FTW-Example-SlasdClient-Core.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Match Regular Expression_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_Execute.vi"/>
 				<Item Name="Match Regular Expression_ExecuteOffsets.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_ExecuteOffsets.vi"/>
-				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../../../Actor/src/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../../../Actor/src/Connector/FTW-ActorConnector.lvclass"/>
@@ -48,7 +44,6 @@
 			<Item Name="FTW-ERR-ThrowGenericError.vi" Type="VI" URL="../../../Core/src/Error/FTW-ERR-ThrowGenericError.vi"/>
 			<Item Name="FTW-ERR-ThrowImpossibleError.vi" Type="VI" URL="../../../Core/src/Error/FTW-ERR-ThrowImpossibleError.vi"/>
 			<Item Name="FTW-Ether.lvclass" Type="LVClass" URL="../../../Actor/src/Ether/FTW-Ether.lvclass"/>
-			<Item Name="FTW-Example-SLASD-Core.lvclass" Type="LVClass" URL="../SLASD/Core/FTW-Example-SLASD-Core.lvclass"/>
 			<Item Name="FTW-File-CreateDirectory.vi" Type="VI" URL="../../../Core/src/File/FTW-File-CreateDirectory.vi"/>
 			<Item Name="FTW-File-Directory-Exists.vi" Type="VI" URL="../../../Core/src/File/FTW-File-Directory-Exists.vi"/>
 			<Item Name="FTW-File-FindLibrary.vi" Type="VI" URL="../../../Core/src/File/FTW-File-FindLibrary.vi"/>

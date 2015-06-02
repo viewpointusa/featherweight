@@ -56,15 +56,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
-	<Item Name="FTW-Example-SLASD-Launch.vi" Type="VI" URL="../FTW-Example-SLASD-Launch.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;S!!!!$!!%!!!!/%"Q!"Y!!"M:2F28,56Y97VQ&lt;'5N5UR"5U1O&lt;(:D&lt;'&amp;T=Q!42F28)%&amp;D&gt;'^S)%.P&lt;GZF9X2P=A!?1$$`````&amp;%FO;82J97RJ?G6E)&amp;*F=X"P&lt;H.F!!!A1$$`````&amp;EFO=X2B&lt;G.F)%FO9G^Y)%&amp;E:(*F=X-!!!V!!Q!(6'FN:7^V&gt;!!E1$$`````'EFO=X2B&lt;G.F)&amp;"V9GRJ=WBF=C"":'2S:8.T!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!'!!=!#!BF=H*P=C"J&lt;A!!&amp;E"1!!-!"A!(!!A*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!1!!!!)!!!!$!!1!"1!*!!!!!!!!!!I$!!%)!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!*!!!!!!!!!!E!!!!!!!!!#1!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#Q!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1352671760</Property>
-	</Item>
 	<Item Name="FTW-Example-SLASD-Template.vit" Type="VI" URL="../FTW-Example-SLASD-Template.vit">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#1!W1(!!(A!!'RF'6&amp;=N28BB&lt;8"M:3V44%&amp;42#ZM&gt;G.M98.T!"&amp;"9X2P=C"5:7VQ&lt;'&amp;U:3"*&lt;A!%!!!!/%"Q!"Y!!"M:2F28,56Y97VQ&lt;'5N5UR"5U1O&lt;(:D&lt;'&amp;T=Q!317.U&lt;X)A6'6N='RB&gt;'5A4X6U!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!$!!1!"2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!5!!$!!-!"!!&amp;#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!1!"!!)!!1!"!!%!!1!"!!%!"A!"!!%!!1!(!Q!"#!!!%A!!!!!!!!!!!!!!!!!!!!U!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
