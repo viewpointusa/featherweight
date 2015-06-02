@@ -198,6 +198,7 @@
 				<Item Name="FTW-Time-RetryTimer.vi" Type="VI" URL="../Core/src/Time/FTW-Time-RetryTimer.vi"/>
 				<Item Name="FTW-Time-Timer.vi" Type="VI" URL="../Core/src/Time/FTW-Time-Timer.vi"/>
 				<Item Name="FTW-Time-Uptime.vi" Type="VI" URL="../Core/src/Time/FTW-Time-Uptime.vi"/>
+				<Item Name="FTW-Time-Wait.vi" Type="VI" URL="../Core/src/Time/FTW-Time-Wait.vi"/>
 			</Item>
 			<Item Name="URI" Type="Folder">
 				<Item Name="FTW-URI-Build.vi" Type="VI" URL="../Core/src/URI/FTW-URI-Build.vi"/>
