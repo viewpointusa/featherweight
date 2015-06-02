@@ -228,6 +228,19 @@
 			</Item>
 		</Item>
 		<Item Name="Examples" Type="Folder">
+			<Item Name="SLASD Example" Type="Folder">
+				<Item Name="Client" Type="Folder">
+					<Item Name="FTW-Example-SlasdClient-Core.lvclass" Type="LVClass" URL="../Examples/SLASD Example/SLASD Client/Core/FTW-Example-SlasdClient-Core.lvclass"/>
+				</Item>
+				<Item Name="Service" Type="Folder">
+					<Item Name="FTW-Example-Service-Core.lvclass" Type="LVClass" URL="../Examples/SLASD Example/Service/Core/FTW-Example-Service-Core.lvclass"/>
+					<Item Name="FTW-Example-Service.lvclass" Type="LVClass" URL="../Examples/SLASD Example/Service/FTW-Example-Service.lvclass"/>
+				</Item>
+				<Item Name="SLASD" Type="Folder">
+					<Item Name="FTW-Example-SLASD-Core.lvclass" Type="LVClass" URL="../Examples/SLASD Example/SLASD/Core/FTW-Example-SLASD-Core.lvclass"/>
+					<Item Name="FTW-Example-SLASD.lvclass" Type="LVClass" URL="../Examples/SLASD Example/SLASD/FTW-Example-SLASD.lvclass"/>
+				</Item>
+			</Item>
 			<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../Examples/FTW-Benchmark-Actors.vi"/>
 			<Item Name="FTW-Benchmark-JSON.vi" Type="VI" URL="../Examples/FTW-Benchmark-JSON.vi"/>
 			<Item Name="FTW-Benchmark-MessageTransports.vi" Type="VI" URL="../Examples/FTW-Benchmark-MessageTransports.vi"/>
@@ -242,9 +255,6 @@
 			<Item Name="Actor Template" Type="Folder">
 				<Item Name="Actor Template-Core.lvclass" Type="LVClass" URL="../Actor/templates/Actor Template/Core/Actor Template-Core.lvclass"/>
 				<Item Name="Actor Template.lvclass" Type="LVClass" URL="../Actor/templates/Actor Template/Actor Template.lvclass"/>
-			</Item>
-			<Item Name="Data Producer Worker Template" Type="Folder">
-				<Item Name="Data Producer Worker Template.lvclass" Type="LVClass" URL="../Actor/templates/Data Producer Worker Template/Data Producer Worker Template.lvclass"/>
 			</Item>
 			<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../Actor/templates/FTW-ActorTemplate.vi"/>
 		</Item>
@@ -357,9 +367,12 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Math Plot Private Lib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Math Plots/Plot Private Lib/NI_Math Plot Private Lib.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="_LaunchHelp.vi" Type="VI" URL="/&lt;helpdir&gt;/_LaunchHelp.vi"/>
