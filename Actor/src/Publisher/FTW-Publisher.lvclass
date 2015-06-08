@@ -50,13 +50,13 @@
 		</Item>
 	</Item>
 	<Item Name="FTW-Publisher-Construct.vi" Type="VI" URL="../FTW-Publisher-Construct.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%.!!!!#1!%!!!!-E"Q!"Y!!"=62F28,6"V9GRJ=WBF=CZM&gt;G.M98.T!"&amp;'6&amp;=N5(6C&lt;'FT;'6S)%^V&gt;!!11$$`````"U&amp;E:(*F=X-!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!Q!%!!5):8*S&lt;X)A;7Y!!":!5!!$!!-!"!!&amp;#76S=G^S)'^V&gt;!"M!0!!%!!!!!!!!!!!!!%!!A!!!!!!!!!!!!!!"A!!!!!!!!!(!Q!"#!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%F!!!!#A!%!!!!-E"Q!"Y!!"=62F28,6"V9GRJ=WBF=CZM&gt;G.M98.T!"&amp;'6&amp;=N5(6C&lt;'FT;'6S)%^V&gt;!!11$$`````"U&amp;E:(*F=X-!'%!Q`````QZ"9X2V97QA172E=G6T=Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"!!&amp;!!9):8*S&lt;X)A;7Y!!":!5!!$!!1!"1!'#76S=G^S)'^V&gt;!"M!0!!%!!!!!!!!!!!!!%!!A!$!!!!!!!!!!!!"Q!!!!!!!!!)!Q!"#!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!1!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="FTW-Publisher-Destroy.vi" Type="VI" URL="../FTW-Publisher-Destroy.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$^!!!!#!!S1(!!(A!!&amp;R6'6&amp;=N5(6C&lt;'FT;'6S,GRW9WRB=X-!%%:56SV1&gt;7*M;8.I:8)A37Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!#!!-!"!BF=H*P=C"J&lt;A!!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!1!"!!%!!1!"!!%!!1!&amp;!!%!!1!"!!9$!!%)!!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!"Q!!!!!</Property>
