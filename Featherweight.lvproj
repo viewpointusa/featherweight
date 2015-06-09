@@ -184,6 +184,7 @@
 				<Item Name="FTW-STR-Repeat.vi" Type="VI" URL="../Core/src/String/FTW-STR-Repeat.vi"/>
 				<Item Name="FTW-STR-ReplaceAll.vi" Type="VI" URL="../Core/src/String/FTW-STR-ReplaceAll.vi"/>
 				<Item Name="FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="../Core/src/String/FTW-STR-ReplaceWhitespace.vi"/>
+				<Item Name="FTW-STR-Split.vi" Type="VI" URL="../Core/src/String/FTW-STR-Split.vi"/>
 			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="FTW-System-CommandLineExecute.vi" Type="VI" URL="../Core/src/System/FTW-System-CommandLineExecute.vi"/>
