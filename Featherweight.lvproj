@@ -268,6 +268,7 @@
 			</Item>
 			<Item Name="ReqRep" Type="Folder">
 				<Item Name="Gmsg_RR_Handler.vi" Type="VI" URL="../test/ReqRep/Gmsg_RR_Handler.vi"/>
+				<Item Name="Gmsg_RR_Pinger.vi" Type="VI" URL="../test/ReqRep/Gmsg_RR_Pinger.vi"/>
 				<Item Name="Gmsg_RR_Sender.vi" Type="VI" URL="../test/ReqRep/Gmsg_RR_Sender.vi"/>
 			</Item>
 			<Item Name="FTW-ActorConnector-Test.vi" Type="VI" URL="../test/FTW-ActorConnector-Test.vi"/>
