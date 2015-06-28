@@ -24,6 +24,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Match Regular Expression_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_Execute.vi"/>
 				<Item Name="Match Regular Expression_ExecuteOffsets.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_ExecuteOffsets.vi"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 			</Item>
 			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../Actor/src/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
@@ -38,6 +39,7 @@
 			<Item Name="FTW-ERR-Ignore.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-Ignore.vi"/>
 			<Item Name="FTW-ERR-NoErrorConstant.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-NoErrorConstant.vi"/>
 			<Item Name="FTW-ERR-SerializeForLog.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-SerializeForLog.vi"/>
+			<Item Name="FTW-ERR-StatusCode.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-StatusCode.vi"/>
 			<Item Name="FTW-ERR-StatusError.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-StatusError.vi"/>
 			<Item Name="FTW-ERR-StatusException.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-StatusException.vi"/>
 			<Item Name="FTW-ERR-StatusOK.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-StatusOK.vi"/>
@@ -88,6 +90,7 @@
 			<Item Name="FTW-STR-Encode-Base64.vi" Type="VI" URL="../Core/src/String/FTW-STR-Encode-Base64.vi"/>
 			<Item Name="FTW-STR-Random-Hex.vi" Type="VI" URL="../Core/src/String/FTW-STR-Random-Hex.vi"/>
 			<Item Name="FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="../Core/src/String/FTW-STR-ReplaceWhitespace.vi"/>
+			<Item Name="FTW-STR-Split.vi" Type="VI" URL="../Core/src/String/FTW-STR-Split.vi"/>
 			<Item Name="FTW-Time-Display-Timestamp.vi" Type="VI" URL="../Core/src/Time/FTW-Time-Display-Timestamp.vi"/>
 			<Item Name="FTW-Time-DisplayFormat-Timestamp.ctl" Type="VI" URL="../Core/src/Time/FTW-Time-DisplayFormat-Timestamp.ctl"/>
 			<Item Name="FTW-Time-Elapse.vi" Type="VI" URL="../Core/src/Time/FTW-Time-Elapse.vi"/>
@@ -183,6 +186,7 @@ AddOutputFilter chunkFilter
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">cRIO-9068</Property>
 		</Item>
+		<Item Name="FTW-ActorTemplate-RT-TopLevel.vi" Type="VI" URL="../Actor/templates/FTW-ActorTemplate-RT-TopLevel.vi"/>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../Actor/templates/FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../Examples/FTW-Benchmark-Actors.vi"/>
 		<Item Name="FTW-Example-Actors-RT.vi" Type="VI" URL="../Examples/FTW-Example-Actors-RT.vi"/>
@@ -208,6 +212,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FTW-ERR-Ignore.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-Ignore.vi"/>
 			<Item Name="FTW-ERR-NoErrorConstant.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-NoErrorConstant.vi"/>
 			<Item Name="FTW-ERR-SerializeForLog.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-SerializeForLog.vi"/>
+			<Item Name="FTW-ERR-StatusCode.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-StatusCode.vi"/>
 			<Item Name="FTW-ERR-StatusError.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-StatusError.vi"/>
 			<Item Name="FTW-ERR-StatusException.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-StatusException.vi"/>
 			<Item Name="FTW-ERR-StatusOK.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-StatusOK.vi"/>
@@ -270,6 +275,53 @@ AddOutputFilter chunkFilter
 			<Item Name="FTWLib-Jansson-Win32.dll" Type="Document" URL="../Core/src/JSON/FTWLib-Jansson-Win32.dll"/>
 			<Item Name="FTWLib-Jansson-Win64.dll" Type="Document" URL="../Core/src/JSON/FTWLib-Jansson-Win64.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="RT Example Test" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+				<Property Name="App_INI_aliasGUID" Type="Str">{7FA8CD00-EBD1-4F23-9502-AC24A419C7BA}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1721EE20-B210-4675-A9FE-7A091E120EBC}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9FB2C3E7-39BE-4948-9ED7-393AF3DCA814}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RT Example Test</Property>
+				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/RT Example Test</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{CC7BFEC1-6F08-4D22-82B6-57AD2B06562A}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A3D69F06-080A-4B96-A5F0-01E07DE72FF5}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target/Gmsg_RR_Handler.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target/FTW-ActorTemplate-RT-TopLevel.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Viewpoint Systems</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">RT Example Test</Property>
+				<Property Name="TgtF_internalName" Type="Str">RT Example Test</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 Viewpoint Systems</Property>
+				<Property Name="TgtF_productName" Type="Str">RT Example Test</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{956B1681-4452-49D3-B3E6-FFD1A0354B41}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
