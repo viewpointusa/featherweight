@@ -42,12 +42,11 @@
 		<Item Name="FTW-Ether-Address-RandomEphemeral.vi" Type="VI" URL="../FTW-Ether-Address-RandomEphemeral.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%"!!!!#1!%!!!!%E!Q`````QB&amp;&lt;G2Q&lt;WFO&gt;!!!*%!Q`````RJ&amp;&lt;G2Q&lt;WFO&gt;#"X;82I)&amp;*F='RB9W6N:7ZU=Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!Q!%!!5):8*S&lt;X)A;7Y!!":!5!!$!!-!"!!&amp;#76S=G^S)'^V&gt;!"M!0!!%!!!!!!!!!!!!!!!!1!#!!!!!!!!!!!!"A!!!!!!!!!(!Q!"#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!3!!!!$15!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">160</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342714384</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130962</Property>
 		</Item>
 		<Item Name="FTW-Ether-Address-Validate.vi" Type="VI" URL="../FTW-Ether-Address-Validate.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'B!!!!#A!%!!!!%%!Q`````Q&gt;":'2S:8.T!"J!-0````]25W&amp;O;82J?G6E)%&amp;E:(*F=X-!L!$RU9_WFQ!!!!)22F28,56U;'6S,GRW9WRB=X-E2F28,56U;'6S,5VF=X.B:W65=G&amp;O=X"P=H249WBF&lt;75O9X2M!'V!&amp;A!$&amp;URB9F:*26=A586F&gt;76T)#BM&gt;H%[,S]J$&amp;2$5#!I&gt;'.Q/C]P+3&amp;-97*73568)%ZF&gt;(&gt;P=GMA5X2S:7&amp;N=S!I&lt;(:O=TIP,SE!!"B.:8.T97&gt;F)&amp;2S97ZT='^S&gt;#"49WBF&lt;75!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!1!"1!'#'6S=G^S)'FO!!!71&amp;!!!Q!%!!5!"AFF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!!!!!!!!!!!!%!!A!!!!-!!!!!!!=!!!!!!!!!#!-!!1A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!E!!!!!!!!!#1!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!*!!!!!!</Property>
