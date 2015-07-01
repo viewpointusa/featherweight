@@ -58,13 +58,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 		</Item>
 		<Item Name="FTW-Endpoint-Multipart-Tell.vi" Type="VI" URL="../FTW-Endpoint-Multipart-Tell.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;U!!!!$1!O1(!!(A!!&amp;B2'6&amp;=N27ZE='^J&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$%:56S"&amp;&lt;G2Q&lt;WFO&gt;!!!"!!!!$*!=!!?!!!7&amp;%:56SV&amp;&lt;G2Q&lt;WFO&gt;#ZM&gt;G.M98.T!!!12F28)%6O:("P;7ZU)'^V&gt;!!!$E!Q`````Q2198*U!!!?1%!!!@````]!!R&amp;.&gt;7RU;8"B=H1A476T=W&amp;H:1!11#%+6'FN:71A&lt;X6U0Q!!$5!$!!&gt;5;7VF&lt;X6U!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!=!#!!*#'6S=G^S)'FO!!!71&amp;!!!Q!(!!A!#1FF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!"!!%!!1!#!!1!"1!'!!%!!1!"!!I!!1!"!!%!#Q-!!1A!!*!!!!!!!!!!!!!!!!!!!!#.!!!"%A!!!!E!!!!1!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!-!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;U!!!!$1!O1(!!(A!!&amp;B2'6&amp;=N27ZE='^J&lt;H1O&lt;(:D&lt;'&amp;T=Q!!$%:56S"&amp;&lt;G2Q&lt;WFO&gt;!!!"!!!!$*!=!!?!!!7&amp;%:56SV&amp;&lt;G2Q&lt;WFO&gt;#ZM&gt;G.M98.T!!!12F28)%6O:("P;7ZU)'^V&gt;!!!$E!Q`````Q2198*U!!!?1%!!!@````]!!R&amp;.&gt;7RU;8"B=H1A476T=W&amp;H:1!11#%+6'FN:71A&lt;X6U0Q!!$5!$!!&gt;5;7VF&lt;X6U!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!=!#!!*#'6S=G^S)'FO!!!71&amp;!!!Q!(!!A!#1FF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!"!!%!!1!#!!1!"1!'!!%!!1!"!!I!!1!"!!%!#Q-!!1A!!*!!!!!!!!!!!!!!!!!!!!#.!!!!%A!!!!E!!!!1!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!-!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
 	</Item>
 	<Item Name="Synchronous" Type="Folder">
