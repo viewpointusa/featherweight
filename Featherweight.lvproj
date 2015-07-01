@@ -42,6 +42,7 @@
 			<Item Name="FTW-Logger-Core.lvclass" Type="LVClass" URL="../Actor/src/EventLogger/Core/FTW-Logger-Core.lvclass"/>
 			<Item Name="FTW-Logger.lvclass" Type="LVClass" URL="../Actor/src/EventLogger/FTW-Logger.lvclass"/>
 			<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../Actor/src/Message/Request/FTW-Message-IncomingRequest.lvclass"/>
+			<Item Name="FTW-Message-Lossy.lvclass" Type="LVClass" URL="../Actor/src/Message/Lossy/FTW-Message-Lossy.lvclass"/>
 			<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../Actor/src/Message/Base/FTW-Message.lvclass"/>
 		</Item>
 		<Item Name="CodeGen" Type="Folder">
@@ -266,6 +267,7 @@
 			<Item Name="PubSub" Type="Folder">
 				<Item Name="Gmsg_PS_Publisher.vi" Type="VI" URL="../test/PubSub/Gmsg_PS_Publisher.vi"/>
 				<Item Name="Gmsg_PS_Subscriber.vi" Type="VI" URL="../test/PubSub/Gmsg_PS_Subscriber.vi"/>
+				<Item Name="Lossy Subscriber Test.vi" Type="VI" URL="../test/PubSub/Lossy Subscriber Test.vi"/>
 			</Item>
 			<Item Name="ReqRep" Type="Folder">
 				<Item Name="Gmsg_RR_Handler.vi" Type="VI" URL="../test/ReqRep/Gmsg_RR_Handler.vi"/>
@@ -386,6 +388,8 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="FTW-Message-Compose.vi" Type="VI" URL="../Actor/src/Message/Lossy/FTW-Message-Compose.vi"/>
+			<Item Name="FTW-Message-Decompose.vi" Type="VI" URL="../Actor/src/Message/Lossy/FTW-Message-Decompose.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
