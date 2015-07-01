@@ -26,7 +26,7 @@
 				<Item Name="FTW-Client.lvclass" Type="LVClass" URL="../Actor/src/Client/FTW-Client.lvclass"/>
 				<Item Name="FTW-Publisher.lvclass" Type="LVClass" URL="../Actor/src/Publisher/FTW-Publisher.lvclass"/>
 				<Item Name="FTW-Router.lvclass" Type="LVClass" URL="../Actor/src/Router/FTW-Router.lvclass"/>
-				<Item Name="FTW-Subscription.lvclass" Type="LVClass" URL="../Actor/src/Subscription/FTW-Subscription.lvclass"/>
+				<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../Actor/src/Subscriber/FTW-Subscriber.lvclass"/>
 			</Item>
 			<Item Name="Transport" Type="Folder">
 				<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../Actor/src/TCP/FTW-Endpoint-TCP.lvclass"/>
