@@ -8,7 +8,9 @@
 	<Property Name="EndevoGOOP_ColorTextBody" Type="UInt">0</Property>
 	<Property Name="EndevoGOOP_ColorTextHeader" Type="UInt">16777215</Property>
 	<Property Name="EndevoGOOP_FrameThickness" Type="UInt">1</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,-!!!*Q(C=V:1^DB."%)7@%&gt;+3\AE7/56%F2,[#AY*82+"9Y=\I8W%%C*'MGQB9;U)(*(8&amp;3T""2R$APGGX?O@R7M4A!4&gt;7T0D^[KLP_XO';GU:^*4&lt;3[VS&gt;GWW7ASU;3^%/6?(K7NO0/V-^P,,OW50^F6UN&lt;@$TMU\_PPN&amp;LSC/1S`[8WYGR\[!]'Z`T"H$:YT-&gt;NE9YS^HZV(W4M`,W\T4DP,U\Y_YT&amp;YL3`T6AM(P&gt;JC`0_YL`QZ`0:&lt;(;]`A@_P.AFYX$`KH`A0NT`\2L/^P9PZ_@9`&gt;7H(&lt;AH`;.W]8DTID;88Y+`W[2/_[:PC#3#=-,+W\V*^%20^%20^%10^%!0^%!0^%"X&gt;%&gt;X&gt;%&gt;X&gt;%=X&gt;%-X&gt;%-X&gt;%-P(6XI1B=[KZ*-HES5&amp;%U+*-GA+,EE0!F0QJ0Q]&amp;-*4]+4]#1]#1]J3HA3HI1HY5FY'+;%*_&amp;*?"+?B)&gt;3B32,2Y=HY;']!J[!*_!*?!)?JF4!%Q!%EQ7&amp;AS*A+$#$BY!HY!FY?&amp;4!%`!%0!&amp;0Q)/NA#@A#8A#HI#()766IN#U(2U?SMDB=8A=(I@(Y;'U("[(R_&amp;R?"Q?JJ0$Y`!Y%-[%4H%1Z!RS%JQ@$I`$QUU/D]0D]$A]$A^7W3%P+^03N"U&gt;(I0(Y$&amp;Y$"[$BR)S?!Q?A]@A-8AI+Y0(Y$&amp;Y$"[$B[FE]"A]"I]"9ET+^$++'1/.*%-Q?0ALJ]8+,E5BM&gt;+F?HB6$[8K96-^2+K(1X8464&gt;4&gt;:.5&amp;V^V56583X5260]Z67B6'.6*6!?XC6JT82&amp;,9EK-C2(2*XJ%F\BOB`\BR06[L&gt;6KJ?6SK?FUKP&amp;YL.&amp;IJ([`LV[PJW[XK_PL;^WXZ`2N[RR_F_\?@8RZ.`QQO"N_?L.]P2S_H&lt;U@XHM.O5X&lt;L\ZUGJNPH?&lt;W2Y?"PRN@G^P.^_;'_^8G=^."U[N/7X0\8@I8PIV[IOV^NU9`!4J#D"9!!!!!</Property>
+	<Property Name="NI.Lib.LocalName" Type="Str">FTW Listener-LVQ</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.1</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
