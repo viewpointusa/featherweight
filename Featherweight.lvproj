@@ -249,6 +249,7 @@
 			<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../Examples/FTW-Benchmark-Actors.vi"/>
 			<Item Name="FTW-Benchmark-JSON.vi" Type="VI" URL="../Examples/FTW-Benchmark-JSON.vi"/>
 			<Item Name="FTW-Benchmark-MessageTransports.vi" Type="VI" URL="../Examples/FTW-Benchmark-MessageTransports.vi"/>
+			<Item Name="FTW-Benchmark-PublisherSubscriber.vi" Type="VI" URL="../Examples/FTW-Benchmark-PublisherSubscriber.vi"/>
 			<Item Name="FTW-Example-Actors.vi" Type="VI" URL="../Examples/FTW-Example-Actors.vi"/>
 			<Item Name="FTW-Example-Endpoints.vi" Type="VI" URL="../Examples/FTW-Example-Endpoints.vi"/>
 			<Item Name="FTW-Example-EventLogger.vi" Type="VI" URL="../Examples/FTW-Example-EventLogger.vi"/>
