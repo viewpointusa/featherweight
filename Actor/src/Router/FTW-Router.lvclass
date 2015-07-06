@@ -41,7 +41,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
-		<Item Name="FTW-Router-Socket Router.vi" Type="VI" URL="../FTW-Router-Socket Router.vi">
+		<Item Name="FTW-Router-Worker.vi" Type="VI" URL="../FTW-Router-Worker.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#S!!!!"1!%!!!!+E"Q!"Y!!"952F28,56O:("P;7ZU,GRW9WRB=X-!!!B&amp;&lt;G2Q&lt;WFO&gt;!!!2%"Q!"Y!!#5D2F28,5VF=X.B:W5N37ZD&lt;WVJ&lt;G&gt;3:8&amp;V:8.U,GRW9WRB=X-!&amp;%:56S"*&lt;G.P&lt;7FO:S"3:8&amp;V:8.U!!!;1(!!'1!"!!)0476T=W&amp;H:3")97ZE&lt;'6S!"Y!]!!$!!!!!1!$!Q!!%!!!!!!!!"!!!!!1!!!!!!%!"!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
