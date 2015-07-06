@@ -24,6 +24,8 @@
 			</Item>
 			<Item Name="Scalability" Type="Folder">
 				<Item Name="FTW-Client.lvclass" Type="LVClass" URL="../Actor/src/Client/FTW-Client.lvclass"/>
+				<Item Name="FTW-Consumer.lvclass" Type="LVClass" URL="../Actor/src/Consumer/FTW-Consumer.lvclass"/>
+				<Item Name="FTW-Producer.lvclass" Type="LVClass" URL="../Actor/src/Producer/FTW-Producer.lvclass"/>
 				<Item Name="FTW-Publisher.lvclass" Type="LVClass" URL="../Actor/src/Publisher/FTW-Publisher.lvclass"/>
 				<Item Name="FTW-Router.lvclass" Type="LVClass" URL="../Actor/src/Router/FTW-Router.lvclass"/>
 				<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../Actor/src/Subscriber/FTW-Subscriber.lvclass"/>
@@ -249,10 +251,12 @@
 			<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../Examples/FTW-Benchmark-Actors.vi"/>
 			<Item Name="FTW-Benchmark-JSON.vi" Type="VI" URL="../Examples/FTW-Benchmark-JSON.vi"/>
 			<Item Name="FTW-Benchmark-MessageTransports.vi" Type="VI" URL="../Examples/FTW-Benchmark-MessageTransports.vi"/>
+			<Item Name="FTW-Benchmark-ProducerConsumer.vi" Type="VI" URL="../Examples/FTW-Benchmark-ProducerConsumer.vi"/>
 			<Item Name="FTW-Benchmark-PublisherSubscriber.vi" Type="VI" URL="../Examples/FTW-Benchmark-PublisherSubscriber.vi"/>
 			<Item Name="FTW-Example-Actors.vi" Type="VI" URL="../Examples/FTW-Example-Actors.vi"/>
 			<Item Name="FTW-Example-Endpoints.vi" Type="VI" URL="../Examples/FTW-Example-Endpoints.vi"/>
 			<Item Name="FTW-Example-EventLogger.vi" Type="VI" URL="../Examples/FTW-Example-EventLogger.vi"/>
+			<Item Name="FTW-Example-ProducerConsumerSockets.vi" Type="VI" URL="../Examples/FTW-Example-ProducerConsumerSockets.vi"/>
 			<Item Name="FTW-Example-PubSubEndpoints.vi" Type="VI" URL="../Examples/FTW-Example-PubSubEndpoints.vi"/>
 			<Item Name="FTW-Example-SQLite.vi" Type="VI" URL="../Examples/FTW-Example-SQLite.vi"/>
 			<Item Name="FTW-Example-TransferClient.vi" Type="VI" URL="../Examples/FTW-Example-TransferClient.vi"/>
