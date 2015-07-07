@@ -393,8 +393,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="FTW-Message-Compose.vi" Type="VI" URL="../Actor/src/Message/Lossy/FTW-Message-Compose.vi"/>
-			<Item Name="FTW-Message-Decompose.vi" Type="VI" URL="../Actor/src/Message/Lossy/FTW-Message-Decompose.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
