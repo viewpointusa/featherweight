@@ -36,8 +36,6 @@
 		<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../src/Message/Base/FTW-Message.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Match Regular Expression_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_Execute.vi"/>
-				<Item Name="Match Regular Expression_ExecuteOffsets.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_ExecuteOffsets.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 			</Item>
 			<Item Name="FTW-ERR-CallChain.vi" Type="VI" URL="../../Core/src/Error/FTW-ERR-CallChain.vi"/>
@@ -73,8 +71,6 @@
 			<Item Name="FTW-JSON-ObjectManip-AddPair.vi" Type="VI" URL="../../Core/src/JSON/FTW-JSON-ObjectManip-AddPair.vi"/>
 			<Item Name="FTW-JSON-Type.ctl" Type="VI" URL="../../Core/src/JSON/FTW-JSON-Type.ctl"/>
 			<Item Name="FTW-JSON.lvclass" Type="LVClass" URL="../../Core/src/JSON/FTW-JSON.lvclass"/>
-			<Item Name="FTW-Message-Compose.vi" Type="VI" URL="../src/Message/Lossy/FTW-Message-Compose.vi"/>
-			<Item Name="FTW-Message-Decompose.vi" Type="VI" URL="../src/Message/Lossy/FTW-Message-Decompose.vi"/>
 			<Item Name="FTW-NUM-Counter.vi" Type="VI" URL="../../Core/src/Numeric/FTW-NUM-Counter.vi"/>
 			<Item Name="FTW-Reflection-Array.vi" Type="VI" URL="../../Core/src/Reflection/FTW-Reflection-Array.vi"/>
 			<Item Name="FTW-Reflection-Cluster.vi" Type="VI" URL="../../Core/src/Reflection/FTW-Reflection-Cluster.vi"/>
