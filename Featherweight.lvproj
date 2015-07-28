@@ -33,9 +33,6 @@
 			<Item Name="Transport" Type="Folder">
 				<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../Actor/src/TCP/FTW-Endpoint-TCP.lvclass"/>
 				<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../Actor/src/Endpoint/FTW-Endpoint.lvclass"/>
-				<Item Name="FTW-Listener-LVQ.lvclass" Type="LVClass" URL="../Actor/src/Listener-LVQ/FTW-Listener-LVQ.lvclass"/>
-				<Item Name="FTW-Listener-TCP.lvclass" Type="LVClass" URL="../Actor/src/Listener-TCP/FTW-Listener-TCP.lvclass"/>
-				<Item Name="FTW-Listener.lvclass" Type="LVClass" URL="../Actor/src/Listener/FTW-Listener.lvclass"/>
 			</Item>
 			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../Actor/src/Connector/FTW-ActorConnector.lvclass"/>
 			<Item Name="FTW-ActorInstance.lvclass" Type="LVClass" URL="../Actor/src/Instance/FTW-ActorInstance.lvclass"/>
