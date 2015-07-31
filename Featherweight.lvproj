@@ -22,7 +22,7 @@
 			<Item Name="Framework" Type="Folder">
 				<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../Actor/src/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			</Item>
-			<Item Name="Scalability" Type="Folder">
+			<Item Name="Sockets" Type="Folder">
 				<Item Name="FTW-Client.lvclass" Type="LVClass" URL="../Actor/src/Client/FTW-Client.lvclass"/>
 				<Item Name="FTW-Consumer.lvclass" Type="LVClass" URL="../Actor/src/Consumer/FTW-Consumer.lvclass"/>
 				<Item Name="FTW-Producer.lvclass" Type="LVClass" URL="../Actor/src/Producer/FTW-Producer.lvclass"/>
