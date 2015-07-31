@@ -31,6 +31,15 @@
 	</Item>
 	<Item Name="Framework" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		<Item Name="FTW-Endpoint-TCP-Address-Decompose.vi" Type="VI" URL="../FTW-Endpoint-TCP-Address-Decompose.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%7!!!!#Q!;1$$`````%%6O:("P;7ZU)%&amp;E:(*F=X-!!!1!!!!11$$`````"E2P&lt;7&amp;J&lt;A!!#U!'!!21&lt;X*U!!!71$$`````$&amp;.F=H:J9W5A4G&amp;N:1!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"1!'!!=):8*S&lt;X)A;7Y!!":!5!!$!!5!"A!(#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!1!$!!%!"!!"!!%!#!!"!!%!!1!*!Q!"#!!!%!!!!!!!!!!!!!!!!!!!!!E!!!!!!!!!#1!!!!!!!!!*!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!I!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">160</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074266642</Property>
+		</Item>
 		<Item Name="FTW-Endpoint-TCP-Reply-Worker-Start.vi" Type="VI" URL="../FTW-Endpoint-TCP-Reply-Worker-Start.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#1!Y1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!".'6&amp;=N27ZE='^J&lt;H1N6%.1)%FO!!1!!!![1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!"2'6&amp;=N27ZE='^J&lt;H1N6%.1)%^V&gt;!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!Q!%!!5):8*S&lt;X)A;7Y!!":!5!!$!!-!"!!&amp;#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!1!"!!%!!1!"!!%!"A!"!!%!!1!(!Q!"#!!!E!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -145,7 +154,7 @@
 	</Item>
 	<Item Name="Synchronous" Type="Folder">
 		<Item Name="FTW-Endpoint-Bind.vi" Type="VI" URL="../FTW-Endpoint-Bind.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'B!!!!$1!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!;1$$`````%%6O:("P;7ZU)%&amp;E:(*F=X-!!#"!-0````]817.U&gt;7&amp;M)%6O:("P;7ZU)%&amp;E:(*F=X-!(%!Q`````R*3:8&amp;V:8.U:71A372F&lt;H2J&gt;(E!!"B!-0````]017.U&gt;7&amp;M)%FE:7ZU;82Z!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!=!#!!*#'6S=G^S)'FO!!!71&amp;!!!Q!(!!A!#1FF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!"!!%!!1!#!!-!"!!&amp;!!9!!1!"!!I!!1!"!!%!#Q-!!1A!!*)!!!!!!!!!!!!!!!!!!!#.!!!"%A!!!!U&amp;!!%3!!!!$1=!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!-!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'B!!!!$1!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!;1$$`````%%6O:("P;7ZU)%&amp;E:(*F=X-!!#"!-0````]817.U&gt;7&amp;M)%6O:("P;7ZU)%&amp;E:(*F=X-!(%!Q`````R*3:8&amp;V:8.U:71A372F&lt;H2J&gt;(E!!"B!-0````]017.U&gt;7&amp;M)%FE:7ZU;82Z!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!=!#!!*#'6S=G^S)'FO!!!71&amp;!!!Q!(!!A!#1FF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!"!!%!!1!#!!-!"!!&amp;!!9!!1!"!!I!!1!"!!%!#Q-!!1A!!*)!!!!!!!!!!!!!!!!!!!#.!!!!%!!!!!E!!!%3!!!!$1=!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!-!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
