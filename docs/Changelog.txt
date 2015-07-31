@@ -1,0 +1,8 @@
+Version 1.1
+-improved endpoints by moving connection maintenance to endpoint layer
+-TCP endpoints can now handle named services and random port selection
+-squashed some bugs
+-speed enhancements
+
+Version 1.0
+-initial release
