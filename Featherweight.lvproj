@@ -245,16 +245,11 @@
 				</Item>
 				<Item Name="Featherweight-Example-SLASD.lvproj" Type="Document" URL="../Examples/SLASD Example/Featherweight-Example-SLASD.lvproj"/>
 			</Item>
-			<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../Examples/FTW-Benchmark-Actors.vi"/>
-			<Item Name="FTW-Benchmark-JSON.vi" Type="VI" URL="../Examples/FTW-Benchmark-JSON.vi"/>
-			<Item Name="FTW-Benchmark-MessageTransports.vi" Type="VI" URL="../Examples/FTW-Benchmark-MessageTransports.vi"/>
-			<Item Name="FTW-Benchmark-ProducerConsumer.vi" Type="VI" URL="../Examples/FTW-Benchmark-ProducerConsumer.vi"/>
-			<Item Name="FTW-Benchmark-PublisherSubscriber.vi" Type="VI" URL="../Examples/FTW-Benchmark-PublisherSubscriber.vi"/>
 			<Item Name="FTW-Example-Actors.vi" Type="VI" URL="../Examples/FTW-Example-Actors.vi"/>
-			<Item Name="FTW-Example-Endpoints.vi" Type="VI" URL="../Examples/FTW-Example-Endpoints.vi"/>
+			<Item Name="FTW-Example-AddEventLoggerToLegacyCode.vi" Type="VI" URL="../Examples/FTW-Example-AddEventLoggerToLegacyCode.vi"/>
 			<Item Name="FTW-Example-EventLogger.vi" Type="VI" URL="../Examples/FTW-Example-EventLogger.vi"/>
 			<Item Name="FTW-Example-ProducerConsumerSockets.vi" Type="VI" URL="../Examples/FTW-Example-ProducerConsumerSockets.vi"/>
-			<Item Name="FTW-Example-PubSubEndpoints.vi" Type="VI" URL="../Examples/FTW-Example-PubSubEndpoints.vi"/>
+			<Item Name="FTW-Example-PubSubSockets.vi" Type="VI" URL="../Examples/FTW-Example-PubSubSockets.vi"/>
 			<Item Name="FTW-Example-SQLite.vi" Type="VI" URL="../Examples/FTW-Example-SQLite.vi"/>
 			<Item Name="FTW-Example-TransferClient.vi" Type="VI" URL="../Examples/FTW-Example-TransferClient.vi"/>
 		</Item>
@@ -277,7 +272,13 @@
 				<Item Name="Gmsg_RR_Sender.vi" Type="VI" URL="../test/ReqRep/Gmsg_RR_Sender.vi"/>
 			</Item>
 			<Item Name="FTW-ActorConnector-Test.vi" Type="VI" URL="../test/FTW-ActorConnector-Test.vi"/>
+			<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../test/FTW-Benchmark-Actors.vi"/>
+			<Item Name="FTW-Benchmark-JSON.vi" Type="VI" URL="../test/FTW-Benchmark-JSON.vi"/>
+			<Item Name="FTW-Benchmark-MessageTransports.vi" Type="VI" URL="../test/FTW-Benchmark-MessageTransports.vi"/>
+			<Item Name="FTW-Benchmark-ProducerConsumer.vi" Type="VI" URL="../test/FTW-Benchmark-ProducerConsumer.vi"/>
+			<Item Name="FTW-Benchmark-PublisherSubscriber.vi" Type="VI" URL="../test/FTW-Benchmark-PublisherSubscriber.vi"/>
 			<Item Name="FTW-Test-EndpointListener.vi" Type="VI" URL="../test/FTW-Test-EndpointListener.vi"/>
+			<Item Name="FTW-Test-Endpoints.vi" Type="VI" URL="../test/FTW-Test-Endpoints.vi"/>
 		</Item>
 		<Item Name="UI" Type="Folder">
 			<Item Name="FileSystem" Type="Folder">
@@ -402,6 +403,56 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="FTW Actor Source Distribution" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{778809BB-81A8-4AD6-97DC-92C55799BF53}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">This is a locked source distribution containing everything needed to use FTW actors.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FTW Actor Source Distribution</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/13.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/FTW Actor Source Distribution</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{92308F4E-0755-49F0-ADA6-2D6986583E49}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].libraryName" Type="Str">FTW-Actor.lvlib</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/FTW Actor Source Distribution</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/FTW Actor Source Distribution/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AF65BB3B-173F-4340-BCF9-95DA07499AF2}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyPassword" Type="Bool">true</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Actor</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Password</Property>
+				<Property Name="Source[1].properties[0].value" Type="Str">RmVhdGhlcndpZWdodA==</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
+				<Property Name="Source[2].Container.applyPassword" Type="Bool">true</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Core</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Password</Property>
+				<Property Name="Source[2].properties[0].value" Type="Str">RmVhdGhlcndlaWdodA==</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
