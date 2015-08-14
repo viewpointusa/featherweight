@@ -23,11 +23,11 @@
 				<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../Actor/src/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			</Item>
 			<Item Name="Sockets" Type="Folder">
-				<Item Name="FTW-Client.lvclass" Type="LVClass" URL="../Actor/src/Client/FTW-Client.lvclass"/>
 				<Item Name="FTW-Consumer.lvclass" Type="LVClass" URL="../Actor/src/Consumer/FTW-Consumer.lvclass"/>
 				<Item Name="FTW-Producer.lvclass" Type="LVClass" URL="../Actor/src/Producer/FTW-Producer.lvclass"/>
 				<Item Name="FTW-Publisher.lvclass" Type="LVClass" URL="../Actor/src/Publisher/FTW-Publisher.lvclass"/>
-				<Item Name="FTW-Router.lvclass" Type="LVClass" URL="../Actor/src/Router/FTW-Router.lvclass"/>
+				<Item Name="FTW-Reply.lvclass" Type="LVClass" URL="../Actor/src/Reply/FTW-Reply.lvclass"/>
+				<Item Name="FTW-Request.lvclass" Type="LVClass" URL="../Actor/src/Request/FTW-Request.lvclass"/>
 				<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../Actor/src/Subscriber/FTW-Subscriber.lvclass"/>
 			</Item>
 			<Item Name="Transport" Type="Folder">
