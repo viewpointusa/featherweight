@@ -19,16 +19,19 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="FTW-ActorConnector-Test.vi" Type="VI" URL="../test/FTW-ActorConnector-Test.vi"/>
+		<Item Name="FTW-Benchmark-ActorThroughput.vi" Type="VI" URL="../test/FTW-Benchmark-ActorThroughput.vi"/>
 		<Item Name="Gmsg_RR_Pinger.vi" Type="VI" URL="../test/ReqRep/Gmsg_RR_Pinger.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 			</Item>
 			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../Actor/src/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../Actor/src/Connector/FTW-ActorConnector.lvclass"/>
 			<Item Name="FTW-ActorInstance.lvclass" Type="LVClass" URL="../Actor/src/Instance/FTW-ActorInstance.lvclass"/>
-			<Item Name="FTW-Client.lvclass" Type="LVClass" URL="../Actor/src/Client/FTW-Client.lvclass"/>
+			<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../Actor/templates/FTW-ActorTemplate.vi"/>
 			<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../Actor/src/TCP/FTW-Endpoint-TCP.lvclass"/>
 			<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../Actor/src/Endpoint/FTW-Endpoint.lvclass"/>
 			<Item Name="FTW-ERR-CallChain.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-CallChain.vi"/>
@@ -81,7 +84,8 @@
 			<Item Name="FTW-Regex-FilterArray.vi" Type="VI" URL="../Core/src/Regex/FTW-Regex-FilterArray.vi"/>
 			<Item Name="FTW-Regex-ReplaceAll.vi" Type="VI" URL="../Core/src/Regex/FTW-Regex-ReplaceAll.vi"/>
 			<Item Name="FTW-Regex.vi" Type="VI" URL="../Core/src/Regex/FTW-Regex.vi"/>
-			<Item Name="FTW-Router.lvclass" Type="LVClass" URL="../Actor/src/Router/FTW-Router.lvclass"/>
+			<Item Name="FTW-Reply.lvclass" Type="LVClass" URL="../Actor/src/Reply/FTW-Reply.lvclass"/>
+			<Item Name="FTW-Request.lvclass" Type="LVClass" URL="../Actor/src/Request/FTW-Request.lvclass"/>
 			<Item Name="FTW-STR-Array-Delimit.vi" Type="VI" URL="../Core/src/String/FTW-STR-Array-Delimit.vi"/>
 			<Item Name="FTW-STR-Encode-Base64.vi" Type="VI" URL="../Core/src/String/FTW-STR-Encode-Base64.vi"/>
 			<Item Name="FTW-STR-Random-Hex.vi" Type="VI" URL="../Core/src/String/FTW-STR-Random-Hex.vi"/>
@@ -184,11 +188,13 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="FTW-ActorTemplate-RT-TopLevel.vi" Type="VI" URL="../Actor/templates/FTW-ActorTemplate-RT-TopLevel.vi"/>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../Actor/templates/FTW-ActorTemplate.vi"/>
-		<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../Examples/FTW-Benchmark-Actors.vi"/>
+		<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../test/FTW-Benchmark-Actors.vi"/>
+		<Item Name="FTW-Benchmark-MessageTransports.vi" Type="VI" URL="../test/FTW-Benchmark-MessageTransports.vi"/>
+		<Item Name="FTW-Benchmark-ProducerConsumer.vi" Type="VI" URL="../test/FTW-Benchmark-ProducerConsumer.vi"/>
+		<Item Name="FTW-Benchmark-PublisherSubscriber.vi" Type="VI" URL="../test/FTW-Benchmark-PublisherSubscriber.vi"/>
 		<Item Name="FTW-Example-Actors-RT.vi" Type="VI" URL="../Examples/FTW-Example-Actors-RT.vi"/>
-		<Item Name="FTW-Example-Endpoints.vi" Type="VI" URL="../Examples/FTW-Example-Endpoints.vi"/>
 		<Item Name="FTW-Example-EventLogger-RT.vi" Type="VI" URL="../Examples/FTW-Example-EventLogger-RT.vi"/>
-		<Item Name="FTW-Example-PubSubEndpoints.vi" Type="VI" URL="../Examples/FTW-Example-PubSubEndpoints.vi"/>
+		<Item Name="FTW-Test-Endpoints.vi" Type="VI" URL="../test/FTW-Test-Endpoints.vi"/>
 		<Item Name="Gmsg_RR_Handler.vi" Type="VI" URL="../test/ReqRep/Gmsg_RR_Handler.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -199,7 +205,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../Actor/src/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../Actor/src/Connector/FTW-ActorConnector.lvclass"/>
 			<Item Name="FTW-ActorInstance.lvclass" Type="LVClass" URL="../Actor/src/Instance/FTW-ActorInstance.lvclass"/>
-			<Item Name="FTW-Client.lvclass" Type="LVClass" URL="../Actor/src/Client/FTW-Client.lvclass"/>
+			<Item Name="FTW-Consumer.lvclass" Type="LVClass" URL="../Actor/src/Consumer/FTW-Consumer.lvclass"/>
 			<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../Actor/src/TCP/FTW-Endpoint-TCP.lvclass"/>
 			<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../Actor/src/Endpoint/FTW-Endpoint.lvclass"/>
 			<Item Name="FTW-ERR-CallChain.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-CallChain.vi"/>
@@ -243,6 +249,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FTW-Message-Lossy.lvclass" Type="LVClass" URL="../Actor/src/Message/Lossy/FTW-Message-Lossy.lvclass"/>
 			<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../Actor/src/Message/Base/FTW-Message.lvclass"/>
 			<Item Name="FTW-NUM-Counter.vi" Type="VI" URL="../Core/src/Numeric/FTW-NUM-Counter.vi"/>
+			<Item Name="FTW-Producer.lvclass" Type="LVClass" URL="../Actor/src/Producer/FTW-Producer.lvclass"/>
 			<Item Name="FTW-Publisher.lvclass" Type="LVClass" URL="../Actor/src/Publisher/FTW-Publisher.lvclass"/>
 			<Item Name="FTW-Reflection-Array.vi" Type="VI" URL="../Core/src/Reflection/FTW-Reflection-Array.vi"/>
 			<Item Name="FTW-Reflection-Cluster.vi" Type="VI" URL="../Core/src/Reflection/FTW-Reflection-Cluster.vi"/>
@@ -252,7 +259,8 @@ AddOutputFilter chunkFilter
 			<Item Name="FTW-Regex-FilterArray.vi" Type="VI" URL="../Core/src/Regex/FTW-Regex-FilterArray.vi"/>
 			<Item Name="FTW-Regex-ReplaceAll.vi" Type="VI" URL="../Core/src/Regex/FTW-Regex-ReplaceAll.vi"/>
 			<Item Name="FTW-Regex.vi" Type="VI" URL="../Core/src/Regex/FTW-Regex.vi"/>
-			<Item Name="FTW-Router.lvclass" Type="LVClass" URL="../Actor/src/Router/FTW-Router.lvclass"/>
+			<Item Name="FTW-Reply.lvclass" Type="LVClass" URL="../Actor/src/Reply/FTW-Reply.lvclass"/>
+			<Item Name="FTW-Request.lvclass" Type="LVClass" URL="../Actor/src/Request/FTW-Request.lvclass"/>
 			<Item Name="FTW-STR-Array-Delimit.vi" Type="VI" URL="../Core/src/String/FTW-STR-Array-Delimit.vi"/>
 			<Item Name="FTW-STR-Encode-Base64.vi" Type="VI" URL="../Core/src/String/FTW-STR-Encode-Base64.vi"/>
 			<Item Name="FTW-STR-Random-Hex.vi" Type="VI" URL="../Core/src/String/FTW-STR-Random-Hex.vi"/>
