@@ -189,6 +189,7 @@ AddOutputFilter chunkFilter
 		<Item Name="FTW-ActorTemplate-RT-TopLevel.vi" Type="VI" URL="../Actor/templates/FTW-ActorTemplate-RT-TopLevel.vi"/>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../Actor/templates/FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../test/FTW-Benchmark-Actors.vi"/>
+		<Item Name="FTW-Benchmark-ActorThroughput.vi" Type="VI" URL="../test/FTW-Benchmark-ActorThroughput.vi"/>
 		<Item Name="FTW-Benchmark-MessageTransports.vi" Type="VI" URL="../test/FTW-Benchmark-MessageTransports.vi"/>
 		<Item Name="FTW-Benchmark-ProducerConsumer.vi" Type="VI" URL="../test/FTW-Benchmark-ProducerConsumer.vi"/>
 		<Item Name="FTW-Benchmark-PublisherSubscriber.vi" Type="VI" URL="../test/FTW-Benchmark-PublisherSubscriber.vi"/>
@@ -199,6 +200,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 			</Item>
