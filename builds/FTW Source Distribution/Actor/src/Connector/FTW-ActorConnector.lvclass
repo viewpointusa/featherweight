@@ -94,7 +94,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
 	<Item Name="FTW-Connector-Tell.vi" Type="VI" URL="../FTW-Connector-Tell.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'@!!!!$1![1(!!(A!!("J'6&amp;=N17.U&lt;X*$&lt;WZO:7.U&lt;X)O&lt;(:D&lt;'&amp;T=Q!!%U:56S""9X2P=C"$&lt;WZO:7.U&lt;X)!"!!!!$Z!=!!?!!!='E:56SV"9X2P=E.P&lt;GZF9X2P=CZM&gt;G.M98.T!!!82F28)%&amp;D&gt;'^S)%.P&lt;GZF9X2P=C"P&gt;81!'%!Q`````QZ.:8.T97&gt;F)%BF972F=A!!%%!B#F2J&lt;76E)'^V&gt;$]!!":!-0````]-476T=W&amp;H:3"#&lt;W2Z!!!.1!-!"V2J&lt;76P&gt;81!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"Q!)!!E):8*S&lt;X)A;7Y!!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!1!"!!)!!Q!%!!5!!1!'!!%!#A!"!!%!!1!,!Q!"#!!!%A!!!!!!!!!!!!!!!!!!!!U!!!)1!!!!#1!!!AA!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!$!!!!!!</Property>
@@ -106,4 +106,4 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 	</Item>
 </LVClass>
-<?sig 1B579DB7399E86B2E432E1B69D615EF8?>
+<?sig 13B70466EC1C2829439A2C372DDC2BBC?>

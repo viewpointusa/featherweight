@@ -441,8 +441,9 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{92308F4E-0755-49F0-ADA6-2D6986583E49}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/FTW Source Distribution/Featherweight_FTW Source Distribution_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FTW Source Distribution</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -451,7 +452,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/FTW Source Distribution/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1747B278-4985-4252-8306-711A93FE3A47}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{852F31D6-EE9A-4ACB-AE95-E4B4AB418801}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applyPassword" Type="Bool">true</Property>

@@ -1,6 +1,7 @@
 Version 1.1
 -improved endpoints by moving connection maintenance to endpoint layer
 -TCP endpoints can now handle named services and random port selection
+-made publisher plural
 -squashed some bugs
 -speed enhancements
 

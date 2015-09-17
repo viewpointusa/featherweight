@@ -1,4 +1,4 @@
-9/11/2015 4:09:34 PM
+9/17/2015 4:52:49 PM
 [General]
 Project: C:\Jobs\Tools\featherweight-develop\Featherweight.lvproj
 Target: My Computer
@@ -192,7 +192,7 @@ C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-GetNextJob.vi	8
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-HandleError.vi	5/29/2015 10:55:21 AM
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-Initialize.vi	8/13/2015 11:15:23 PM
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-Initialized.vi	8/13/2015 11:57:16 PM
-C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-LocalMessage-Worker.vi	9/10/2015 3:09:01 PM
+C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-LocalMessage-Worker.vi	9/13/2015 6:53:58 PM
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-Log-Error.vi	5/29/2015 10:55:19 AM
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-Publish.vi	8/13/2015 11:57:16 PM
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-UnknownJob.vi	5/29/2015 10:55:17 AM
@@ -293,8 +293,8 @@ C:\Jobs\Tools\featherweight-develop\Core\src\HTTP\Client\FTW-HTTPClient-POST.vi	
 
 
 [Source Files]
-C:\Jobs\Tools\featherweight-develop\Actor\src\Connector\FTW-ActorConnector.lvclass	8/13/2015 11:11:00 PM	1.0.0.3
-C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-ActorInstance.lvclass	9/10/2015 3:10:31 PM	1.0.0.9
+C:\Jobs\Tools\featherweight-develop\Actor\src\Connector\FTW-ActorConnector.lvclass	9/14/2015 1:12:42 PM	1.0.0.3
+C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-ActorInstance.lvclass	9/14/2015 1:12:42 PM	1.0.0.9
 C:\Jobs\Tools\featherweight-develop\Actor\src\Ether\FTW-Ether.lvclass	8/14/2015 12:02:30 AM	1.0.0.0
 C:\Jobs\Tools\featherweight-develop\Actor\src\JobSequencer\FTW-JobSequencer.lvclass	5/29/2015 10:55:14 AM	1.0.0.0
 C:\Jobs\Tools\featherweight-develop\Actor\src\EventLogger\Core\FTW-Logger-Core.lvclass	5/29/2015 10:55:15 AM	1.0.0.0
@@ -484,6 +484,8 @@ C:\Jobs\Tools\featherweight-develop\Actor\src\Request\FTW-Request-Construct.vi	8
 C:\Jobs\Tools\featherweight-develop\Actor\src\Ether\FTW-Ether-CreateEphemeralPair.vi	5/29/2015 10:55:26 AM	147
 C:\Jobs\Tools\featherweight-develop\Actor\src\Publisher\FTW-Publisher-Construct.vi	8/13/2015 11:40:34 PM	50
 C:\Jobs\Tools\featherweight-develop\Actor\src\Reply\FTW-Reply-Construct.vi	8/13/2015 11:17:15 PM	51
+C:\Jobs\Tools\featherweight-develop\Actor\src\Connector\FTW-Connector-SpawnNewActor.vi	9/11/2015 11:41:40 AM	160
+C:\Jobs\Tools\featherweight-develop\Actor\src\EventLogger\FTW-Logger-Launch.vi	8/5/2015 4:49:42 PM	135
 C:\Jobs\Tools\featherweight-develop\Actor\src\Endpoint\FTW-Endpoint-Pipe-Construct.vi	7/30/2015 1:26:12 PM	56
 C:\Jobs\Tools\featherweight-develop\Actor\src\Endpoint\FTW-Endpoint-Pipe-Flush.vi	7/29/2015 10:33:36 AM	56
 C:\Jobs\Tools\featherweight-develop\Actor\src\Endpoint\FTW-Endpoint-Receive-Worker-Start.vi	7/30/2015 10:16:18 PM	12
@@ -561,13 +563,14 @@ C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-Initialize.vi	8
 C:\Jobs\Tools\featherweight-develop\Actor\src\Message\Lossy\FTW-Message-Lossy-Multipart-Initialize.vi	7/1/2015 11:25:17 AM	53
 C:\Jobs\Tools\featherweight-develop\Actor\src\Message\Lossy\FTW-Message-Interpret.vi	7/7/2015 12:53:27 PM	62
 C:\Jobs\Tools\featherweight-develop\Actor\src\Message\Lossy\FTW-Message-Lossy-Initialize.vi	7/7/2015 12:52:57 PM	57
-C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-LocalMessage-Worker.vi	9/10/2015 3:09:01 PM	10
+C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-LocalMessage-Worker.vi	9/13/2015 6:53:58 PM	11
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-Publish.vi	8/13/2015 11:57:16 PM	11
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-Log-Event.vi	8/13/2015 11:57:18 PM	58
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-Log-Error.vi	5/29/2015 10:55:19 AM	47
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-HandleError.vi	5/29/2015 10:55:21 AM	61
 C:\Jobs\Tools\featherweight-develop\Actor\src\Instance\FTW-Actor-UnknownJob.vi	5/29/2015 10:55:17 AM	65
 C:\Jobs\Tools\featherweight-develop\Actor\src\EventLogger\FTW-Logger-Level.ctl	5/29/2015 10:55:12 AM	16
+C:\Jobs\Tools\featherweight-develop\Actor\src\Ether\FTW-Ether-Construct.vi	8/5/2015 4:48:40 PM	188
 C:\Jobs\Tools\featherweight-develop\Actor\src\Endpoint\FTW-Endpoint-Multipart-Pipe-Reply.vi	7/28/2015 10:30:38 AM	33
 C:\Jobs\Tools\featherweight-develop\Actor\src\Endpoint\FTW-Endpoint-Multipart-Read.vi	7/29/2015 11:14:24 PM	26
 C:\Jobs\Tools\featherweight-develop\Actor\src\TCP\FTW-Endpoint-TCP-Request-Worker.vi	9/11/2015 1:29:29 PM	69
@@ -604,9 +607,6 @@ C:\Jobs\Tools\featherweight-develop\Actor\src\Connector\FTW-Connector-Ping.vi	8/
 C:\Jobs\Tools\featherweight-develop\Actor\src\Connector\FTW-Connector-SendPoisonPill.vi	5/29/2015 10:55:21 AM	54
 C:\Jobs\Tools\featherweight-develop\Actor\src\Ether\FTW-Ether-Destroy.vi	6/2/2015 1:24:41 PM	113
 C:\Jobs\Tools\featherweight-develop\Actor\src\Connector\FTW-Connector-LaunchActor.vi	5/29/2015 10:55:17 AM	140
-C:\Jobs\Tools\featherweight-develop\Actor\src\Connector\FTW-Connector-SpawnNewActor.vi	9/11/2015 11:41:40 AM	160
-C:\Jobs\Tools\featherweight-develop\Actor\src\EventLogger\FTW-Logger-Launch.vi	8/5/2015 4:49:42 PM	135
-C:\Jobs\Tools\featherweight-develop\Actor\src\Ether\FTW-Ether-Construct.vi	8/5/2015 4:48:40 PM	188
 C:\Jobs\Tools\featherweight-develop\Core\src\Error\FTW-ERR-AbstractMethodCall.vi	4/16/2015 2:59:04 PM	33
 C:\Jobs\Tools\featherweight-develop\Core\src\Time\FTW-Time-Remaining.vi	4/16/2015 10:31:26 PM	67
 C:\Jobs\Tools\featherweight-develop\Core\src\URI\FTW-URI-Build.vi	3/31/2015 10:37:46 AM	35
@@ -652,362 +652,362 @@ C:\Jobs\Tools\featherweight-develop\Core\utils\CodeGen\JSON Deserialize\FTW-Code
 C:\Jobs\Tools\featherweight-develop\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-UpdateStateWithRef.vi	9/30/2014 1:48:44 PM	95
 
 [Output Files]
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-ActorConnector.lvclass	9/11/2015 4:10:05 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-ActorInstance.lvclass	9/11/2015 4:10:06 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether.lvclass	9/11/2015 4:10:07 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-JobSequencer.lvclass	9/11/2015 4:10:07 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-Core.lvclass	9/11/2015 4:10:08 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger.lvclass	9/11/2015 4:10:08 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-IncomingRequest.lvclass	9/11/2015 4:10:09 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Lossy\FTW-Message-Lossy.lvclass	9/11/2015 4:10:10 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message.lvclass	9/11/2015 4:10:10 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Utility\FTW-Actor-DynamicLaunchOptions.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Consumer\FTW-Consumer.lvclass	9/11/2015 4:10:11 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Producer\FTW-Producer.lvclass	9/11/2015 4:10:11 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher.lvclass	9/11/2015 4:10:11 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply.lvclass	9/11/2015 4:10:12 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Request\FTW-Request.lvclass	9/11/2015 4:10:12 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Subscriber\FTW-Subscriber.lvclass	9/11/2015 4:10:12 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP.lvclass	9/11/2015 4:10:14 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint.lvclass	9/11/2015 4:10:15 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-Ask.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-Close.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-Connect.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-Ping.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-SendPoisonPill.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-SpawnNewActor.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-Tell.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-AddJob-Next.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-BeginShutdownSequence.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Log-Event.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Construct.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-CreateEphemeralPair.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Destroy.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-NewLoggerConnection.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-AddLast.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-AddNext.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-Construct.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-Current.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-Destroy.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-GetNextStep.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-Process.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger-AddRecord.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger-Connect.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger-Launch.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger-Level.ctl	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-Body.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-Construct.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-Interpret.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-Reply.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-Unknown.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-WriteResponse.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Lossy\FTW-Message-Interpret.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Lossy\FTW-Message-Lossy-CreateQueue.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Lossy\FTW-Message-Lossy-Initialize.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Initialize.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Interpret.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Application\FTW-App-StringToVersion.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Application\FTW-App-StringVersionToString.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Application\FTW-App-VersionToString.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Collection\FTW-Collection-KeyValuePair.ctl	9/11/2015 4:10:18 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-ActorConnector.lvclass	9/17/2015 4:53:13 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-ActorInstance.lvclass	9/17/2015 4:53:14 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether.lvclass	9/17/2015 4:53:15 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-JobSequencer.lvclass	9/17/2015 4:53:16 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-Core.lvclass	9/17/2015 4:53:16 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger.lvclass	9/17/2015 4:53:17 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-IncomingRequest.lvclass	9/17/2015 4:53:17 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Lossy\FTW-Message-Lossy.lvclass	9/17/2015 4:53:18 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message.lvclass	9/17/2015 4:53:18 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Utility\FTW-Actor-DynamicLaunchOptions.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Consumer\FTW-Consumer.lvclass	9/17/2015 4:53:19 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Producer\FTW-Producer.lvclass	9/17/2015 4:53:20 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher.lvclass	9/17/2015 4:53:20 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply.lvclass	9/17/2015 4:53:21 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Request\FTW-Request.lvclass	9/17/2015 4:53:21 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Subscriber\FTW-Subscriber.lvclass	9/17/2015 4:53:22 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP.lvclass	9/17/2015 4:53:23 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint.lvclass	9/17/2015 4:53:24 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-Ask.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-Close.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-Connect.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-Ping.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-SendPoisonPill.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-SpawnNewActor.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-Tell.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-AddJob-Next.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-BeginShutdownSequence.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Log-Event.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Construct.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-CreateEphemeralPair.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Destroy.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-NewLoggerConnection.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-AddLast.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-AddNext.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-Construct.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-Current.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-Destroy.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\JobSequencer\FTW-SEQ-GetNextStep.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-Process.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger-AddRecord.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger-Connect.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger-Launch.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger-Level.ctl	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-Body.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-Construct.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-Interpret.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-Reply.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-Unknown.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Request\FTW-Message-Request-WriteResponse.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Lossy\FTW-Message-Interpret.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Lossy\FTW-Message-Lossy-CreateQueue.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Lossy\FTW-Message-Lossy-Initialize.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Initialize.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Interpret.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Application\FTW-App-StringToVersion.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Application\FTW-App-StringVersionToString.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Application\FTW-App-VersionToString.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Collection\FTW-Collection-KeyValuePair.ctl	9/17/2015 4:53:28 PM
 C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTWLib-SQLite3-Win32.dll	9/30/2014 1:48:43 PM
 C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTWLib-SQLite3-Win64.dll	9/30/2014 1:48:43 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-Connector.lvclass	9/11/2015 4:10:16 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-Connector.lvclass	9/17/2015 4:53:25 PM
 C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTWLib-SQLite3-LinuxRT.so	9/30/2014 1:48:43 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-SQLite-Fetch.xnode	9/11/2015 4:10:16 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Email\FTW-Email-AddressValidator.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-ExceptionType.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-AbstractMethodCall.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-CallChain.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-Clear.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-Ignore.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-NoErrorConstant.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-SerializeForLog.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-StatusCode.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-StatusError.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-StatusException.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-StatusOK.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-ThrowError.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-ThrowGenericError.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-ThrowImpossibleError.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-ThrowWarning.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-UnknownParameter.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-CalculateRelativeFilepath.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-CompareFilepaths.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-CreateDirectory.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-Directory-Exists.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-Exists.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-Extension.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-FileInfo.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-FindLibrary.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-GenerateLogFilename.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-IsRelative.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-ListDirectories.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-ListDirectory-RegexFilter.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-RebaseFilepath.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-Regex-Modify.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-ResolveSymbolicPaths.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-ResourceDirectory.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-SystemDirectories.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-TextRead.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-TextWrite.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-UserDirectories.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-ValidateFilepath.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\FTW-HTTP-MIMEtype.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\FTW-HTTP-ResponseCode.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\FTW-HTTP-ParseResponseHeaders.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Image\FTW-Image-ToPicture.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-CompositeType.ctl	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Datatype.ctl	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Validation.ctl	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON.lvclass	9/11/2015 4:10:17 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Array-Deserialize.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Array-Serialize.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Escape.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Format-Boolean.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Format-Pair.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Format-String.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Interpret-Array-String.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Interpret-Boolean.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Interpret-String.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Minify.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-ObjectManip-AddPair-Integer.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-ObjectManip-AddPair.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-RegexHeader.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-RegexParse.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Unescape.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-JSON-Deserialize.xnode	9/11/2015 4:10:17 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Numeric\FTW-NUM-Counter.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Numeric\FTW-NUM-Increment.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Numeric\FTW-NUM-MovingAverage.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Reflection\FTW-Reflection-Types.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Reflection\FTW-Reflection-Array.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Reflection\FTW-Reflection-Cluster.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Reflection\FTW-Reflection-Enum.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Reflection\FTW-Reflection-Type.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex-FilterArray.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex-ForceLiteral.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex-ReplaceAll.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex-ReplaceAndReturn.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex-Replacements.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-DisplayFormat-Bytes.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-EncodingDirection.ctl	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Array-Concatenate.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Array-Delimit.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Display-Bytes.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Encode-Base64.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Encode-Hex.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Indent.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Random-Bytes.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Random-Hex.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Random-UTF8chars.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Repeat.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-ReplaceAll.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-ReplaceWhitespace.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Split.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\System\FTW-System-CommandLineExecute.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-DisplayFormat-Elapsed.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-DisplayFormat-Timestamp.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Display-Elapsed.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Display-Timestamp.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Elapse.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Remaining.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-RetryTimer.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Timer.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Uptime.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Wait.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\URI\FTW-URI-Build.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\URI\FTW-URI-EscapeURL.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\URI\FTW-URI-FromFilepath.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\VI Server\FTW-VIServer-AsyncCallOptions.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\VI Server\FTW-VIServer-GetClassDefaultData.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\VI Server\FTW-VIServer-LabVIEWinfo.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\VI Server\FTW-VIServer-OSinfo.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\VI Server\FTW-VIServer-VI-Metadata.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Construct.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Destroy.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Element-Add.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Element-Append.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Element-GetFirstChild.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Element-GetNextSibling.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Element-GetValue.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Query-Elements.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Query-ElementValue.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Query-ElementXML.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Query-FirstElement.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Query-UpdateFirstElementXML.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-ValidateTagName.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Consumer\FTW-Consumer-Construct.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Consumer\FTW-Consumer-Destroy.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Producer\FTW-Producer-Construct.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Producer\FTW-Producer-Destroy.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Producer\FTW-Producer-Enqueue.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Construct.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Destroy.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Publish.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply-Construct.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply-Destroy.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Request\FTW-Request-Ask.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Request\FTW-Request-Construct.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Request\FTW-Request-Destroy.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Subscriber\FTW-Subscriber-AddAddresses.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Subscriber\FTW-Subscriber-Destroy.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Subscriber\FTW-Subscriber-Subscribe.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-CreateRequester.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-CreateSender.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Destroy.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Ask.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-CreateReader.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-CreateRequester.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-CreateSender.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Destroy.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Receive.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Tell.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-LaunchActor.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-FrameworkEvent.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Log-FrameworkEvent.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Log-Job.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-CheckShutdown.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Destroy.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-GetInstanceAddresses.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-GetInstanceConfiguration.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-GetNextJob.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-HandleError.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Initialize.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Initialized.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-LocalMessage-Worker.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Log-Error.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Publish.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-UnknownJob.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-LocalMessage-CheckShutdown.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-LocalMessage-Send-Lossy.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-LocalMessage-Send.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Address-Build.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Address-RandomEphemeral.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Address-Validate.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-CreateEndpoint.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-EndpointType.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Instance.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-MessageTransportScheme.ctl	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-Construct.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-Destroy.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-FlushToFile.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-WriteFile.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger-SerializeEvent.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Lossy\FTW-Message-Lossy-Multipart-Initialize.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Compose.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Decompose.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Multipart-Initialize.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Multipart-Interpret.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-AccessMode.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-CloseConnection.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-CreateEphemeralDatabase.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-DatabaseType.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-Datatype.ctl	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-ExecuteScript.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-OpenConnection-Path.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-RandomBLOB.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient.lvclass	9/11/2015 4:10:17 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Type.ctl	9/11/2015 4:10:19 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-SQLite-Fetch.xnode	9/17/2015 4:53:26 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Email\FTW-Email-AddressValidator.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-ExceptionType.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-AbstractMethodCall.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-CallChain.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-Clear.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-Ignore.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-NoErrorConstant.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-SerializeForLog.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-StatusCode.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-StatusError.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-StatusException.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-StatusOK.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-ThrowError.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-ThrowGenericError.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-ThrowImpossibleError.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-ThrowWarning.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Error\FTW-ERR-UnknownParameter.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-CalculateRelativeFilepath.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-CompareFilepaths.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-CreateDirectory.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-Directory-Exists.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-Exists.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-Extension.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-FileInfo.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-FindLibrary.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-GenerateLogFilename.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-IsRelative.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-ListDirectories.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-ListDirectory-RegexFilter.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-RebaseFilepath.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-Regex-Modify.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-ResolveSymbolicPaths.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-ResourceDirectory.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-SystemDirectories.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-TextRead.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-TextWrite.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-UserDirectories.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\File\FTW-File-ValidateFilepath.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\FTW-HTTP-MIMEtype.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\FTW-HTTP-ResponseCode.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\FTW-HTTP-ParseResponseHeaders.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Image\FTW-Image-ToPicture.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-CompositeType.ctl	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Datatype.ctl	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Validation.ctl	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON.lvclass	9/17/2015 4:53:27 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Array-Deserialize.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Array-Serialize.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Escape.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Format-Boolean.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Format-Pair.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Format-String.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Interpret-Array-String.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Interpret-Boolean.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Interpret-String.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Minify.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-ObjectManip-AddPair-Integer.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-ObjectManip-AddPair.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-RegexHeader.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-RegexParse.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Unescape.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-JSON-Deserialize.xnode	9/17/2015 4:53:27 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Numeric\FTW-NUM-Counter.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Numeric\FTW-NUM-Increment.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Numeric\FTW-NUM-MovingAverage.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Reflection\FTW-Reflection-Types.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Reflection\FTW-Reflection-Array.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Reflection\FTW-Reflection-Cluster.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Reflection\FTW-Reflection-Enum.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Reflection\FTW-Reflection-Type.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex-FilterArray.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex-ForceLiteral.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex-ReplaceAll.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex-ReplaceAndReturn.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex-Replacements.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Regex\FTW-Regex.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-DisplayFormat-Bytes.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-EncodingDirection.ctl	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Array-Concatenate.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Array-Delimit.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Display-Bytes.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Encode-Base64.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Encode-Hex.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Indent.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Random-Bytes.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Random-Hex.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Random-UTF8chars.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Repeat.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-ReplaceAll.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-ReplaceWhitespace.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\String\FTW-STR-Split.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\System\FTW-System-CommandLineExecute.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-DisplayFormat-Elapsed.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-DisplayFormat-Timestamp.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Display-Elapsed.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Display-Timestamp.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Elapse.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Remaining.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-RetryTimer.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Timer.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Uptime.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Time\FTW-Time-Wait.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\URI\FTW-URI-Build.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\URI\FTW-URI-EscapeURL.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\URI\FTW-URI-FromFilepath.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\VI Server\FTW-VIServer-AsyncCallOptions.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\VI Server\FTW-VIServer-GetClassDefaultData.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\VI Server\FTW-VIServer-LabVIEWinfo.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\VI Server\FTW-VIServer-OSinfo.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\VI Server\FTW-VIServer-VI-Metadata.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Construct.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Destroy.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Element-Add.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Element-Append.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Element-GetFirstChild.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Element-GetNextSibling.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Element-GetValue.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Query-Elements.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Query-ElementValue.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Query-ElementXML.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Query-FirstElement.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-Query-UpdateFirstElementXML.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\XML\FTW-XML-ValidateTagName.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Consumer\FTW-Consumer-Construct.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Consumer\FTW-Consumer-Destroy.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Producer\FTW-Producer-Construct.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Producer\FTW-Producer-Destroy.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Producer\FTW-Producer-Enqueue.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Construct.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Destroy.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Publish.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply-Construct.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply-Destroy.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Request\FTW-Request-Ask.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Request\FTW-Request-Construct.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Request\FTW-Request-Destroy.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Subscriber\FTW-Subscriber-AddAddresses.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Subscriber\FTW-Subscriber-Destroy.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Subscriber\FTW-Subscriber-Subscribe.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-CreateRequester.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-CreateSender.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Destroy.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Ask.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-CreateReader.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-CreateRequester.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-CreateSender.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Destroy.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Receive.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Tell.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Connector\FTW-Connector-LaunchActor.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-FrameworkEvent.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Log-FrameworkEvent.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Log-Job.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-CheckShutdown.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Destroy.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-GetInstanceAddresses.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-GetInstanceConfiguration.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-GetNextJob.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-HandleError.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Initialize.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Initialized.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-LocalMessage-Worker.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Log-Error.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-Publish.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-UnknownJob.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-LocalMessage-CheckShutdown.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-LocalMessage-Send-Lossy.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Instance\FTW-Actor-LocalMessage-Send.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Address-Build.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Address-RandomEphemeral.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Address-Validate.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-CreateEndpoint.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-EndpointType.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-Instance.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Ether\FTW-Ether-MessageTransportScheme.ctl	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-Construct.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-Destroy.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-FlushToFile.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\Core\FTW-Logger-WriteFile.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\EventLogger\FTW-Logger-SerializeEvent.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Lossy\FTW-Message-Lossy-Multipart-Initialize.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Compose.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Decompose.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Multipart-Initialize.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Message\Base\FTW-Message-Multipart-Interpret.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-AccessMode.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-CloseConnection.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-CreateEphemeralDatabase.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-DatabaseType.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-Datatype.ctl	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-ExecuteScript.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-OpenConnection-Path.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-RandomBLOB.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient.lvclass	9/17/2015 4:53:27 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Type.ctl	9/17/2015 4:53:28 PM
 C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTWLib-Jansson-Win32.dll	9/30/2014 1:48:44 PM
 C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTWLib-Jansson-Win64.dll	9/30/2014 1:48:44 PM
 C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTWLib-Jansson-LinuxRT.so	9/30/2014 1:48:44 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Core-ElementType.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Core-GetFlattenedValue.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Core-LibraryError.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Core-LibraryFilepath.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-CompareEquality.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Construct-FromBuffer.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Destroy.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-DeleteElement.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-GetElement-Bool.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-GetElement-DBL.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-GetElement-Integer.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-GetElement-String.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-SetElement-Bool.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-SetElement-DBL.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-SetElement-Integer.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-SetElement-String.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-Update.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Serialize.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-SetFlags-Encoding.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Consumer\FTW-Consumer-Listener.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Consumer\FTW-Consumer-Worker.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Listener-Start.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Listener.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Worker.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply-Listener.vi	9/11/2015 4:10:21 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply-Worker-Launch.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply-Worker.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Subscriber\FTW-Subscriber-Worker.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Address-Decompose.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Reply-Worker-Start.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Reply-Worker.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Request-Worker-Start.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Request-Worker.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Send-Worker-Start.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Send-Worker.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Multipart-Ask.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Multipart-Receive.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Multipart-Reply.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Multipart-Send.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Multipart-Tell.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Multipart-Ask.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Bind.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Connect.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-ConnectToListener.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Listen.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Pipe-Construct.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Pipe-Flush.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Receive-Worker-Start.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Receive-Worker.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Ask.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Pipe-Reply.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Read.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Receive.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Reply.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Send.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Tell.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Write.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Bind.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Connect.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-ConnectToListener.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Listen.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-Construct.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-LibraryFilepath.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-LibraryReturnValue.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-PrepareStatement.vi	9/11/2015 4:10:20 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-AddHeaders.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-CloseConnection.vi	9/11/2015 4:10:22 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-GET.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-MultipartData.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-OpenConnection.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-POST-Multipart.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-POST.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-UpdateMode.ctl	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-State.ctl	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-AdaptToInputs.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-Bounds.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-GenerateCode.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\FTW-CodeGen-FindGObjectTaggedForScripting.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\FTW-CodeGen.lvlib	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\FTW-CodeGen-FindGObjects-Callback.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\FTW-CodeGen-FindGObject.vi	9/11/2015 4:10:19 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\FTW-CodeGen-FindGObjects.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-Prototype.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-Image.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-Initialize.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-GetTerms4.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-UpdateStateWithRef.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-State.ctl	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-AdaptToInputs.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-Bounds.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-GenerateCode.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-Prototype.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-Image.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-Initialize.vi	9/11/2015 4:10:18 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-GetTerms4.vi	9/11/2015 4:10:23 PM
-C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-UpdateStateWithRef.vi	9/11/2015 4:10:23 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Core-ElementType.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Core-GetFlattenedValue.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Core-LibraryError.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Core-LibraryFilepath.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-CompareEquality.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Construct-FromBuffer.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Destroy.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-DeleteElement.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-GetElement-Bool.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-GetElement-DBL.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-GetElement-Integer.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-GetElement-String.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-SetElement-Bool.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-SetElement-DBL.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-SetElement-Integer.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-SetElement-String.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Object-Update.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-Serialize.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-SetFlags-Encoding.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Consumer\FTW-Consumer-Listener.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Consumer\FTW-Consumer-Worker.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Listener-Start.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Listener.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Publisher\FTW-Publisher-Worker.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply-Listener.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply-Worker-Launch.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Reply\FTW-Reply-Worker.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Subscriber\FTW-Subscriber-Worker.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Address-Decompose.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Reply-Worker-Start.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Reply-Worker.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Request-Worker-Start.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Request-Worker.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Send-Worker-Start.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Send-Worker.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Multipart-Ask.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Multipart-Receive.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Multipart-Reply.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Multipart-Send.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Multipart-Tell.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-TCP-Multipart-Ask.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Bind.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Connect.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-ConnectToListener.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\TCP\FTW-Endpoint-Listen.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Pipe-Construct.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Pipe-Flush.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Receive-Worker-Start.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Receive-Worker.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Ask.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Pipe-Reply.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Read.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Receive.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Reply.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Send.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Tell.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Multipart-Write.vi	9/17/2015 4:53:31 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Bind.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Connect.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-ConnectToListener.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Actor\src\Endpoint\FTW-Endpoint-Listen.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-Construct.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-LibraryFilepath.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-LibraryReturnValue.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\Database\FTW-SQLite-PrepareStatement.vi	9/17/2015 4:53:30 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-AddHeaders.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-CloseConnection.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-GET.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-MultipartData.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-OpenConnection.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-POST-Multipart.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\HTTP\Client\FTW-HTTPClient-POST.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\src\JSON\FTW-JSON-UpdateMode.ctl	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-State.ctl	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-AdaptToInputs.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-Bounds.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-GenerateCode.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\FTW-CodeGen-FindGObjectTaggedForScripting.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\FTW-CodeGen.lvlib	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\FTW-CodeGen-FindGObjects-Callback.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\FTW-CodeGen-FindGObject.vi	9/17/2015 4:53:29 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\FTW-CodeGen-FindGObjects.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-Prototype.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-Image.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-Initialize.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-GetTerms4.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\SQLite-Fetch\FTW-CodeGen-UpdateStateWithRef.vi	9/17/2015 4:53:32 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-State.ctl	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-AdaptToInputs.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-Bounds.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-GenerateCode.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-Prototype.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-Image.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-Initialize.vi	9/17/2015 4:53:28 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-GetTerms4.vi	9/17/2015 4:53:33 PM
+C:\Jobs\Tools\featherweight-develop\builds\FTW Source Distribution\Core\utils\CodeGen\JSON Deserialize\FTW-CodeGen-UpdateStateWithRef.vi	9/17/2015 4:53:33 PM
 
-9/11/2015 4:10:24 PM
+9/17/2015 4:53:33 PM
