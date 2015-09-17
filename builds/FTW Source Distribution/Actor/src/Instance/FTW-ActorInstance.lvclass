@@ -133,13 +133,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 		<Item Name="FTW-Actor-LocalMessage-Worker.vi" Type="VI" URL="../FTW-Actor-LocalMessage-Worker.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;H!!!!$1![1(!!(A!!'RF'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T!"2'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3"*&lt;A!!"!!!!"B!-0````]/476T=W&amp;H:3"):7&amp;E:8)!!":!-0````]-476T=W&amp;H:3"#&lt;W2Z!!!01!I!#6.F&lt;G1A5G&amp;U:1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!&amp;!!9!"QBF=H*P=C"J&lt;A!!%E!B$%RP=X.M:8.T)#B'+1!!%U!(!!R3:7:S:8.I)&amp;*B&gt;'5!!":!5!!$!!5!"A!(#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!%!!A!"!!-!!1!%!!%!#!!*!!I!!1!,!Q!"#!!!E!!!!!!!!!!!!!!!!!!!!!!!!!)1!!!!!!!!!B!!!!!!!!!!%!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!#1!!!!!"!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;H!!!!$1![1(!!(A!!'RF'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T!"2'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3"*&lt;A!!"!!!!"B!-0````]/476T=W&amp;H:3"):7&amp;E:8)!!":!-0````]-476T=W&amp;H:3"#&lt;W2Z!!!01!I!#6.F&lt;G1A5G&amp;U:1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!&amp;!!9!"QBF=H*P=C"J&lt;A!!%E!B$%RP=X.M:8.T)#B'+1!!%U!(!!R3:7:S:8.I)&amp;*B&gt;'5!!":!5!!$!!5!"A!(#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!%!!A!"!!-!!1!%!!%!#!!*!!I!!1!,!Q!"#!!!E!!!!!!!!!!!!!!!!!!!!!!!!!)1!!!!!!!!!AA!!!!!!!!!%!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!#1!!!!!"!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">20971648</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342714386</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8397328</Property>
 		</Item>
 		<Item Name="FTW-Actor-Log-Error.vi" Type="VI" URL="../FTW-Actor-Log-Error.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(#!!!!$!!Y1(!!(A!!'RF'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T!"*'6&amp;=A17.U&lt;X)A37ZT&gt;'&amp;O9W5!!!1!!!!]1(!!(A!!'RF'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T!":'6&amp;=A17.U&lt;X)A37ZT&gt;'&amp;O9W5A&lt;X6U!!!51$$`````#U6Y='RB&lt;G&amp;U;7^O!"B!)2.&amp;?'.F=(2J&lt;WYA4W.D&gt;8*S:71`!%]!]1!!!!!!!!!"'5:56SV&amp;5F)N28BD:8"U;7^O6(FQ:3ZD&gt;'Q!,5!7!!-)4G]A28*S&lt;X)&amp;28*S&lt;X)(6W&amp;S&lt;GFO:Q!!#56Y9W6Q&gt;'FP&lt;A!;1$$`````%&amp;.F=GFB&lt;'F[:71A28:F&lt;H1!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!"J!5!!$!!=!#!!*$%6S=G^S)(2P)%RP:Q!!&lt;!$Q!"!!!!!"!!%!!1!#!!-!"!!"!!5!!1!'!!I!!1!"!!%!!1-!!1A!!*)!!!!!!!!!!!!!!!!!!!#.!!!##!!!!!E!!!!!!!!!#1!!!!!!!!!*!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!1!,!!!!!!</Property>
@@ -227,4 +227,4 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
 </LVClass>
-<?sig 4BF7EE59165B3EC0D3F253C750DBA1A4?>
+<?sig B244B6E9C2486292BED5BE082CA903D1?>
