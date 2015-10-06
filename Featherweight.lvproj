@@ -245,6 +245,7 @@
 				</Item>
 				<Item Name="Featherweight-Example-SLASD.lvproj" Type="Document" URL="../Examples/SLASD Example/Featherweight-Example-SLASD.lvproj"/>
 			</Item>
+			<Item Name="FTW-Example-ActorConnector.vi" Type="VI" URL="../Examples/FTW-Example-ActorConnector.vi"/>
 			<Item Name="FTW-Example-Actors.vi" Type="VI" URL="../Examples/FTW-Example-Actors.vi"/>
 			<Item Name="FTW-Example-AddEventLoggerToLegacyCode.vi" Type="VI" URL="../Examples/FTW-Example-AddEventLoggerToLegacyCode.vi"/>
 			<Item Name="FTW-Example-EventLogger.vi" Type="VI" URL="../Examples/FTW-Example-EventLogger.vi"/>
