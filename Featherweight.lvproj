@@ -245,6 +245,13 @@
 				</Item>
 				<Item Name="Featherweight-Example-SLASD.lvproj" Type="Document" URL="../Examples/SLASD Example/Featherweight-Example-SLASD.lvproj"/>
 			</Item>
+			<Item Name="SubPanel Example" Type="Folder">
+				<Item Name="Guest" Type="Folder">
+					<Item Name="SubPanel Guest-Core.lvclass" Type="LVClass" URL="../Examples/SubPanel Example/SubPanel Guest/Core/SubPanel Guest-Core.lvclass"/>
+					<Item Name="SubPanel Guest.lvclass" Type="LVClass" URL="../Examples/SubPanel Example/SubPanel Guest/SubPanel Guest.lvclass"/>
+				</Item>
+				<Item Name="SubPanel Host-Core.lvclass" Type="LVClass" URL="../Examples/SubPanel Example/SubPanel Host/Core/SubPanel Host-Core.lvclass"/>
+			</Item>
 			<Item Name="FTW-Example-ActorConnector.vi" Type="VI" URL="../Examples/FTW-Example-ActorConnector.vi"/>
 			<Item Name="FTW-Example-Actors.vi" Type="VI" URL="../Examples/FTW-Example-Actors.vi"/>
 			<Item Name="FTW-Example-AddEventLoggerToLegacyCode.vi" Type="VI" URL="../Examples/FTW-Example-AddEventLoggerToLegacyCode.vi"/>
