@@ -207,24 +207,24 @@
 			</Item>
 			<Item Name="Menu" Type="Folder">
 				<Item Name="FTW-Menu-BuildLevel.vi" Type="VI" URL="../ui/Menu/FTW-Menu-BuildLevel.vi"/>
-				<Item Name="FTW-Menu-DragDropDataAppend.vi" Type="VI" URL="../UI/Menu/FTW-Menu-DragDropDataAppend.vi"/>
+				<Item Name="FTW-Menu-DragDropDataAppend.vi" Type="VI" URL="../ui/Menu/FTW-Menu-DragDropDataAppend.vi"/>
 				<Item Name="FTW-Menu-Item.ctl" Type="VI" URL="../ui/Menu/FTW-Menu-Item.ctl"/>
 				<Item Name="FTW-Menu-TagDecode.vi" Type="VI" URL="../ui/Menu/FTW-Menu-TagDecode.vi"/>
 				<Item Name="FTW-Menu-TagEncode.vi" Type="VI" URL="../ui/Menu/FTW-Menu-TagEncode.vi"/>
 			</Item>
 			<Item Name="Panel" Type="Folder">
-				<Item Name="FTW-Panel-DeferPanelUpdates.vi" Type="VI" URL="../UI/Panel/FTW-Panel-DeferPanelUpdates.vi"/>
-				<Item Name="FTW-Panel-EnableControl.vi" Type="VI" URL="../UI/Panel/FTW-Panel-EnableControl.vi"/>
-				<Item Name="FTW-Panel-FrontPanel-Close.vi" Type="VI" URL="../UI/Panel/FTW-Panel-FrontPanel-Close.vi"/>
-				<Item Name="FTW-Panel-FrontPanel-Hide.vi" Type="VI" URL="../UI/Panel/FTW-Panel-FrontPanel-Hide.vi"/>
+				<Item Name="FTW-Panel-DeferPanelUpdates.vi" Type="VI" URL="../ui/Panel/FTW-Panel-DeferPanelUpdates.vi"/>
+				<Item Name="FTW-Panel-EnableControl.vi" Type="VI" URL="../ui/Panel/FTW-Panel-EnableControl.vi"/>
+				<Item Name="FTW-Panel-FrontPanel-Close.vi" Type="VI" URL="../ui/Panel/FTW-Panel-FrontPanel-Close.vi"/>
+				<Item Name="FTW-Panel-FrontPanel-Hide.vi" Type="VI" URL="../ui/Panel/FTW-Panel-FrontPanel-Hide.vi"/>
 				<Item Name="FTW-Panel-FrontPanel-Open.vi" Type="VI" URL="../ui/Panel/FTW-Panel-FrontPanel-Open.vi"/>
 				<Item Name="FTW-Panel-FrontPanel-SetCursor.vi" Type="VI" URL="../ui/Panel/FTW-Panel-FrontPanel-SetCursor.vi"/>
 			</Item>
 			<Item Name="Tree" Type="Folder">
-				<Item Name="FTW-Tree-EditCell.vi" Type="VI" URL="../UI/Tree/FTW-Tree-EditCell.vi"/>
+				<Item Name="FTW-Tree-EditCell.vi" Type="VI" URL="../ui/Tree/FTW-Tree-EditCell.vi"/>
 				<Item Name="FTW-Tree-GetChildNodes.vi" Type="VI" URL="../ui/Tree/FTW-Tree-GetChildNodes.vi"/>
-				<Item Name="FTW-Tree-ItemToggleOpen.vi" Type="VI" URL="../UI/Tree/FTW-Tree-ItemToggleOpen.vi"/>
-				<Item Name="FTW-Tree-PointToItem.vi" Type="VI" URL="../UI/Tree/FTW-Tree-PointToItem.vi"/>
+				<Item Name="FTW-Tree-ItemToggleOpen.vi" Type="VI" URL="../ui/Tree/FTW-Tree-ItemToggleOpen.vi"/>
+				<Item Name="FTW-Tree-PointToItem.vi" Type="VI" URL="../ui/Tree/FTW-Tree-PointToItem.vi"/>
 			</Item>
 		</Item>
 		<Item Name="URI" Type="Folder">
