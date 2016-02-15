@@ -327,7 +327,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{92308F4E-0755-49F0-ADA6-2D6986583E49}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/FTW Source Distribution/Featherweight-Source Distribution_FTW Source Distribution_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
