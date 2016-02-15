@@ -19,9 +19,7 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actor" Type="Folder">
-			<Item Name="Framework" Type="Folder">
-				<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../Actor/src/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
-			</Item>
+			<Item Name="Framework" Type="Folder"/>
 			<Item Name="Sockets" Type="Folder">
 				<Item Name="FTW-Consumer.lvclass" Type="LVClass" URL="../actor/Consumer/FTW-Consumer.lvclass"/>
 				<Item Name="FTW-Producer.lvclass" Type="LVClass" URL="../actor/Producer/FTW-Producer.lvclass"/>
@@ -305,9 +303,9 @@
 				<Item Name="FTW-FileSystem-OpenURIwithDefaultHandler.vi" Type="VI" URL="../UI/FileSystem/FTW-FileSystem-OpenURIwithDefaultHandler.vi"/>
 			</Item>
 			<Item Name="Menu" Type="Folder">
-				<Item Name="FTW-Menu-BuildLevel.vi" Type="VI" URL="../UI/Menu/FTW-Menu-BuildLevel.vi"/>
+				<Item Name="FTW-Menu-BuildLevel.vi" Type="VI" URL="../ui/Menu/FTW-Menu-BuildLevel.vi"/>
 				<Item Name="FTW-Menu-DragDropDataAppend.vi" Type="VI" URL="../UI/Menu/FTW-Menu-DragDropDataAppend.vi"/>
-				<Item Name="FTW-Menu-Item.ctl" Type="VI" URL="../UI/Menu/FTW-Menu-Item.ctl"/>
+				<Item Name="FTW-Menu-Item.ctl" Type="VI" URL="../ui/Menu/FTW-Menu-Item.ctl"/>
 				<Item Name="FTW-Menu-TagDecode.vi" Type="VI" URL="../UI/Menu/FTW-Menu-TagDecode.vi"/>
 				<Item Name="FTW-Menu-TagEncode.vi" Type="VI" URL="../UI/Menu/FTW-Menu-TagEncode.vi"/>
 			</Item>
@@ -558,6 +556,111 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="FTW-Actor-AddJob-Next.vi" Type="VI" URL="../../src/Instance/FTW-Actor-AddJob-Next.vi"/>
+			<Item Name="FTW-Actor-BeginShutdownSequence.vi" Type="VI" URL="../../src/Instance/FTW-Actor-BeginShutdownSequence.vi"/>
+			<Item Name="FTW-Actor-CheckShutdown.vi" Type="VI" URL="../../src/Instance/FTW-Actor-CheckShutdown.vi"/>
+			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../actor/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
+			<Item Name="FTW-Actor-GetNextJob.vi" Type="VI" URL="../../src/Instance/FTW-Actor-GetNextJob.vi"/>
+			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../../Actor/src/Connector/FTW-ActorConnector.lvclass"/>
+			<Item Name="FTW-ActorInstance.ctl" Type="VI" URL="../../src/Instance/FTW-ActorInstance.lvclass/FTW-ActorInstance.ctl"/>
+			<Item Name="FTW-ActorInstance.lvclass" Type="LVClass" URL="../../src/Instance/FTW-ActorInstance.lvclass"/>
+			<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../../Actor/templates/FTW-ActorTemplate.vi"/>
+			<Item Name="FTW-Collection-KeyValuePair.ctl" Type="VI" URL="../../Core/src/Collection/FTW-Collection-KeyValuePair.ctl"/>
+			<Item Name="FTW-Connector-Ask.vi" Type="VI" URL="../../Actor/src/Connector/FTW-Connector-Ask.vi"/>
+			<Item Name="FTW-Connector-Ping.vi" Type="VI" URL="../../Actor/src/Connector/FTW-Connector-Ping.vi"/>
+			<Item Name="FTW-Connector-SpawnNewActor.vi" Type="VI" URL="../../Actor/src/Connector/FTW-Connector-SpawnNewActor.vi"/>
+			<Item Name="FTW-Consumer-Construct.vi" Type="VI" URL="../../Actor/src/Consumer/FTW-Consumer-Construct.vi"/>
+			<Item Name="FTW-Consumer-Destroy.vi" Type="VI" URL="../../Actor/src/Consumer/FTW-Consumer-Destroy.vi"/>
+			<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../../Actor/src/Endpoint/FTW-Endpoint.lvclass"/>
+			<Item Name="FTW-ERR-SerializeForLog.vi" Type="VI" URL="../../Core/src/Error/FTW-ERR-SerializeForLog.vi"/>
+			<Item Name="FTW-ERR-StatusError.vi" Type="VI" URL="../../Core/src/Error/FTW-ERR-StatusError.vi"/>
+			<Item Name="FTW-ERR-StatusError.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-StatusError.vi"/>
+			<Item Name="FTW-ERR-StatusOK.vi" Type="VI" URL="../../Core/src/Error/FTW-ERR-StatusOK.vi"/>
+			<Item Name="FTW-ERR-StatusOK.vi" Type="VI" URL="../../src/Error/FTW-ERR-StatusOK.vi"/>
+			<Item Name="FTW-ERR-ThrowError.vi" Type="VI" URL="../Core/src/Error/FTW-ERR-ThrowError.vi"/>
+			<Item Name="FTW-ERR-ThrowImpossibleError.vi" Type="VI" URL="../../Core/src/Error/FTW-ERR-ThrowImpossibleError.vi"/>
+			<Item Name="FTW-ERR-ThrowImpossibleError.vi" Type="VI" URL="../../src/Error/FTW-ERR-ThrowImpossibleError.vi"/>
+			<Item Name="FTW-Ether-Address-Validate.vi" Type="VI" URL="../../Actor/src/Ether/FTW-Ether-Address-Validate.vi"/>
+			<Item Name="FTW-Ether-Construct.vi" Type="VI" URL="../../Actor/src/Ether/FTW-Ether-Construct.vi"/>
+			<Item Name="FTW-Ether-CreateEndpoint.vi" Type="VI" URL="../../Actor/src/Ether/FTW-Ether-CreateEndpoint.vi"/>
+			<Item Name="FTW-Ether-CreateEphemeralPair.vi" Type="VI" URL="../../Actor/src/Ether/FTW-Ether-CreateEphemeralPair.vi"/>
+			<Item Name="FTW-Ether-Destroy.vi" Type="VI" URL="../../Actor/src/Ether/FTW-Ether-Destroy.vi"/>
+			<Item Name="FTW-Ether-EndpointType.ctl" Type="VI" URL="../../Actor/src/Ether/FTW-Ether-EndpointType.ctl"/>
+			<Item Name="FTW-File-Directory-Exists.vi" Type="VI" URL="../Core/src/File/FTW-File-Directory-Exists.vi"/>
+			<Item Name="FTW-File-ListDirectory-RegexFilter.vi" Type="VI" URL="../../Core/src/File/FTW-File-ListDirectory-RegexFilter.vi"/>
+			<Item Name="FTW-File-ValidateFilepath.vi" Type="VI" URL="../../Core/src/File/FTW-File-ValidateFilepath.vi"/>
+			<Item Name="FTW-File-ValidateFilepath.vi" Type="VI" URL="../Core/src/File/FTW-File-ValidateFilepath.vi"/>
+			<Item Name="FTW-Image-ToPicture.vi" Type="VI" URL="../../Core/src/Image/FTW-Image-ToPicture.vi"/>
+			<Item Name="FTW-JSON-Format-String.vi" Type="VI" URL="../../Core/src/JSON/FTW-JSON-Format-String.vi"/>
+			<Item Name="FTW-Logger-AddRecord.vi" Type="VI" URL="../../Actor/src/EventLogger/FTW-Logger-AddRecord.vi"/>
+			<Item Name="FTW-Logger-Connect.vi" Type="VI" URL="../../Actor/src/EventLogger/FTW-Logger-Connect.vi"/>
+			<Item Name="FTW-Logger-Launch.vi" Type="VI" URL="../../Actor/src/EventLogger/FTW-Logger-Launch.vi"/>
+			<Item Name="FTW-Logger.lvclass" Type="LVClass" URL="../../Actor/src/EventLogger/FTW-Logger.lvclass"/>
+			<Item Name="FTW-Message-Lossy.lvclass" Type="LVClass" URL="../../Actor/src/Message/Lossy/FTW-Message-Lossy.lvclass"/>
+			<Item Name="FTW-Message-Request-Body.vi" Type="VI" URL="../../Actor/src/Message/Request/FTW-Message-Request-Body.vi"/>
+			<Item Name="FTW-Message-Request-Body.vi" Type="VI" URL="../../src/Message/Request/FTW-Message-Request-Body.vi"/>
+			<Item Name="FTW-Message-Request-Interpret.vi" Type="VI" URL="../../Actor/src/Message/Request/FTW-Message-Request-Interpret.vi"/>
+			<Item Name="FTW-Message-Request-Interpret.vi" Type="VI" URL="../../src/Message/Request/FTW-Message-Request-Interpret.vi"/>
+			<Item Name="FTW-Message-Request-Reply.vi" Type="VI" URL="../../Actor/src/Message/Request/FTW-Message-Request-Reply.vi"/>
+			<Item Name="FTW-Message-Request-Reply.vi" Type="VI" URL="../../src/Message/Request/FTW-Message-Request-Reply.vi"/>
+			<Item Name="FTW-Message-Request-Unknown.vi" Type="VI" URL="../../src/Message/Request/FTW-Message-Request-Unknown.vi"/>
+			<Item Name="FTW-Message-Request-WriteResponse.vi" Type="VI" URL="../../Actor/src/Message/Request/FTW-Message-Request-WriteResponse.vi"/>
+			<Item Name="FTW-Message-Request-WriteResponse.vi" Type="VI" URL="../../src/Message/Request/FTW-Message-Request-WriteResponse.vi"/>
+			<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../../Actor/src/Message/Base/FTW-Message.lvclass"/>
+			<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../../src/Message/Base/FTW-Message.lvclass"/>
+			<Item Name="FTW-Panel-FrontPanel-Open.vi" Type="VI" URL="../../UI/Panel/FTW-Panel-FrontPanel-Open.vi"/>
+			<Item Name="FTW-Producer-Construct.vi" Type="VI" URL="../../Actor/src/Producer/FTW-Producer-Construct.vi"/>
+			<Item Name="FTW-Producer-Destroy.vi" Type="VI" URL="../../Actor/src/Producer/FTW-Producer-Destroy.vi"/>
+			<Item Name="FTW-Producer-Enqueue.vi" Type="VI" URL="../../Actor/src/Producer/FTW-Producer-Enqueue.vi"/>
+			<Item Name="FTW-Producer.lvclass" Type="LVClass" URL="../../Actor/src/Producer/FTW-Producer.lvclass"/>
+			<Item Name="FTW-Publisher-Construct.vi" Type="VI" URL="../../Actor/src/Publisher/FTW-Publisher-Construct.vi"/>
+			<Item Name="FTW-Publisher-Destroy.vi" Type="VI" URL="../../Actor/src/Publisher/FTW-Publisher-Destroy.vi"/>
+			<Item Name="FTW-Publisher-Publish.vi" Type="VI" URL="../../Actor/src/Publisher/FTW-Publisher-Publish.vi"/>
+			<Item Name="FTW-Reflection-Cluster.vi" Type="VI" URL="../../src/Reflection/FTW-Reflection-Cluster.vi"/>
+			<Item Name="FTW-Regex-FilterArray.vi" Type="VI" URL="../Core/src/Regex/FTW-Regex-FilterArray.vi"/>
+			<Item Name="FTW-Regex-ReplaceAll.vi" Type="VI" URL="../../Core/src/Regex/FTW-Regex-ReplaceAll.vi"/>
+			<Item Name="FTW-Regex-ReplaceAndReturn.vi" Type="VI" URL="../../Core/src/Regex/FTW-Regex-ReplaceAndReturn.vi"/>
+			<Item Name="FTW-Regex.vi" Type="VI" URL="../../Core/src/Regex/FTW-Regex.vi"/>
+			<Item Name="FTW-Regex.vi" Type="VI" URL="../Core/src/Regex/FTW-Regex.vi"/>
+			<Item Name="FTW-Regex.vi" Type="VI" URL="../../src/Regex/FTW-Regex.vi"/>
+			<Item Name="FTW-Reply-Construct.vi" Type="VI" URL="../../Actor/src/Reply/FTW-Reply-Construct.vi"/>
+			<Item Name="FTW-Reply-Destroy.vi" Type="VI" URL="../../Actor/src/Reply/FTW-Reply-Destroy.vi"/>
+			<Item Name="FTW-Request-Ask.vi" Type="VI" URL="../../Actor/src/Request/FTW-Request-Ask.vi"/>
+			<Item Name="FTW-Request-Construct.vi" Type="VI" URL="../../Actor/src/Request/FTW-Request-Construct.vi"/>
+			<Item Name="FTW-Request-Destroy.vi" Type="VI" URL="../../Actor/src/Request/FTW-Request-Destroy.vi"/>
+			<Item Name="FTW-Request.lvclass" Type="LVClass" URL="../../Actor/src/Request/FTW-Request.lvclass"/>
+			<Item Name="FTW-SEQ-Current.vi" Type="VI" URL="../../src/JobSequencer/FTW-SEQ-Current.vi"/>
+			<Item Name="FTW-SQLite-AccessMode.ctl" Type="VI" URL="../../Core/src/Database/FTW-SQLite-AccessMode.ctl"/>
+			<Item Name="FTW-SQLite-CloseConnection.vi" Type="VI" URL="../../Core/src/Database/FTW-SQLite-CloseConnection.vi"/>
+			<Item Name="FTW-SQLite-Connector.lvclass" Type="LVClass" URL="../../Core/src/Database/FTW-SQLite-Connector.lvclass"/>
+			<Item Name="FTW-SQLite-Connector.lvclass" Type="LVClass" URL="../../src/Database/FTW-SQLite-Connector.lvclass"/>
+			<Item Name="FTW-SQLite-CreateEphemeralDatabase.vi" Type="VI" URL="../../Core/src/Database/FTW-SQLite-CreateEphemeralDatabase.vi"/>
+			<Item Name="FTW-SQLite-DatabaseType.ctl" Type="VI" URL="../../Core/src/Database/FTW-SQLite-DatabaseType.ctl"/>
+			<Item Name="FTW-SQLite-ExecuteScript.vi" Type="VI" URL="../../Core/src/Database/FTW-SQLite-ExecuteScript.vi"/>
+			<Item Name="FTW-SQLite-LibraryFilepath.vi" Type="VI" URL="../../Core/src/Database/FTW-SQLite-LibraryFilepath.vi"/>
+			<Item Name="FTW-SQLite-LibraryFilepath.vi" Type="VI" URL="../../src/Database/FTW-SQLite-LibraryFilepath.vi"/>
+			<Item Name="FTW-SQLite-LibraryReturnValue.vi" Type="VI" URL="../../Core/src/Database/FTW-SQLite-LibraryReturnValue.vi"/>
+			<Item Name="FTW-SQLite-LibraryReturnValue.vi" Type="VI" URL="../../src/Database/FTW-SQLite-LibraryReturnValue.vi"/>
+			<Item Name="FTW-SQLite-OpenConnection-Path.vi" Type="VI" URL="../../Core/src/Database/FTW-SQLite-OpenConnection-Path.vi"/>
+			<Item Name="FTW-SQLite-PrepareStatement.vi" Type="VI" URL="../../Core/src/Database/FTW-SQLite-PrepareStatement.vi"/>
+			<Item Name="FTW-SQLite-PrepareStatement.vi" Type="VI" URL="../../src/Database/FTW-SQLite-PrepareStatement.vi"/>
+			<Item Name="FTW-STR-Array-Delimit.vi" Type="VI" URL="../../Core/src/String/FTW-STR-Array-Delimit.vi"/>
+			<Item Name="FTW-STR-Encode-Base64.vi" Type="VI" URL="../../Core/src/String/FTW-STR-Encode-Base64.vi"/>
+			<Item Name="FTW-STR-Encode-Hex.vi" Type="VI" URL="../../Core/src/String/FTW-STR-Encode-Hex.vi"/>
+			<Item Name="FTW-STR-Encode-Hex.vi" Type="VI" URL="../Core/src/String/FTW-STR-Encode-Hex.vi"/>
+			<Item Name="FTW-STR-EncodingDirection.ctl" Type="VI" URL="../../Core/src/String/FTW-STR-EncodingDirection.ctl"/>
+			<Item Name="FTW-STR-Random-Hex.vi" Type="VI" URL="../../../Core/src/String/FTW-STR-Random-Hex.vi"/>
+			<Item Name="FTW-STR-Random-Hex.vi" Type="VI" URL="../../Core/src/String/FTW-STR-Random-Hex.vi"/>
+			<Item Name="FTW-Subscriber-Destroy.vi" Type="VI" URL="../../Actor/src/Subscriber/FTW-Subscriber-Destroy.vi"/>
+			<Item Name="FTW-Subscriber-Subscribe.vi" Type="VI" URL="../../Actor/src/Subscriber/FTW-Subscriber-Subscribe.vi"/>
+			<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../../Actor/src/Subscriber/FTW-Subscriber.lvclass"/>
+			<Item Name="FTW-Time-Timer.vi" Type="VI" URL="../../Core/src/Time/FTW-Time-Timer.vi"/>
+			<Item Name="FTW-Time-Uptime.vi" Type="VI" URL="../../Core/src/Time/FTW-Time-Uptime.vi"/>
+			<Item Name="FTW-Time-Uptime.vi" Type="VI" URL="../../src/Time/FTW-Time-Uptime.vi"/>
+			<Item Name="FTW-Time-Wait.vi" Type="VI" URL="../../Core/src/Time/FTW-Time-Wait.vi"/>
+			<Item Name="FTW-TransferClient-Construct.vi" Type="VI" URL="../../Windows/src/Transfer Client/dotNET/FTW-TransferClient-Construct.vi"/>
+			<Item Name="FTW-TransferClient-dotNET.lvclass" Type="LVClass" URL="../../Windows/src/Transfer Client/dotNET/FTW-TransferClient-dotNET.lvclass"/>
+			<Item Name="FTW-URI-FromFilepath.vi" Type="VI" URL="../Core/src/URI/FTW-URI-FromFilepath.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

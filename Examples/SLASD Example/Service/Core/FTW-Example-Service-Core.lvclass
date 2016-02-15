@@ -25,7 +25,7 @@
 
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"=!!!!!2F'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T5&amp;2)-!!!!$9!!1!*!!!!!!!&amp;17.U&lt;X)$=X*D#%FO=X2B&lt;G.F'5:56SV"9X2P=EFO=X2B&lt;G.F,GRW9WRB=X-!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"@!!!!!2F'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T5&amp;2)-!!!!$E!!1!*!!!!!!!'=W^V=G.F"7&amp;D&gt;'^S#%FO=X2B&lt;G.F'5:56SV"9X2P=EFO=X2B&lt;G.F,GRW9WRB=X-!!!!!</Property>
 	<Item Name="FTW-Example-Service-Core.ctl" Type="Class Private Data" URL="FTW-Example-Service-Core.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
@@ -39,12 +39,12 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
 	<Item Name="FTW-Example-Service-Core-Process.vi" Type="VI" URL="../FTW-Example-Service-Core-Process.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$V!!!!#!!K1$$`````)%:56S""9X2P=C"*&lt;H.U97ZD:3"$&lt;WZG;7&gt;V=G&amp;U;7^O!!!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!A!$!!1):8*S&lt;X)A;7Y!!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!%!!1!"!!%!!1!"!!%!"1!"!!%!!1!'!Q!"#!!#%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!#1!!!!!"!!=!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$V!!!!#!!K1$$`````)%:56S""9X2P=C"*&lt;H.U97ZD:3"$&lt;WZG;7&gt;V=G&amp;U;7^O!!!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!A!$!!1):8*S&lt;X)A;7Y!!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!%!!1!"!!%!!1!"!!%!"1!"!!%!!1!'!Q!"#!!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!=!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1090519424</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777600</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
 </LVClass>

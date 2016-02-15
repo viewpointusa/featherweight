@@ -25,7 +25,7 @@
 
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"6!!!!!2F'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T5&amp;2)-!!!!#]!!1!(!!!!!!.T=G-)37ZT&gt;'&amp;O9W5:2F28,5&amp;D&gt;'^S37ZT&gt;'&amp;O9W5O&lt;(:D&lt;'&amp;T=Q!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"?!!!!!2F'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T5&amp;2)-!!!!$A!!1!)!!!!!!:T&lt;X6S9W5&amp;97.U&lt;X))37ZT&gt;'&amp;O9W5:2F28,5&amp;D&gt;'^S37ZT&gt;'&amp;O9W5O&lt;(:D&lt;'&amp;T=Q!!!!!</Property>
 	<Item Name="Actor Template-Core.ctl" Type="Class Private Data" URL="Actor Template-Core.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>

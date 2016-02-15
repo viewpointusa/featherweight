@@ -25,7 +25,7 @@
 
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"@!!!!!2J'6&amp;=N17.U&lt;X*$&lt;WZO:7.U&lt;X)O&lt;(:D&lt;'&amp;T=Q"16%AQ!!!!.Q!"!!A!!!!!"5&amp;D&gt;'^S!X.S9QF$&lt;WZO:7.U&lt;X);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"C!!!!!2J'6&amp;=N17.U&lt;X*$&lt;WZO:7.U&lt;X)O&lt;(:D&lt;'&amp;T=Q"16%AQ!!!!/A!"!!A!!!!!"H.P&gt;8*D:16B9X2P=AF$&lt;WZO:7.U&lt;X);2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!!!!</Property>
 	<Item Name="Analog DAQ.ctl" Type="Class Private Data" URL="Analog DAQ.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
