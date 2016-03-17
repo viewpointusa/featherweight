@@ -1,3 +1,7 @@
+Version 1.2
+-reorganized for a cleaner structure, source can now be used as an external and all dependent code is included
+-some other bug fixes and BD cleanups
+
 Version 1.1
 -improved endpoints by moving connection maintenance to endpoint layer
 -TCP endpoints can now handle named services and random port selection
