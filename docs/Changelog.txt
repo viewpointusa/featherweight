@@ -1,5 +1,7 @@
 Version 1.2
 -reorganized for a cleaner structure, source can now be used as an external and all dependent code is included
+-added examples
+-added body output on request interpret
 -some other bug fixes and BD cleanups
 
 Version 1.1
