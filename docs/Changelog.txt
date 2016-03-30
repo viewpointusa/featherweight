@@ -1,3 +1,6 @@
+Version 1.2.1
+-JSON integer add pair was not working correctly, changed data type to I64 to fix
+
 Version 1.2
 -reorganized for a cleaner structure, source can now be used as an external and all dependent code is included
 -added examples
