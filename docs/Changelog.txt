@@ -1,3 +1,8 @@
+Version 1.3
+-added missing VC++ dependency installer
+-removed baked in actor publisher, publishers should be added as needed to any actors that publish
+-added FTW-JSON-Object-Update.vi for merging JSON strings and updated Actor Template_Launch.vi to utilize it
+
 Version 1.2.1
 -JSON integer add pair was not working correctly, changed data type to I64 to fix
 
