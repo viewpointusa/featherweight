@@ -56,6 +56,7 @@
 			<Item Name="FTW-JSON-Escape.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Escape.vi"/>
 			<Item Name="FTW-JSON-Format-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-String.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair.vi"/>
+			<Item Name="FTW-JSON-ObjectManip-Update.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-Update.vi"/>
 			<Item Name="FTW-JSON-Type.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-Type.ctl"/>
 			<Item Name="FTW-JSON.lvclass" Type="LVClass" URL="../../source/JSON/FTW-JSON.lvclass"/>
 			<Item Name="FTW-Logger-Core.lvclass" Type="LVClass" URL="../../source/actor/EventLogger/Core/FTW-Logger-Core.lvclass"/>
