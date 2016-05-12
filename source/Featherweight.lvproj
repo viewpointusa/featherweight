@@ -65,7 +65,9 @@
 			<Item Name="FTW-Email-AddressValidator.vi" Type="VI" URL="../Email/FTW-Email-AddressValidator.vi"/>
 		</Item>
 		<Item Name="Error" Type="Folder">
-			<Item Name="FTW-ERR-AbstractMethodCall.vi" Type="VI" URL="../Error/FTW-ERR-AbstractMethodCall.vi"/>
+			<Item Name="FTW-ERR-Assert-AbstractMethodCall.vi" Type="VI" URL="../Error/FTW-ERR-Assert-AbstractMethodCall.vi"/>
+			<Item Name="FTW-ERR-Assert-ConditionalDisable.vi" Type="VI" URL="../Error/FTW-ERR-Assert-ConditionalDisable.vi"/>
+			<Item Name="FTW-ERR-Assert-DeveloperError.vi" Type="VI" URL="../Error/FTW-ERR-Assert-DeveloperError.vi"/>
 			<Item Name="FTW-ERR-CallChain.vi" Type="VI" URL="../Error/FTW-ERR-CallChain.vi"/>
 			<Item Name="FTW-ERR-Clear.vi" Type="VI" URL="../Error/FTW-ERR-Clear.vi"/>
 			<Item Name="FTW-ERR-ExceptionType.ctl" Type="VI" URL="../Error/FTW-ERR-ExceptionType.ctl"/>
@@ -295,6 +297,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="FTW-ERR-AbstractMethodCall.vi" Type="VI" URL="../Error/FTW-ERR-AbstractMethodCall.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
