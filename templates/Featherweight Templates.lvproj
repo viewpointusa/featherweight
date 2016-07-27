@@ -13,7 +13,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actor Template" Type="Folder">
 			<Item Name="Actor Template-Core.lvclass" Type="LVClass" URL="../Actor Template/Core/Actor Template-Core.lvclass"/>
-			<Item Name="Actor Template.lvclass" Type="LVClass" URL="../Actor Template/Actor Template.lvclass"/>
+			<Item Name="Actor Template_Example Message.vi" Type="VI" URL="../Actor Template/Actor Template_Example Message.vi"/>
+			<Item Name="Actor Template_Launch.vi" Type="VI" URL="../Actor Template/Actor Template_Launch.vi"/>
+			<Item Name="Actor Template_Template.vit" Type="VI" URL="../Actor Template/Actor Template_Template.vit"/>
 		</Item>
 		<Item Name="FTW-ActorTemplate-RT-TopLevel.vi" Type="VI" URL="../FTW-ActorTemplate-RT-TopLevel.vi"/>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
