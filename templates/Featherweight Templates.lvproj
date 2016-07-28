@@ -13,8 +13,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actor Template" Type="Folder">
 			<Item Name="Actor Template-Core.lvclass" Type="LVClass" URL="../Actor Template/Core/Actor Template-Core.lvclass"/>
-			<Item Name="Actor Template_Example Message.vi" Type="VI" URL="../Actor Template/Actor Template_Example Message.vi"/>
-			<Item Name="Actor Template_Launch.vi" Type="VI" URL="../Actor Template/Actor Template_Launch.vi"/>
+			<Item Name="Actor Template_Connect-Inproc.vit" Type="VI" URL="../Actor Template/Actor Template_Connect-Inproc.vit"/>
+			<Item Name="Actor Template_Connect-TCP Named.vit" Type="VI" URL="../Actor Template/Actor Template_Connect-TCP Named.vit"/>
+			<Item Name="Actor Template_Connect-TCP Port.vit" Type="VI" URL="../Actor Template/Actor Template_Connect-TCP Port.vit"/>
+			<Item Name="Actor Template_Example Message.vit" Type="VI" URL="../Actor Template/Actor Template_Example Message.vit"/>
+			<Item Name="Actor Template_Launch-Static Link.vit" Type="VI" URL="../Actor Template/Actor Template_Launch-Static Link.vit"/>
+			<Item Name="Actor Template_Launch-VI Refnum.vit" Type="VI" URL="../Actor Template/Actor Template_Launch-VI Refnum.vit"/>
+			<Item Name="Actor Template_Launch.vit" Type="VI" URL="../Actor Template/Actor Template_Launch.vit"/>
 			<Item Name="Actor Template_Template.vit" Type="VI" URL="../Actor Template/Actor Template_Template.vit"/>
 		</Item>
 		<Item Name="FTW-ActorTemplate-RT-TopLevel.vi" Type="VI" URL="../FTW-ActorTemplate-RT-TopLevel.vi"/>
