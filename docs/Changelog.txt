@@ -1,3 +1,12 @@
+Version 1.3.3
+-fixed bug in FTW-Endpoint-Receive-Worker.vi where connection would not be closed if subscriber killed receive pipe, this would cause publisher to continue to fill queue when subscriber stopped receiving
+
+Version 1.3.2
+-fixed bug found by Lew in FTW-Actor-LocalMessage-Worker.vi where the wrong wire was used for timing the loop
+
+Version 1.3.1
+-fixed bug found by Lew where Subscriber would run full throttle when no publisher is broadcasting
+
 Version 1.3
 -added missing VC++ dependency installer
 -removed baked in actor publisher, publishers should be added as needed to any actors that publish
