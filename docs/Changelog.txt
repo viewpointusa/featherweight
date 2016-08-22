@@ -1,3 +1,7 @@
+Version 1.4.0
+-improvements to native JSON handling
+-reply will now automatically include incoming error and pass to requester
+
 Version 1.3.4
 -fixed issue with local message workers not having unique lossy queues, this would cause multiple lossy local message workers to stomp each other's messages
 
