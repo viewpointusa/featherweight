@@ -32,7 +32,8 @@
 			<Item Name="FTW-Consumer.lvclass" Type="LVClass" URL="../../source/actor/Consumer/FTW-Consumer.lvclass"/>
 			<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../../source/actor/TCP/FTW-Endpoint-TCP.lvclass"/>
 			<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../../source/actor/Endpoint/FTW-Endpoint.lvclass"/>
-			<Item Name="FTW-ERR-AbstractMethodCall.vi" Type="VI" URL="../../source/Error/FTW-ERR-AbstractMethodCall.vi"/>
+			<Item Name="FTW-ERR-Assert-AbstractMethodCall.vi" Type="VI" URL="../../source/Error/FTW-ERR-Assert-AbstractMethodCall.vi"/>
+			<Item Name="FTW-ERR-Assert-DeveloperError.vi" Type="VI" URL="../../source/Error/FTW-ERR-Assert-DeveloperError.vi"/>
 			<Item Name="FTW-ERR-CallChain.vi" Type="VI" URL="../../source/Error/FTW-ERR-CallChain.vi"/>
 			<Item Name="FTW-ERR-Clear.vi" Type="VI" URL="../../source/Error/FTW-ERR-Clear.vi"/>
 			<Item Name="FTW-ERR-ExceptionType.ctl" Type="VI" URL="../../source/Error/FTW-ERR-ExceptionType.ctl"/>
@@ -65,16 +66,26 @@
 			<Item Name="FTW-JSON-Core-LibraryFilepath.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Core-LibraryFilepath.vi"/>
 			<Item Name="FTW-JSON-Escape.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Escape.vi"/>
 			<Item Name="FTW-JSON-Format-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-String.vi"/>
+			<Item Name="FTW-JSON-Keys.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Keys.vi"/>
+			<Item Name="FTW-JSON-MergeStrings.vi" Type="VI" URL="../../source/JSON/FTW-JSON-MergeStrings.vi"/>
+			<Item Name="FTW-JSON-ObjectManip-AddPair-Element.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair-Element.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair.vi"/>
+			<Item Name="FTW-JSON-RegexHeader.vi" Type="VI" URL="../../source/JSON/FTW-JSON-RegexHeader.vi"/>
+			<Item Name="FTW-JSON-RegexParse.vi" Type="VI" URL="../../source/JSON/FTW-JSON-RegexParse.vi"/>
 			<Item Name="FTW-JSON-Type.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-Type.ctl"/>
 			<Item Name="FTW-JSON.lvclass" Type="LVClass" URL="../../source/JSON/FTW-JSON.lvclass"/>
 			<Item Name="FTW-Logger-Core.lvclass" Type="LVClass" URL="../../source/actor/EventLogger/Core/FTW-Logger-Core.lvclass"/>
 			<Item Name="FTW-Logger.lvclass" Type="LVClass" URL="../../source/actor/EventLogger/FTW-Logger.lvclass"/>
-			<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../../source/actor/Message/Request/FTW-Message-IncomingRequest.lvclass"/>
-			<Item Name="FTW-Message-Lossy.lvclass" Type="LVClass" URL="../../source/actor/Message/Lossy/FTW-Message-Lossy.lvclass"/>
+			<Item Name="FTW-Message-Compose.vi" Type="VI" URL="../../source/actor/Message/FTW-Message-Compose.vi"/>
+			<Item Name="FTW-Message-Decompose.vi" Type="VI" URL="../../source/actor/Message/FTW-Message-Decompose.vi"/>
+			<Item Name="FTW-Message-Metadata-Update.vi" Type="VI" URL="../../source/actor/Message/FTW-Message-Metadata-Update.vi"/>
+			<Item Name="FTW-Message.ctl" Type="VI" URL="../../source/actor/Message/FTW-Message.ctl"/>
 			<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../../source/actor/Message/Base/FTW-Message.lvclass"/>
 			<Item Name="FTW-NUM-Counter.vi" Type="VI" URL="../../source/Numeric/FTW-NUM-Counter.vi"/>
 			<Item Name="FTW-NUM-MovingAverage.vi" Type="VI" URL="../../source/Numeric/FTW-NUM-MovingAverage.vi"/>
+			<Item Name="FTW-Package-IncomingRequest.lvclass" Type="LVClass" URL="../../source/actor/Package/Request/FTW-Package-IncomingRequest.lvclass"/>
+			<Item Name="FTW-Package-Lossy.lvclass" Type="LVClass" URL="../../source/actor/Package/Lossy/FTW-Package-Lossy.lvclass"/>
+			<Item Name="FTW-Package.lvclass" Type="LVClass" URL="../../source/actor/Package/Base/FTW-Package.lvclass"/>
 			<Item Name="FTW-Producer.lvclass" Type="LVClass" URL="../../source/actor/Producer/FTW-Producer.lvclass"/>
 			<Item Name="FTW-Publisher.lvclass" Type="LVClass" URL="../../source/actor/Publisher/FTW-Publisher.lvclass"/>
 			<Item Name="FTW-Reflection-Array.vi" Type="VI" URL="../../source/Reflection/FTW-Reflection-Array.vi"/>
