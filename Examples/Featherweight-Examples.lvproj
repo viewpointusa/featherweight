@@ -80,7 +80,6 @@
 			<Item Name="FTW-Message-Decompose.vi" Type="VI" URL="../../source/actor/Message/FTW-Message-Decompose.vi"/>
 			<Item Name="FTW-Message-Metadata-Update.vi" Type="VI" URL="../../source/actor/Message/FTW-Message-Metadata-Update.vi"/>
 			<Item Name="FTW-Message.ctl" Type="VI" URL="../../source/actor/Message/FTW-Message.ctl"/>
-			<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../../source/actor/Message/Base/FTW-Message.lvclass"/>
 			<Item Name="FTW-NUM-Counter.vi" Type="VI" URL="../../source/Numeric/FTW-NUM-Counter.vi"/>
 			<Item Name="FTW-NUM-MovingAverage.vi" Type="VI" URL="../../source/Numeric/FTW-NUM-MovingAverage.vi"/>
 			<Item Name="FTW-Package-IncomingRequest.lvclass" Type="LVClass" URL="../../source/actor/Package/Request/FTW-Package-IncomingRequest.lvclass"/>
