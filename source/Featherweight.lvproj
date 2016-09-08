@@ -20,6 +20,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="actor" Type="Folder">
 			<Item Name="Framework" Type="Folder"/>
+			<Item Name="Message" Type="Folder">
+				<Item Name="FTW-Message-Compose.vi" Type="VI" URL="../actor/Message/FTW-Message-Compose.vi"/>
+				<Item Name="FTW-Message-Decompose.vi" Type="VI" URL="../actor/Message/FTW-Message-Decompose.vi"/>
+				<Item Name="FTW-Message.ctl" Type="VI" URL="../actor/Message/FTW-Message.ctl"/>
+			</Item>
 			<Item Name="Sockets" Type="Folder">
 				<Item Name="FTW-Consumer.lvclass" Type="LVClass" URL="../actor/Consumer/FTW-Consumer.lvclass"/>
 				<Item Name="FTW-Producer.lvclass" Type="LVClass" URL="../actor/Producer/FTW-Producer.lvclass"/>
@@ -135,6 +140,7 @@
 			<Item Name="FTW-JSON-CompositeType.ctl" Type="VI" URL="../JSON/FTW-JSON-CompositeType.ctl"/>
 			<Item Name="FTW-JSON-Datatype.ctl" Type="VI" URL="../JSON/FTW-JSON-Datatype.ctl"/>
 			<Item Name="FTW-JSON-Deserialize.xnode" Type="XNode" URL="../CodeGen/JSON Deserialize/FTW-JSON-Deserialize.xnode"/>
+			<Item Name="FTW-JSON-Element-Get.vi" Type="VI" URL="../JSON/FTW-JSON-Element-Get.vi"/>
 			<Item Name="FTW-JSON-Escape.vi" Type="VI" URL="../JSON/FTW-JSON-Escape.vi"/>
 			<Item Name="FTW-JSON-Format-Boolean.vi" Type="VI" URL="../JSON/FTW-JSON-Format-Boolean.vi"/>
 			<Item Name="FTW-JSON-Format-Pair.vi" Type="VI" URL="../JSON/FTW-JSON-Format-Pair.vi"/>
