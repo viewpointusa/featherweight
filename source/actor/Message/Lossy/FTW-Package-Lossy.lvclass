@@ -26,7 +26,7 @@
 	</Item>
 	<Item Name="Framework" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
-		<Item Name="FTW-Message-Lossy-CreateQueue.vi" Type="VI" URL="../FTW-Message-Lossy-CreateQueue.vi">
+		<Item Name="FTW-Package-Lossy-CreateQueue.vi" Type="VI" URL="../FTW-Package-Lossy-CreateQueue.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%5!!!!#Q!%!!!!$E!Q`````Q2198*U!!!31%!!!@````]!!16198*U=Q!11(!!%A!"!!)&amp;586F&gt;75!'5!$!"*N98AA=86F&gt;75A=WF[:3!I-3E!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!5!"A!(#'6S=G^S)'FO!!!71&amp;!!!Q!&amp;!!9!"QFF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!!!!!!!!!$!!!!!!!!!!!!"!!!!!A!!!!!!!!!#1)!!1A!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -37,7 +37,7 @@
 		</Item>
 	</Item>
 	<Item Name="Multipart" Type="Folder">
-		<Item Name="FTW-Message-Lossy-Multipart-Initialize.vi" Type="VI" URL="../FTW-Message-Lossy-Multipart-Initialize.vi">
+		<Item Name="FTW-Package-Lossy-Multipart-Initialize.vi" Type="VI" URL="../FTW-Package-Lossy-Multipart-Initialize.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!$!![1(!!(A!!'RF'6&amp;=N5'&amp;D;W&amp;H:3V-&lt;X.T?3ZM&gt;G.M98.T!"2'6&amp;=N476T=W&amp;H:3V-&lt;X.T?3"*&lt;A!!"!!!!$J!=!!?!!!&lt;'5:56SV197.L97&gt;F,5RP=X.Z,GRW9WRB=X-!&amp;5:56SV.:8.T97&gt;F,5RP=X.Z)%^V&gt;!!/1$$`````"&amp;"B=H1!!"J!1!!"`````Q!$$5VF=X.B:W5A5'&amp;S&gt;(-!$E!B#7^W:8*G&lt;'^X0Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!'!!=!#!BF=H*P=C"J&lt;A!!&amp;E"1!!-!"A!(!!A*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!%!!5!!1!"!!%!!1!*!!%!!1!"!!I#!!%)!!#1!!!!!!!!!!!!!!!!!!!!D1!!!")!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -47,7 +47,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 		</Item>
 	</Item>
-	<Item Name="FTW-Message-Destroy.vi" Type="VI" URL="../FTW-Message-Destroy.vi">
+	<Item Name="FTW-Package-Destroy.vi" Type="VI" URL="../FTW-Package-Destroy.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%"!!!!#!!W1(!!(A!!'RF'6&amp;=N5'&amp;D;W&amp;H:3V-&lt;X.T?3ZM&gt;G.M98.T!"&amp;'6&amp;=A4'^T=XEA476T=W&amp;H:1!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!A!$!!1):8*S&lt;X)A;7Y!!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!%!!1!"!!%!!1!"!!%!"1!"!!%!!1!'!A!"#!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!=!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -56,7 +56,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 	</Item>
-	<Item Name="FTW-Message-Interpret.vi" Type="VI" URL="../FTW-Message-Interpret.vi">
+	<Item Name="FTW-Package-Interpret.vi" Type="VI" URL="../FTW-Package-Interpret.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&amp;!!!!$!![1(!!(A!!'RF'6&amp;=N5'&amp;D;W&amp;H:3V-&lt;X.T?3ZM&gt;G.M98.T!"2'6&amp;=N476T=W&amp;H:3V-&lt;X.T?3"*&lt;A!!"!!!!$J!=!!?!!!&lt;'5:56SV197.L97&gt;F,5RP=X.Z,GRW9WRB=X-!&amp;5:56SV.:8.T97&gt;F,5RP=X.Z)%^V&gt;!!91$$`````$V.F&lt;G2F=C"*:'6O&gt;'FU?1!91$$`````$EVF=X.B:W5A3'6B:'6S!!!71$$`````$%VF=X.B:W5A1G^E?1!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"A!(!!A):8*S&lt;X)A;7Y!!":!5!!$!!9!"Q!)#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!1!$!!%!"!!"!!5!#1!"!!%!!1!+!Q!"#!!!E!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!#1!!!!!!!!!*!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!M!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -65,7 +65,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 	</Item>
-	<Item Name="FTW-Message-Lossy-Construct.vi" Type="VI" URL="../FTW-Message-Lossy-Construct.vi">
+	<Item Name="FTW-Package-Lossy-Construct.vi" Type="VI" URL="../FTW-Package-Lossy-Construct.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%;!!!!#1!%!!!!.E"Q!"Y!!"M:2F28,6"B9WNB:W5N4'^T=XEO&lt;(:D&lt;'&amp;T=Q!22F28,5VF=X.B:W5N4'^T=XE!'5!$!"*N98AA=86F&gt;75A=WF[:3!I-3E!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!-!"!!&amp;#'6S=G^S)'FO!!!71&amp;!!!Q!$!!1!"1FF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!!!!!!!!!"!!!!!!!!!!!!!A!!!!9!!!!!!!!!"Q)!!1A!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
@@ -74,7 +74,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 	</Item>
-	<Item Name="FTW-Message-Lossy-Initialize.vi" Type="VI" URL="../FTW-Message-Lossy-Initialize.vi">
+	<Item Name="FTW-Package-Lossy-Initialize.vi" Type="VI" URL="../FTW-Package-Lossy-Initialize.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'4!!!!$1![1(!!(A!!'RF'6&amp;=N5'&amp;D;W&amp;H:3V-&lt;X.T?3ZM&gt;G.M98.T!"2'6&amp;=N476T=W&amp;H:3V-&lt;X.T?3"*&lt;A!!"!!!!$J!=!!?!!!&lt;'5:56SV197.L97&gt;F,5RP=X.Z,GRW9WRB=X-!&amp;5:56SV.:8.T97&gt;F,5RP=X.Z)%^V&gt;!!91$$`````$V.F&lt;G2F=C"*:'6O&gt;'FU?1!/1#%*&lt;X:F=G:M&lt;X=`!"B!-0````]/476T=W&amp;H:3"):7&amp;E:8)!!":!-0````]-476T=W&amp;H:3"#&lt;W2Z!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!(!!A!#1BF=H*P=C"J&lt;A!!&amp;E"1!!-!"Q!)!!E*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!$!!1!"1!"!!9!!1!+!!%!!1!"!!M$!!%)!!#3!!!!!!!!!!!!!!!!!!!!D1!!!B!!!!!*!!!#%!!!!!!!!!)1!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!$!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
