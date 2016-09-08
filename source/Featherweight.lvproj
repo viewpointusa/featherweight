@@ -23,6 +23,7 @@
 			<Item Name="Message" Type="Folder">
 				<Item Name="FTW-Message-Compose.vi" Type="VI" URL="../actor/Message/FTW-Message-Compose.vi"/>
 				<Item Name="FTW-Message-Decompose.vi" Type="VI" URL="../actor/Message/FTW-Message-Decompose.vi"/>
+				<Item Name="FTW-Message-Metadata-Update.vi" Type="VI" URL="../actor/Message/FTW-Message-Metadata-Update.vi"/>
 				<Item Name="FTW-Message.ctl" Type="VI" URL="../actor/Message/FTW-Message.ctl"/>
 			</Item>
 			<Item Name="Sockets" Type="Folder">
@@ -148,6 +149,8 @@
 			<Item Name="FTW-JSON-Interpret-Array-String.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret-Array-String.vi"/>
 			<Item Name="FTW-JSON-Interpret-Boolean.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret-Boolean.vi"/>
 			<Item Name="FTW-JSON-Interpret-String.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret-String.vi"/>
+			<Item Name="FTW-JSON-Keys.vi" Type="VI" URL="../JSON/FTW-JSON-Keys.vi"/>
+			<Item Name="FTW-JSON-MergeStrings.vi" Type="VI" URL="../JSON/FTW-JSON-MergeStrings.vi"/>
 			<Item Name="FTW-JSON-Minify.vi" Type="VI" URL="../JSON/FTW-JSON-Minify.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-Boolean.vi" Type="VI" URL="../JSON/FTW-JSON-ObjectManip-AddPair-Boolean.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-DBL.vi" Type="VI" URL="../JSON/FTW-JSON-ObjectManip-AddPair-DBL.vi"/>
