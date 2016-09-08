@@ -51,6 +51,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1353458176</Property>
 		</Item>
+		<Item Name="FTW-Package-Multipart-Interpret.vi" Type="VI" URL="../FTW-Package-Multipart-Interpret.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'@!!!!$1![1(!!(A!!'RF'6&amp;=N5'&amp;D;W&amp;H:3V-&lt;X.T?3ZM&gt;G.M98.T!"2'6&amp;=N476T=W&amp;H:3V-&lt;X.T?3"*&lt;A!!"!!!!$J!=!!?!!!&lt;'5:56SV197.L97&gt;F,5RP=X.Z,GRW9WRB=X-!&amp;5:56SV.:8.T97&gt;F,5RP=X.Z)%^V&gt;!!11$$`````"EBF972F=A!!$E!Q`````Q2#&lt;W2Z!!!31$$`````#%VF&gt;'&amp;E982B!!!Q!0(4^R][!!!!!1^'6&amp;=N476T=W&amp;H:3ZD&gt;'Q!'%"1!!-!!Q!%!!5(476T=W&amp;H:1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!(!!A!#1BF=H*P=C"J&lt;A!!&amp;E"1!!-!"Q!)!!E*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!"!!9!!1!"!!%!!1!+!!%!!1!"!!M$!!%)!!#1!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!$!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">50331776</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		</Item>
 	</Item>
 	<Item Name="FTW-Package-Destroy.vi" Type="VI" URL="../FTW-Package-Destroy.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%"!!!!#!!W1(!!(A!!'RF'6&amp;=N5'&amp;D;W&amp;H:3V-&lt;X.T?3ZM&gt;G.M98.T!"&amp;'6&amp;=A4'^T=XEA476T=W&amp;H:1!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!A!$!!1):8*S&lt;X)A;7Y!!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!%!!1!"!!%!!1!"!!%!"1!"!!%!!1!'!A!"#!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!=!!!!!</Property>
