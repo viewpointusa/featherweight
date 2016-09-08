@@ -28,7 +28,7 @@
 		<Item Name="FTW-JobSequencer.lvclass" Type="LVClass" URL="../actor/JobSequencer/FTW-JobSequencer.lvclass"/>
 		<Item Name="FTW-Logger-Core.lvclass" Type="LVClass" URL="../actor/EventLogger/Core/FTW-Logger-Core.lvclass"/>
 		<Item Name="FTW-Logger.lvclass" Type="LVClass" URL="../actor/EventLogger/FTW-Logger.lvclass"/>
-		<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../actor/Message/Request/FTW-Message-IncomingRequest.lvclass"/>
+		<Item Name="FTW-Package-IncomingRequest.lvclass" Type="LVClass" URL="../actor/Message/Request/FTW-Package-IncomingRequest.lvclass"/>
 		<Item Name="FTW-Package-Lossy.lvclass" Type="LVClass" URL="../actor/Message/Lossy/FTW-Package-Lossy.lvclass"/>
 		<Item Name="FTW-Package.lvclass" Type="LVClass" URL="../actor/Message/Base/FTW-Package.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
