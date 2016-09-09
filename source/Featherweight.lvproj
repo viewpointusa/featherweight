@@ -21,9 +21,9 @@
 		<Item Name="actor" Type="Folder">
 			<Item Name="Framework" Type="Folder"/>
 			<Item Name="Message" Type="Folder">
-				<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../actor/Package/Request/FTW-Message-IncomingRequest.lvclass"/>
-				<Item Name="FTW-Message-Lossy.lvclass" Type="LVClass" URL="../actor/Package/Lossy/FTW-Message-Lossy.lvclass"/>
-				<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../actor/Package/Base/FTW-Message.lvclass"/>
+				<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../actor/Message/Request/FTW-Message-IncomingRequest.lvclass"/>
+				<Item Name="FTW-Message-Lossy.lvclass" Type="LVClass" URL="../actor/Message/Lossy/FTW-Message-Lossy.lvclass"/>
+				<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../actor/Message/Base/FTW-Message.lvclass"/>
 			</Item>
 			<Item Name="Payload" Type="Folder">
 				<Item Name="FTW-MessagePayload-Compose.vi" Type="VI" URL="../actor/Payload/FTW-MessagePayload-Compose.vi"/>
