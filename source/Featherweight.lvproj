@@ -21,10 +21,15 @@
 		<Item Name="actor" Type="Folder">
 			<Item Name="Framework" Type="Folder"/>
 			<Item Name="Message" Type="Folder">
-				<Item Name="FTW-Message-Compose.vi" Type="VI" URL="../actor/Message/FTW-Message-Compose.vi"/>
-				<Item Name="FTW-Message-Decompose.vi" Type="VI" URL="../actor/Message/FTW-Message-Decompose.vi"/>
-				<Item Name="FTW-Message-Metadata-Update.vi" Type="VI" URL="../actor/Message/FTW-Message-Metadata-Update.vi"/>
-				<Item Name="FTW-Message.ctl" Type="VI" URL="../actor/Message/FTW-Message.ctl"/>
+				<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../actor/Package/Request/FTW-Message-IncomingRequest.lvclass"/>
+				<Item Name="FTW-Message-Lossy.lvclass" Type="LVClass" URL="../actor/Package/Lossy/FTW-Message-Lossy.lvclass"/>
+				<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../actor/Package/Base/FTW-Message.lvclass"/>
+			</Item>
+			<Item Name="Payload" Type="Folder">
+				<Item Name="FTW-MessagePayload-Compose.vi" Type="VI" URL="../actor/Payload/FTW-MessagePayload-Compose.vi"/>
+				<Item Name="FTW-MessagePayload-Decompose.vi" Type="VI" URL="../actor/Payload/FTW-MessagePayload-Decompose.vi"/>
+				<Item Name="FTW-MessagePayload-Metadata-Update.vi" Type="VI" URL="../actor/Payload/FTW-MessagePayload-Metadata-Update.vi"/>
+				<Item Name="FTW-MessagePayload.ctl" Type="VI" URL="../actor/Payload/FTW-MessagePayload.ctl"/>
 			</Item>
 			<Item Name="Sockets" Type="Folder">
 				<Item Name="FTW-Consumer.lvclass" Type="LVClass" URL="../actor/Consumer/FTW-Consumer.lvclass"/>
@@ -45,9 +50,6 @@
 			<Item Name="FTW-JobSequencer.lvclass" Type="LVClass" URL="../actor/JobSequencer/FTW-JobSequencer.lvclass"/>
 			<Item Name="FTW-Logger-Core.lvclass" Type="LVClass" URL="../actor/EventLogger/Core/FTW-Logger-Core.lvclass"/>
 			<Item Name="FTW-Logger.lvclass" Type="LVClass" URL="../actor/EventLogger/FTW-Logger.lvclass"/>
-			<Item Name="FTW-Package-IncomingRequest.lvclass" Type="LVClass" URL="../actor/Package/Request/FTW-Package-IncomingRequest.lvclass"/>
-			<Item Name="FTW-Package-Lossy.lvclass" Type="LVClass" URL="../actor/Package/Lossy/FTW-Package-Lossy.lvclass"/>
-			<Item Name="FTW-Package.lvclass" Type="LVClass" URL="../actor/Package/Base/FTW-Package.lvclass"/>
 		</Item>
 		<Item Name="Application" Type="Folder">
 			<Item Name="FTW-App-StringToVersion.vi" Type="VI" URL="../Application/FTW-App-StringToVersion.vi"/>
