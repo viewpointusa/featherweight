@@ -23,13 +23,13 @@
 	<Item Name="Logger Framework" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="FTW-Logger-SerializeEvent.vi" Type="VI" URL="../FTW-Logger-SerializeEvent.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%T!!!!#A!51$$`````#E6W:7ZU)&amp;2Z='5!!!1!!!!;1$$`````%&amp;.F=GFB&lt;'F[:71A28:F&lt;H1!!"2!-0````]+28:F&lt;H1A2'&amp;U91!!/%!Q`````SZ4&lt;X6S9W5A+(6O&gt;WFS:71A:G^S)'.B&lt;'QA9WBB;7YM)%6N=(2Z)(2P)'^N;81J!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!;1&amp;!!!Q!&amp;!!9!"QR&amp;=H*P=C"U&lt;S"-&lt;W=!!'Q!]!!1!!!!!1!"!!%!!A!$!!%!"!!"!!%!!1!)!!%!!1!"!!%$!!%)!!%3!!!!!!!!!!!!!!!!!!!!#1!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%T!!!!#A!51$$`````#E6W:7ZU)&amp;2Z='5!!!1!!!!;1$$`````%&amp;.F=GFB&lt;'F[:71A28:F&lt;H1!!"2!-0````]+28:F&lt;H1A2'&amp;U91!!/%!Q`````SZ4&lt;X6S9W5A+(6O&gt;WFS:71A:G^S)'.B&lt;'QA9WBB;7YM)%6N=(2Z)(2P)'^N;81J!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!;1&amp;!!!Q!&amp;!!9!"QR&amp;=H*P=C"U&lt;S"-&lt;W=!!'Q!]!!1!!!!!1!"!!%!!A!$!!%!"!!"!!%!!1!)!!%!!1!"!!%#!!%)!!%3!!!!!!!!!!!!!!!!!!!!#1!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1352671744</Property>
 		</Item>
 	</Item>
 	<Item Name="FTW-Logger-AddRecord.vi" Type="VI" URL="../FTW-Logger-AddRecord.vi">
@@ -57,7 +57,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 	</Item>
 	<Item Name="FTW-Logger-Level.ctl" Type="VI" URL="../FTW-Logger-Level.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#N!!!!!1#F!0%!!!!!!!!!!Q^'6&amp;=N17.U&lt;X)O&lt;(:M;7)82F28,56W:7ZU4'^H:W6S,GRW9WRB=X-22F28,5RP:SV-:8:F&lt;#ZD&gt;'Q!9U!8!!A*27VF=G&gt;F&lt;G.Z"5&amp;M:8*U#%.S;82J9W&amp;M"56S=G^S"V&gt;B=GZJ&lt;G='4G^U;7.F$5FO:G^S&lt;7&amp;U;7^O97Q&amp;2'6C&gt;7=!&amp;%6W:7ZU)&amp;.F&gt;G6S;82Z)%RF&gt;G6M!!!"!!!!!!!!</Property>
