@@ -34,6 +34,7 @@
 		<Item Name="FTW-Test-EndpointListener.vi" Type="VI" URL="../FTW-Test-EndpointListener.vi"/>
 		<Item Name="FTW-Test-Endpoints.vi" Type="VI" URL="../FTW-Test-Endpoints.vi"/>
 		<Item Name="FTW-Test-JobSequencer-GetNextStep.vi" Type="VI" URL="../FTW-Test-JobSequencer-GetNextStep.vi"/>
+		<Item Name="FTW-Test-JSON-Native.vi" Type="VI" URL="../FTW-Test-JSON-Native.vi"/>
 		<Item Name="FTW-Test-Reflection-Datatypes.vi" Type="VI" URL="../FTW-Test-Reflection-Datatypes.vi"/>
 		<Item Name="FTW-Test-Subscriber-ConnectedNoMessages.vi" Type="VI" URL="../FTW-Test-Subscriber-ConnectedNoMessages.vi"/>
 		<Item Name="FTW-Test-Subscriber-Disconnected.vi" Type="VI" URL="../FTW-Test-Subscriber-Disconnected.vi"/>
@@ -124,16 +125,19 @@
 			<Item Name="FTW-File-TextWrite.vi" Type="VI" URL="../../source/File/FTW-File-TextWrite.vi"/>
 			<Item Name="FTW-File-ValidateFilepath.vi" Type="VI" URL="../../source/File/FTW-File-ValidateFilepath.vi"/>
 			<Item Name="FTW-JobSequencer.lvclass" Type="LVClass" URL="../../source/actor/JobSequencer/FTW-JobSequencer.lvclass"/>
+			<Item Name="FTW-JSON-Array-Deserialize.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Array-Deserialize.vi"/>
 			<Item Name="FTW-JSON-Core-ElementType.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Core-ElementType.vi"/>
 			<Item Name="FTW-JSON-Core-GetFlattenedValue.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Core-GetFlattenedValue.vi"/>
 			<Item Name="FTW-JSON-Core-LibraryError.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Core-LibraryError.vi"/>
 			<Item Name="FTW-JSON-Core-LibraryFilepath.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Core-LibraryFilepath.vi"/>
+			<Item Name="FTW-JSON-Element-Get.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Element-Get.vi"/>
 			<Item Name="FTW-JSON-Escape.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Escape.vi"/>
 			<Item Name="FTW-JSON-Format-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-String.vi"/>
 			<Item Name="FTW-JSON-Keys.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Keys.vi"/>
 			<Item Name="FTW-JSON-MergeStrings.vi" Type="VI" URL="../../source/JSON/FTW-JSON-MergeStrings.vi"/>
 			<Item Name="FTW-JSON-Native-GetFlattenedValue.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Native-GetFlattenedValue.vi"/>
 			<Item Name="FTW-JSON-Native-HandleErrors.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Native-HandleErrors.vi"/>
+			<Item Name="FTW-JSON-Native-HandleUnflattenErrors.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Native-HandleUnflattenErrors.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-Element.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair-Element.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair.vi"/>
 			<Item Name="FTW-JSON-RegexHeader.vi" Type="VI" URL="../../source/JSON/FTW-JSON-RegexHeader.vi"/>
