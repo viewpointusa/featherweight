@@ -26,6 +26,7 @@
 		<Item Name="FTW-ActorConnector-Test.vi" Type="VI" URL="../FTW-ActorConnector-Test.vi"/>
 		<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../FTW-Benchmark-Actors.vi"/>
 		<Item Name="FTW-Benchmark-ActorThroughput.vi" Type="VI" URL="../FTW-Benchmark-ActorThroughput.vi"/>
+		<Item Name="FTW-Benchmark-JSON-DeserializeXNode.vi" Type="VI" URL="../FTW-Benchmark-JSON-DeserializeXNode.vi"/>
 		<Item Name="FTW-Benchmark-JSON.vi" Type="VI" URL="../FTW-Benchmark-JSON.vi"/>
 		<Item Name="FTW-Benchmark-MessageTransports.vi" Type="VI" URL="../FTW-Benchmark-MessageTransports.vi"/>
 		<Item Name="FTW-Benchmark-ProducerConsumer.vi" Type="VI" URL="../FTW-Benchmark-ProducerConsumer.vi"/>
