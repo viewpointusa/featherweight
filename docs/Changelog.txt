@@ -1,4 +1,6 @@
 (unreleased) Version 1.4.0
+-added VI to launch actors using VI reference
+-made JSON Deserialize XNode work in cRIO and with no DLL (opt out)!
 -changed actor template connector to a bag of templates instead of a class, this should help with coupling of actors
 -using a "#" at the beggining of a FTW job line will comment that job out, also can be used for inline comments
 -improvements to native JSON handling
