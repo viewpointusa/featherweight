@@ -34,7 +34,7 @@
 		<Item Name="FTW-Test-EndpointListener.vi" Type="VI" URL="../FTW-Test-EndpointListener.vi"/>
 		<Item Name="FTW-Test-Endpoints.vi" Type="VI" URL="../FTW-Test-Endpoints.vi"/>
 		<Item Name="FTW-Test-JobSequencer-GetNextStep.vi" Type="VI" URL="../FTW-Test-JobSequencer-GetNextStep.vi"/>
-		<Item Name="FTW-Test-JSON-Native.vi" Type="VI" URL="../FTW-Test-JSON-Native.vi"/>
+		<Item Name="FTW-Test-JSON-Datatypes.vi" Type="VI" URL="../FTW-Test-JSON-Datatypes.vi"/>
 		<Item Name="FTW-Test-Reflection-Datatypes.vi" Type="VI" URL="../FTW-Test-Reflection-Datatypes.vi"/>
 		<Item Name="FTW-Test-Subscriber-ConnectedNoMessages.vi" Type="VI" URL="../FTW-Test-Subscriber-ConnectedNoMessages.vi"/>
 		<Item Name="FTW-Test-Subscriber-Disconnected.vi" Type="VI" URL="../FTW-Test-Subscriber-Disconnected.vi"/>
