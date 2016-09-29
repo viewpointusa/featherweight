@@ -143,6 +143,7 @@
 			<Item Name="FTW-JSON-RegexHeader.vi" Type="VI" URL="../../source/JSON/FTW-JSON-RegexHeader.vi"/>
 			<Item Name="FTW-JSON-RegexParse.vi" Type="VI" URL="../../source/JSON/FTW-JSON-RegexParse.vi"/>
 			<Item Name="FTW-JSON-Type.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-Type.ctl"/>
+			<Item Name="FTW-JSON-Validate.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Validate.vi"/>
 			<Item Name="FTW-JSON.lvclass" Type="LVClass" URL="../../source/JSON/FTW-JSON.lvclass"/>
 			<Item Name="FTW-Logger-Core.lvclass" Type="LVClass" URL="../../source/actor/EventLogger/Core/FTW-Logger-Core.lvclass"/>
 			<Item Name="FTW-Logger.lvclass" Type="LVClass" URL="../../source/actor/EventLogger/FTW-Logger.lvclass"/>
