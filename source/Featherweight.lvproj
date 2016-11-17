@@ -159,6 +159,7 @@
 			<Item Name="FTW-Time-DisplayFormat-Elapsed.ctl" Type="VI" URL="../Time/FTW-Time-DisplayFormat-Elapsed.ctl"/>
 			<Item Name="FTW-Time-DisplayFormat-Timestamp.ctl" Type="VI" URL="../Time/FTW-Time-DisplayFormat-Timestamp.ctl"/>
 			<Item Name="FTW-Time-Elapse.vi" Type="VI" URL="../Time/FTW-Time-Elapse.vi"/>
+			<Item Name="FTW-Time-Now.vi" Type="VI" URL="../Time/FTW-Time-Now.vi"/>
 			<Item Name="FTW-Time-Remaining.vi" Type="VI" URL="../Time/FTW-Time-Remaining.vi"/>
 			<Item Name="FTW-Time-RetryTimer.vi" Type="VI" URL="../Time/FTW-Time-RetryTimer.vi"/>
 			<Item Name="FTW-Time-Timer.vi" Type="VI" URL="../Time/FTW-Time-Timer.vi"/>
