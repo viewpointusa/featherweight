@@ -5,6 +5,8 @@
 -using a "#" at the beggining of a FTW job line will comment that job out, also can be used for inline comments
 -improvements to native JSON handling
 -added JSON get element and JSON keys methods
+-actors can now be launched with minimal JSON configuration elements (i.e. only Identity and InboxAddress are required)
+-FTW-Ether-NewLoggerConnection.vi now throws a warning if using the default logger
 -reply will now automatically include incoming error and pass to requester
 -added method to begin shutdown sequence on an incoming error
 -added method to throw error conditionally
@@ -14,6 +16,8 @@
 -gave sockets unique wires
 -added Color VIs
 -improvements to tests
+-added FTW-Time-Now.vi
+-changed warnings to use LV error dialog compatible source
 
 Version 1.3.4
 -fixed issue with local message workers not having unique lossy queues, this would cause multiple lossy local message workers to stomp each other's messages
