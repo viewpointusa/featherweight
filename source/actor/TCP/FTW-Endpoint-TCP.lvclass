@@ -89,58 +89,67 @@
 	<Item Name="Multipart" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="FTW-Endpoint-Multipart-Ask.vi" Type="VI" URL="../FTW-Endpoint-Multipart-Ask.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(&amp;!!!!%!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A6%.1)%6O:("P;7ZU!!!%!!!!.E"Q!"Y!!"I92F28,56O:("P;7ZU,62$5#ZM&gt;G.M98.T!!!12F28)%6O:("P;7ZU)'^V&gt;!!!$E!Q`````Q2198*U!!!?1%!!!@````]!!R&amp;.&gt;7RU;8"B=H1A476T=W&amp;H:1!31%!!!@````]!!Q63:8"M?1!41!-!$&amp;*F971A6'FN:7^V&gt;!!!&amp;%!B$V*F971A6'FN:71A&lt;X6U0Q!41!-!$6&gt;S;82F)&amp;2J&lt;76P&gt;81!&amp;E!B%&amp;&gt;S;82F)&amp;2J&lt;76E)'^V&gt;$]!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!I!#Q!-#'6S=G^S)'FO!!!71&amp;!!!Q!+!!M!$!FF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!"!!%!!1!#!!1!"1!'!!=!#!!*!!U!!1!"!!%!$A-!!1A!!*)!!!!!!!!!!!!!!!!!!!#.!!!"%A!!!!E!!!!)!!!!#1!!!!!!!!!*!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!0!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)D!!!!%A!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A6%.1)%6O:("P;7ZU!!!%!!!!.E"Q!"Y!!"I92F28,56O:("P;7ZU,62$5#ZM&gt;G.M98.T!!!12F28)%6O:("P;7ZU)'^V&gt;!!!%%!Q`````Q:):7&amp;E:8)!!!Z!-0````]%1G^E?1!!%E!Q`````QB.:82B:'&amp;U91!!.Q$RU`=@/A!!!!%72F28,5VF=X.B:W6198FM&lt;W&amp;E,G.U&lt;!!91&amp;!!!Q!$!!1!"1&gt;.:8.T97&gt;F!$5!]&gt;0X(TI!!!!"&amp;E:56SV.:8.T97&gt;F5'&amp;Z&lt;'^B:#ZD&gt;'Q!&amp;E"1!!-!!Q!%!!5&amp;5G6Q&lt;(E!%U!$!!R3:7&amp;E)&amp;2J&lt;76P&gt;81!!"2!)1^3:7&amp;E)&amp;2J&lt;76E)'^V&gt;$]!%U!$!!V8=GFU:3"5;7VF&lt;X6U!":!)2"8=GFU:3"5;7VF:#"P&gt;81`!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!-!!U!$ABF=H*P=C"J&lt;A!!&amp;E"1!!-!$!!.!!Y*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!'!!=!#!!*!!I!#Q!0!!%!!1!"!"!$!!%)!!#3!!!!!!!!!!!!!!!!!!!!D1!!!")!!!!*!!!!#!!!!!E!!!!!!!!!#1!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!%1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 		<Item Name="FTW-Endpoint-Multipart-Receive.vi" Type="VI" URL="../FTW-Endpoint-Multipart-Receive.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;]!!!!$1!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!.1!-!"V2J&lt;76P&gt;81!$E!Q`````Q2198*U!!!?1%!!!@````]!""".:8.T97&gt;F)&amp;*F9W6J&gt;G6E!!!11#%+6'FN:71A&lt;X6U0Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"Q!)!!E):8*S&lt;X)A;7Y!!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!Q!&amp;!!%!"A!"!!%!#A!"!!%!!1!,!Q!"#!!!E!!!!!!!!!!!!!!!!!!!!)U!!!!)!!!!#1!!!!!!!!!*!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!("!!!!$Q!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!.1!-!"V2J&lt;76P&gt;81!%%!Q`````Q:):7&amp;E:8)!!!Z!-0````]%1G^E?1!!%E!Q`````QB.:82B:'&amp;U91!!11$RU`=@/A!!!!%72F28,5VF=X.B:W6198FM&lt;W&amp;E,G.U&lt;!!C1&amp;!!!Q!%!!5!"B".:8.T97&gt;F)&amp;*F9W6J&gt;G6E!!!11#%+6'FN:71A&lt;X6U0Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!#1!+!!M):8*S&lt;X)A;7Y!!":!5!!$!!E!#A!,#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!Q!(!!%!#!!"!!%!$!!"!!%!!1!.!Q!"#!!!E!!!!!!!!!!!!!!!!!!!!)U!!!!)!!!!#1!!!!!!!!!*!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!Y!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 		<Item Name="FTW-Endpoint-Multipart-Reply.vi" Type="VI" URL="../FTW-Endpoint-Multipart-Reply.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;]!!!!$1!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!/1$$`````"&amp;"B=H1!!"Z!1!!"`````Q!$%5VV&lt;(2J='&amp;S&gt;#".:8.T97&gt;F!""!)1J5;7VF:#"P&gt;81`!!!.1!-!"V2J&lt;76P&gt;81!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"Q!)!!E):8*S&lt;X)A;7Y!!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!"!!&amp;!!9!!1!"!!%!#A!"!!%!!1!,!Q!"#!!!E!!!!!!!!!!!!!!!!!!!!)U!!!!1!!!!#1!!!!A!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'X!!!!$Q!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!11$$`````"EBF972F=A!!$E!Q`````Q2#&lt;W2Z!!!31$$`````#%VF&gt;'&amp;E982B!!!X!0(4^R][!!!!!2:'6&amp;=N476T=W&amp;H:6"B?7RP971O9X2M!"B!5!!$!!-!"!!&amp;"UVF=X.B:W5!%%!B#F2J&lt;76E)'^V&gt;$]!!!V!!Q!(6'FN:7^V&gt;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!*!!I!#QBF=H*P=C"J&lt;A!!&amp;E"1!!-!#1!+!!M*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!'!!=!#!!"!!%!!1!-!!%!!1!"!!U$!!%)!!#1!!!!!!!!!!!!!!!!!!!!D1!!!"!!!!!*!!!!#!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!$A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 		<Item Name="FTW-Endpoint-Multipart-Send.vi" Type="VI" URL="../FTW-Endpoint-Multipart-Send.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;]!!!!$1!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!/1$$`````"&amp;"B=H1!!"Z!1!!"`````Q!$%5VV&lt;(2J='&amp;S&gt;#".:8.T97&gt;F!""!)1J5;7VF:#"P&gt;81`!!!.1!-!"V2J&lt;76P&gt;81!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"Q!)!!E):8*S&lt;X)A;7Y!!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!"!!&amp;!!9!!1!"!!%!#A!"!!%!!1!,!Q!"#!!!E!!!!!!!!!!!!!!!!!!!!)U!!!!1!!!!#1!!!"!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!Q!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777347</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
-		</Item>
-		<Item Name="FTW-Endpoint-Multipart-Tell.vi" Type="VI" URL="../FTW-Endpoint-Multipart-Tell.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;]!!!!$1!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!/1$$`````"&amp;"B=H1!!"Z!1!!"`````Q!$%5VV&lt;(2J='&amp;S&gt;#".:8.T97&gt;F!""!)1J5;7VF:#"P&gt;81`!!!.1!-!"V2J&lt;76P&gt;81!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"Q!)!!E):8*S&lt;X)A;7Y!!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!"!!&amp;!!9!!1!"!!%!#A!"!!%!!1!,!Q!"#!!!EA!!!!!!!!!!!!!!!!!!!)U!!!)3!!!!#1!!!"!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'X!!!!$Q!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!11$$`````"EBF972F=A!!$E!Q`````Q2#&lt;W2Z!!!31$$`````#%VF&gt;'&amp;E982B!!!X!0(4^R][!!!!!2:'6&amp;=N476T=W&amp;H:6"B?7RP971O9X2M!"B!5!!$!!-!"!!&amp;"UVF=X.B:W5!%%!B#F2J&lt;76E)'^V&gt;$]!!!V!!Q!(6'FN:7^V&gt;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!*!!I!#QBF=H*P=C"J&lt;A!!&amp;E"1!!-!#1!+!!M*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!'!!=!#!!"!!%!!1!-!!%!!1!"!!U$!!%)!!#1!!!!!!!!!!!!!!!!!!!!D1!!!"!!!!!*!!!!%!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!$A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
-		<Item Name="FTW-Endpoint-TCP-Multipart-Ask.vi" Type="VI" URL="../FTW-Endpoint-TCP-Multipart-Ask.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!("!!!!%!!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!/1$$`````"&amp;"B=H1!!"Z!1!!"`````Q!$%5VV&lt;(2J='&amp;S&gt;#".:8.T97&gt;F!"*!1!!"`````Q!$"6*F='RZ!".!!Q!-5G6B:#"5;7VF&lt;X6U!!!51#%05G6B:#"5;7VF:#"P&gt;81`!".!!Q!.6X*J&gt;'5A6'FN:7^V&gt;!!71#%16X*J&gt;'5A6'FN:71A&lt;X6U0Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!#A!,!!Q):8*S&lt;X)A;7Y!!":!5!!$!!I!#Q!-#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!"!!&amp;!!9!"Q!)!!E!$1!"!!%!!1!/!Q!"#!!!EA!!!!!!!!!!!!!!!!!!!)U!!!%3!!!!#1!!!!A!!!!*!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!]!!!!!</Property>
+		<Item Name="FTW-Endpoint-Multipart-Tell.vi" Type="VI" URL="../FTW-Endpoint-Multipart-Tell.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'X!!!!$Q!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!11$$`````"EBF972F=A!!$E!Q`````Q2#&lt;W2Z!!!31$$`````#%VF&gt;'&amp;E982B!!!X!0(4^R][!!!!!2:'6&amp;=N476T=W&amp;H:6"B?7RP971O9X2M!"B!5!!$!!-!"!!&amp;"UVF=X.B:W5!%%!B#F2J&lt;76E)'^V&gt;$]!!!V!!Q!(6'FN:7^V&gt;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!*!!I!#QBF=H*P=C"J&lt;A!!&amp;E"1!!-!#1!+!!M*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!'!!=!#!!"!!%!!1!-!!%!!1!"!!U$!!%)!!#3!!!!!!!!!!!!!!!!!!!!D1!!!")!!!!*!!!!%!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!$A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777347</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+		</Item>
+		<Item Name="FTW-Endpoint-Payload-Request-Receive.vi" Type="VI" URL="../FTW-Endpoint-Payload-Request-Receive.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(H!!!!%!!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!.1!-!"V2J&lt;76P&gt;81!-%"Q!"Y!!"952F28,56O:("P;7ZU,GRW9WRB=X-!!!Z3:8"M?3"&amp;&lt;G2Q&lt;WFO&gt;!!!%%!Q`````Q:):7&amp;E:8)!!!Z!-0````]%1G^E?1!!%E!Q`````QB.:82B:'&amp;U91!!.Q$RU`=@/A!!!!%72F28,5VF=X.B:W6198FM&lt;W&amp;E,G.U&lt;!!91&amp;!!!Q!&amp;!!9!"Q&gt;198FM&lt;W&amp;E!""!)1J5;7VF:#"P&gt;81`!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!+!!M!$!BF=H*P=C"J&lt;A!!&amp;E"1!!-!#A!,!!Q*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!$!!1!!1!)!!%!#1!.!!%!!1!"!!Y$!!%)!!#3!!!!!!!!!!!!!!!!!!!!D1!!!!A!!!!*!!!!!!!!!!E!!!!!!!!!#1!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!$Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">50331776</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		</Item>
+		<Item Name="FTW-Endpoint-TCP-Multipart-Ask.vi" Type="VI" URL="../FTW-Endpoint-TCP-Multipart-Ask.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)@!!!!%A!S1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!!1!!!!W1(!!(A!!'BB'6&amp;=N27ZE='^J&lt;H1N6%.1,GRW9WRB=X-!!""'6&amp;=A27ZE='^J&lt;H1A&lt;X6U!!!11$$`````"EBF972F=A!!$E!Q`````Q2#&lt;W2Z!!!31$$`````#%VF&gt;'&amp;E982B!!!X!0(4^R][!!!!!2:'6&amp;=N476T=W&amp;H:6"B?7RP971O9X2M!"B!5!!$!!-!"!!&amp;"UVF=X.B:W5!.1$RU`=@/A!!!!%72F28,5VF=X.B:W6198FM&lt;W&amp;E,G.U&lt;!!71&amp;!!!Q!$!!1!"163:8"M?1!41!-!$&amp;*F971A6'FN:7^V&gt;!!!&amp;%!B$V*F971A6'FN:71A&lt;X6U0Q!41!-!$6&gt;S;82F)&amp;2J&lt;76P&gt;81!&amp;E!B%&amp;&gt;S;82F)&amp;2J&lt;76E)'^V&gt;$]!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!Q!$1!/#'6S=G^S)'FO!!!71&amp;!!!Q!-!!U!$AFF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!"!!%!!1!#!!9!"Q!)!!E!#A!,!!]!!1!"!!%!%!-!!1A!!*)!!!!!!!!!!!!!!!!!!!#.!!!!%A!!!!E!!!!)!!!!#1!!!!!!!!!*!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!2!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 	</Item>
 	<Item Name="Synchronous" Type="Folder">
