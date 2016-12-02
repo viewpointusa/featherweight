@@ -8,7 +8,7 @@ This version removes emphasis on the Featherweight lib in favor of native LabVIE
 As most LabVIEW developers use SVN, this repo can be easily added as an [SVN external](http://svnbook.red-bean.com/nightly/en/svn.advanced.externals.html) to the source folder by executing this command within the source folder
 
 ```
-svn propset svn:externals "http://github.com/viewpointusa/featherweight/trunk featherweight" .
+svn propset svn:externals "http://github.com/viewpointusa/featherweight/branches/master featherweight" .
 ```
 
 or by [manually adding externals](https://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-dug-externals.html).
@@ -17,7 +17,7 @@ or by [manually adding externals](https://tortoisesvn.net/docs/release/TortoiseS
 
 ### Latest release
 ```
-svn propset svn:externals "http://github.com/viewpointusa/featherweight/trunk featherweight" .
+svn propset svn:externals "http://github.com/viewpointusa/featherweight/branches/master featherweight" .
 ```
 
 ### Specific release
