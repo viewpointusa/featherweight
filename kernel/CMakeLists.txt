@@ -38,9 +38,9 @@ endif ()
 enable_testing ()
 
 set (JANSSON_DIR "${CMAKE_CURRENT_SOURCE_DIR}/jansson/upstream")
-set (NANOMSG_DIR "${CMAKE_CURRENT_SOURCE_DIR}/nanomsg/upstream")
-set (PCRE2_DIR "${CMAKE_CURRENT_SOURCE_DIR}/pcre/upstream")
-set (LIBUV_DIR "${CMAKE_CURRENT_SOURCE_DIR}/libuv")
+# set (NANOMSG_DIR "${CMAKE_CURRENT_SOURCE_DIR}/nanomsg/upstream")
+# set (PCRE2_DIR "${CMAKE_CURRENT_SOURCE_DIR}/pcre/upstream")
+# set (LIBUV_DIR "${CMAKE_CURRENT_SOURCE_DIR}/libuv")
 
 ### Jansson
 set (JANSSON_BUILD_DOCS OFF CACHE BOOL "Featherweight skips building the Jansson documentation.")
@@ -49,27 +49,27 @@ set (JANSSON_BUILD_SHARED_LIBS OFF CACHE BOOL "Featherweight skips building a Ja
 add_subdirectory (${JANSSON_DIR} ${JANSSON_DIR}/build)
 
 ### libuv
-add_subdirectory (${LIBUV_DIR} ${LIBUV_DIR}/build)
+# add_subdirectory (${LIBUV_DIR} ${LIBUV_DIR}/build)
 
 ### PCRE2
-set (PCRE2_SUPPORT_PCREGREP_JIT OFF CACHE BOOL "Featherweight skips building Just-in-time compiling in pcregrep.")
-add_subdirectory (${PCRE2_DIR} ${PCRE2_DIR}/build)
+# set (PCRE2_SUPPORT_PCREGREP_JIT OFF CACHE BOOL "Featherweight skips building Just-in-time compiling in pcregrep.")
+# add_subdirectory (${PCRE2_DIR} ${PCRE2_DIR}/build)
 
 # The rigor of test #2 requires special compiler/linker settings:
-if (MSVC)
-    # According to http://www.pcre.org/current/doc/html/NON-AUTOTOOLS-BUILD.txt
-    # 8MB is required; however PCRE2 is observed to need 16MB to pass this test.
-    set_target_properties (pcre2test PROPERTIES LINK_FLAGS "/STACK:0x1000000")
-elseif (CMAKE_C_COMPILER_ID MATCHES "Clang")
-    # Discussion on this topic: http://comments.gmane.org/gmane.comp.lang.pcre.devel/3809
-    target_compile_options (pcre2-8 PUBLIC -O3)
-endif ()
+# if (MSVC)
+#     # According to http://www.pcre.org/current/doc/html/NON-AUTOTOOLS-BUILD.txt
+#     # 8MB is required; however PCRE2 is observed to need 16MB to pass this test.
+#     set_target_properties (pcre2test PROPERTIES LINK_FLAGS "/STACK:0x1000000")
+# elseif (CMAKE_C_COMPILER_ID MATCHES "Clang")
+#     # Discussion on this topic: http://comments.gmane.org/gmane.comp.lang.pcre.devel/3809
+#     target_compile_options (pcre2-8 PUBLIC -O3)
+# endif ()
 
 ### nanomsg
-set (WS_AUTOBAHN_TESTS ON CACHE BOOL "Opt-in to Autobahn WebSocket tests.")
-set (NN_STATIC_LIB ON CACHE BOOL "Include as part of amalgamation.")
-set (NN_ENABLE_DOC OFF CACHE BOOL "Turn off documentation.")
-add_subdirectory (${NANOMSG_DIR} ${NANOMSG_DIR}/build)
+# set (WS_AUTOBAHN_TESTS ON CACHE BOOL "Opt-in to Autobahn WebSocket tests.")
+# set (NN_STATIC_LIB ON CACHE BOOL "Include as part of amalgamation.")
+# set (NN_ENABLE_DOC OFF CACHE BOOL "Turn off documentation.")
+# add_subdirectory (${NANOMSG_DIR} ${NANOMSG_DIR}/build)
 
 ### SQLite
     # SQLite has no CMakeLists.txt, hence no need for this section.
@@ -79,28 +79,28 @@ add_subdirectory (${NANOMSG_DIR} ${NANOMSG_DIR}/build)
 set (FTW_SRC_FILES
     ftw.h
     ftw.c
-    ftw_libuv.h
-    ftw_libuv.c
-    framework/ftw_framework.h
-    framework/ftw_framework.c
+    # ftw_libuv.h
+    # ftw_libuv.c
+    # framework/ftw_framework.h
+    # framework/ftw_framework.c
     jansson/ftw_json.h
     jansson/ftw_json.c
-    nanomsg/ftw_nanomsg.h
-    nanomsg/ftw_nanomsg.c
-    pcre/ftw_pcre.h
-    pcre/ftw_pcre.c
-    sqlite/ftw_sqlite.h
-    sqlite/ftw_sqlite.c
+    # nanomsg/ftw_nanomsg.h
+    # nanomsg/ftw_nanomsg.c
+    # pcre/ftw_pcre.h
+    # pcre/ftw_pcre.c
+    # sqlite/ftw_sqlite.h
+    # sqlite/ftw_sqlite.c
 )
 
 add_library (${CMAKE_PROJECT_NAME} SHARED ${FTW_SRC_FILES})
 
 target_link_libraries (${CMAKE_PROJECT_NAME} jansson)
-target_link_libraries (${CMAKE_PROJECT_NAME} pcre2-8)
-target_link_libraries (${CMAKE_PROJECT_NAME} nanomsg)
-target_link_libraries (${CMAKE_PROJECT_NAME} libuv)
+# target_link_libraries (${CMAKE_PROJECT_NAME} pcre2-8)
+# target_link_libraries (${CMAKE_PROJECT_NAME} nanomsg)
+# target_link_libraries (${CMAKE_PROJECT_NAME} libuv)
 
-target_compile_options (${CMAKE_PROJECT_NAME} PUBLIC -DSQLITE_ENABLE_JSON1)
+# target_compile_options (${CMAKE_PROJECT_NAME} PUBLIC -DSQLITE_ENABLE_JSON1)
 
 
 set (LVRTE_INCLUDE "${FTW_LVIDE_PATH}/cintools")
@@ -151,11 +151,11 @@ get_target_property (JANSSON_INCLUDE_DIRS jansson INCLUDE_DIRECTORIES)
 include_directories (${JANSSON_INCLUDE_DIRS})
 
 # Ensuring amalgamation compiles with same compiler flags as components
-get_directory_property (NANOMSG_COMPILE_DEFS DIRECTORY ${NANOMSG_DIR}\\src COMPILE_DEFINITIONS)
-message (STATUS "nanomsg compile definitions: ${NANOMSG_COMPILE_DEFS}")
-get_directory_property (LIBUV_COMPILE_DEFS DIRECTORY ${LIBUV_DIR} COMPILE_DEFINITIONS)
-message (STATUS "libuv compile definitions: ${LIBUV_COMPILE_DEFS}")
-set (FTW_COMPILE_DEFS ${NANOMSG_COMPILE_DEFS} ${LIBUV_COMPILE_DEFS})
+# get_directory_property (NANOMSG_COMPILE_DEFS DIRECTORY ${NANOMSG_DIR}\\src COMPILE_DEFINITIONS)
+# message (STATUS "nanomsg compile definitions: ${NANOMSG_COMPILE_DEFS}")
+# get_directory_property (LIBUV_COMPILE_DEFS DIRECTORY ${LIBUV_DIR} COMPILE_DEFINITIONS)
+# message (STATUS "libuv compile definitions: ${LIBUV_COMPILE_DEFS}")
+# set (FTW_COMPILE_DEFS ${NANOMSG_COMPILE_DEFS} ${LIBUV_COMPILE_DEFS})
 target_compile_definitions (${CMAKE_PROJECT_NAME} PUBLIC ${FTW_COMPILE_DEFS})
 
 install (
