@@ -61,7 +61,7 @@ Win32: [![Win32 status](https://ci.appveyor.com/api/projects/status/gw4vlhfi50u0
   1. NI LabVIEW 2015 or higher
 
 #### Build process
-  1. Clone this repository with the `--recursive` flag to ensure all submodules are cloned: `git clone --recursive https://github.com/featherweight/featherweight.git`
+  1. Clone this repository with the `--recursive` flag to ensure all submodules are cloned: `git clone --branch feature/ftw-jansson --recursive https://github.com/viewpointusa/featherweight.git`
   1. Navigate into the repo root, and then enter the kernel directory: `cd kernel`
   1. Create a build directory: `mkdir build`
   1. Enter this new build directory: `cd build`
