@@ -81,8 +81,8 @@ set (FTW_SRC_FILES
     ftw.c
     # ftw_libuv.h
     # ftw_libuv.c
-    # framework/ftw_framework.h
-    # framework/ftw_framework.c
+    framework/ftw_framework.h
+    framework/ftw_framework.c
     jansson/ftw_json.h
     jansson/ftw_json.c
     # nanomsg/ftw_nanomsg.h
