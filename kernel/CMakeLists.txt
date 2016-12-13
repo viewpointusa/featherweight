@@ -101,6 +101,9 @@ target_link_libraries (${CMAKE_PROJECT_NAME} jansson)
 # target_link_libraries (${CMAKE_PROJECT_NAME} libuv)
 
 # target_compile_options (${CMAKE_PROJECT_NAME} PUBLIC -DSQLITE_ENABLE_JSON1)
+if (WIN32)
+        set (FTW_LVIDE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../.ci")
+endif()
 
 
 set (LVRTE_INCLUDE "${FTW_LVIDE_PATH}/cintools")
