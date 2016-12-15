@@ -66,6 +66,11 @@
 		<Item Name="Color" Type="Folder" URL="../Color">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="core" Type="Folder">
+			<Item Name="type" Type="Folder">
+				<Item Name="FTW-Type-JSON.ctl" Type="VI" URL="../core/type/FTW-Type-JSON.ctl"/>
+			</Item>
+		</Item>
 		<Item Name="Database" Type="Folder">
 			<Item Name="FTW-SQLite-Connector.lvclass" Type="LVClass" URL="../Database/FTW-SQLite-Connector.lvclass"/>
 			<Item Name="FTW-SQLite-Fetch.xnode" Type="XNode" URL="../CodeGen/SQLite-Fetch/FTW-SQLite-Fetch.xnode"/>
@@ -255,9 +260,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="FTW-JSON-Core-GetFlattenedValue.vi" Type="VI" URL="../CodeGen/JSON Deserialize/FTW-JSON-Core-GetFlattenedValue.vi"/>
-			<Item Name="FTW-JSON.ctl" Type="VI" URL="../JSON/FTW-JSON.lvclass/FTW-JSON.ctl"/>
 			<Item Name="FTW-JSON.lvclass" Type="LVClass" URL="../JSON/FTW-JSON.lvclass"/>
-			<Item Name="FTW-Type-JSON.ctl" Type="VI" URL="../core/type/FTW-Type-JSON.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
