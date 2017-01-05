@@ -28,7 +28,9 @@
 			<Item Name="Payload" Type="Folder">
 				<Item Name="FTW-MessagePayload-Compose.vi" Type="VI" URL="../actor/Payload/FTW-MessagePayload-Compose.vi"/>
 				<Item Name="FTW-MessagePayload-Decompose.vi" Type="VI" URL="../actor/Payload/FTW-MessagePayload-Decompose.vi"/>
+				<Item Name="FTW-MessagePayload-Deserialize.vi" Type="VI" URL="../actor/Payload/FTW-MessagePayload-Deserialize.vi"/>
 				<Item Name="FTW-MessagePayload-Metadata-Update.vi" Type="VI" URL="../actor/Payload/FTW-MessagePayload-Metadata-Update.vi"/>
+				<Item Name="FTW-MessagePayload-Serialize.vi" Type="VI" URL="../actor/Payload/FTW-MessagePayload-Serialize.vi"/>
 				<Item Name="FTW-MessagePayload.ctl" Type="VI" URL="../actor/Payload/FTW-MessagePayload.ctl"/>
 			</Item>
 			<Item Name="Sockets" Type="Folder">
