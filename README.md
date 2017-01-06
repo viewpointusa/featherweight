@@ -17,12 +17,12 @@ or by [manually adding externals](https://tortoisesvn.net/docs/release/TortoiseS
 
 ### Latest release
 ```
-svn propset svn:externals "http://github.com/viewpointusa/featherweight/branches/master featherweight" .
+svn propset svn:externals "http://github.com/viewpointusa/featherweight/trunk featherweight" .
 ```
 
 ### Specific release
 ```
-svn propset svn:externals "http://github.com/viewpointusa/featherweight/tags/1.4.0 featherweight" .
+svn propset svn:externals "http://github.com/viewpointusa/featherweight/tags/1.5.0 featherweight" .
 ```
 
 ### Latest features
