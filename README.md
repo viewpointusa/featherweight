@@ -22,7 +22,7 @@ svn propset svn:externals "http://github.com/viewpointusa/featherweight/trunk fe
 
 ### Specific release
 ```
-svn propset svn:externals "http://github.com/viewpointusa/featherweight/tags/1.4.0 featherweight" .
+svn propset svn:externals "http://github.com/viewpointusa/featherweight/tags/1.5.0 featherweight" .
 ```
 
 ### Latest features
