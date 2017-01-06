@@ -38,11 +38,11 @@
 	<Item Name="FTW-Subscriber-AddAddresses.vi" Type="VI" URL="../FTW-Subscriber-AddAddresses.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!#A!W1(!!(A!!'":'6&amp;=N5X6C=W.S;7*F=CZM&gt;G.M98.T!!!42F28,6.V9H.D=GFQ&gt;'FP&lt;C"*&lt;A!%!!!!/%"Q!"Y!!"A72F28,6.V9H.D=GFC:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;%:56SV4&gt;7*T9X*J=(2J&lt;WYA4X6U!!!31$$`````#5&amp;E:(*F=X.F=Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!%!!5!"ABF=H*P=C"J&lt;A!!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!(U!]!!1!!!!!1!"!!%!!A!$!!%!!1!"!!%!!1!(!!%!!1!"!!A$!!%)!!!3!!!!!!!!!!!!!!!!!!!!$1!!!B!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!*!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074536980</Property>
 	</Item>
 	<Item Name="FTW-Subscriber-Destroy.vi" Type="VI" URL="../FTW-Subscriber-Destroy.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%"!!!!#!!W1(!!(A!!'":'6&amp;=N5X6C=W.S;7*F=CZM&gt;G.M98.T!!!42F28,6.V9H.D=GFQ&gt;'FP&lt;C"*&lt;A!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!A!$!!1):8*S&lt;X)A;7Y!!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!%!!1!"!!%!!1!"!!%!"1!"!!%!!1!'!Q!"#!!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!=!!!!!</Property>
@@ -52,6 +52,15 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+	</Item>
+	<Item Name="FTW-Subscriber-RemoveAddresses.vi" Type="VI" URL="../FTW-Subscriber-RemoveAddresses.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!#A!W1(!!(A!!'":'6&amp;=N5X6C=W.S;7*F=CZM&gt;G.M98.T!!!42F28,6.V9H.D=GFQ&gt;'FP&lt;C"*&lt;A!%!!!!/%"Q!"Y!!"A72F28,6.V9H.D=GFC:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;%:56SV4&gt;7*T9X*J=(2J&lt;WYA4X6U!!!31$$`````#5&amp;E:(*F=X.F=Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!%!!5!"ABF=H*P=C"J&lt;A!!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!(U!]!!1!!!!!1!"!!%!!A!$!!%!!1!"!!%!!1!(!!%!!1!"!!A$!!%)!!!3!!!!!!!!!!!!!!!!!!!!$1!!!B!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="FTW-Subscriber-Subscribe.vi" Type="VI" URL="../FTW-Subscriber-Subscribe.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'7!!!!$1!%!!!!/%"Q!"Y!!"A72F28,6.V9H.D=GFC:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;%:56SV4&gt;7*T9X*J=(2J&lt;WYA4X6U!!!31$$`````#5&amp;E:(*F=X.F=Q!G1(!!(A!!&amp;2.'6&amp;=N476T=W&amp;H:3ZM&gt;G.M98.T!!&gt;.:8.T97&gt;F!"*!=!!:!!%!!Q&gt;.:8.T97&gt;F!#J!=!!8!!!!!1!"!!!$[!!%&amp;V.V9H.D=GFC:8)A5G6H;8.U=G&amp;U;7^O!"^!!Q!91H6G:G6S)%2F=(2I)#AR)'6M:7VF&lt;H1J!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!(!!A!#1BF=H*P=C"J&lt;A!!&amp;E"1!!-!"Q!)!!E*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!1!#!!5!!!!!!!9!!!!+!!!!!!!!!!M$!!%)!!!!!!!!!!!!!!!!!!!!!!!!#1!!!B!!!!!*!!!!!!!!!!!!!!!#!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!$!!!!!!</Property>

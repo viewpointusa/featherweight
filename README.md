@@ -1,7 +1,7 @@
 # Featherweight
 This is a fork of an early version of the original [Featherweight](http://github.com/featherweight/featherweight) project for LabVIEW.
 
-## Changes
+## Differences from original
 This version removes emphasis on the Featherweight lib in favor of native LabVIEW. Core functionality has been rewritten to use native LabVIEW for easier deployment on Linux RT devices and as the only option on VxWorks devices. Some other improvements have been made.
 
 ## Checkout
@@ -22,7 +22,7 @@ svn propset svn:externals "http://github.com/viewpointusa/featherweight/trunk fe
 
 ### Specific release
 ```
-svn propset svn:externals "http://github.com/viewpointusa/featherweight/tags/1.4.0 featherweight" .
+svn propset svn:externals "http://github.com/viewpointusa/featherweight/tags/1.5.0 featherweight" .
 ```
 
 ### Latest features
@@ -36,6 +36,8 @@ If you are interested in a specific feature, these may be less stable
 ```
 svn propset svn:externals "http://github.com/viewpointusa/featherweight/branches/feature/<feature-name-here> featherweight" .
 ```
+
+## [Changelist](/docs/Changelog.txt)
 
 ## Contribute
 Contributions must be done using Git and by submitting pull requests. SVN is purely for consumption only.
