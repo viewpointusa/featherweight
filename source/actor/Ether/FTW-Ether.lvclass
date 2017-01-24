@@ -21,13 +21,13 @@
 	</Item>
 	<Item Name="FTW Framework" Type="Folder">
 		<Item Name="FTW-Ether-Address-Build.vi" Type="VI" URL="../FTW-Ether-Address-Build.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;\!!!!#A!%!!!!$E!Q`````Q21982I!!!;1$$`````%%6O:("P;7ZU)%&amp;E:(*F=X-!!)A!]&gt;(HV*1!!!!#%5:56SV&amp;&gt;'BF=CZM&gt;G.M98.T*%:56SV&amp;&gt;'BF=CV.:8.T97&gt;F6(*B&lt;H.Q&lt;X*U5W.I:7VF,G.U&lt;!"*1"9!!B:*&lt;C"Q=G^D:8.T)#BJ&lt;H"S&lt;W-[,S]J$&amp;2$5#!I&gt;'.Q/C]P+1!9476T=W&amp;H:3"5=G&amp;O=X"P=H1A5W.I:7VF!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!%!!5!"ABF=H*P=C"J&lt;A!!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!!!"!!)!!Q!!!!!!!!!(!!!!!!!!!!A$!!%)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!!*!!!!#!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#1!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;\!!!!#A!%!!!!$E!Q`````Q21982I!!!;1$$`````%%6O:("P;7ZU)%&amp;E:(*F=X-!!)A!]&gt;(HV*1!!!!#%5:56SV&amp;&gt;'BF=CZM&gt;G.M98.T*%:56SV&amp;&gt;'BF=CV.:8.T97&gt;F6(*B&lt;H.Q&lt;X*U5W.I:7VF,G.U&lt;!"*1"9!!B:*&lt;C"Q=G^D:8.T)#BJ&lt;H"S&lt;W-[,S]J$&amp;2$5#!I&gt;'.Q/C]P+1!9476T=W&amp;H:3"5=G&amp;O=X"P=H1A5W.I:7VF!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!%!!5!"ABF=H*P=C"J&lt;A!!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!!!"!!)!!Q!!!!!!!!!(!!!!!!!!!!A#!!%)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!*!!!!#!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="FTW-Ether-Address-RandomEphemeral.vi" Type="VI" URL="../FTW-Ether-Address-RandomEphemeral.vi">
@@ -121,5 +121,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+	</Item>
+	<Item Name="FTW-Ether-NewLoggerSubscription.vi" Type="VI" URL="../FTW-Ether-NewLoggerSubscription.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%B!!!!#1!%!!!!0%"Q!"Y!!"A72F28,6.V9H.D=GFC:8)O&lt;(:D&lt;'&amp;T=Q!!'56W:7ZU)%RP:W&gt;F=C"4&gt;7*T9X*J=(2J&lt;WY!'E!Q`````R"-&lt;W&gt;H:8)A5(6C&lt;'FT;'6S!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!$!!1!"1BF=H*P=C"J&lt;A!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!1!#!!!!!!!!!!!!!!!'!!!!!!!!!!=$!!%)!!!!!!!!!!!!!!!!!!!!!!!!#1!!!1)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 </LVClass>
