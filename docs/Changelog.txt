@@ -1,3 +1,6 @@
+Version 1.5.1
+-fixed: in some cases a JSON string was escaped twice leading to the actor file path not being correct
+
 Version 1.5.0
 -made message payload a strict type to avoid excessive JSON merging, which would cause cRIO to crash with large JSON strings
 -upgraded JSON methods to a newer version of FTW DLL
