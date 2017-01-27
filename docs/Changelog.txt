@@ -1,3 +1,10 @@
+Version 1.6.0
+-added an optional event publisher to the event logger
+-log file name now includes time
+-new log files can be created on a periodic basis using the LV time conversion code for the period desired (i.e. "FilePeriod": "m" will create a new log file each month)
+-added some boilerplate code to the actor template (class)
+-wired out roundtrip time on SendPoisonPill
+
 Version 1.5.1
 -fixed: in some cases a JSON string was escaped twice leading to the actor file path not being correct
 
