@@ -205,6 +205,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Core" Type="Folder">
 				<Item Name="Real-Time LED-Core.lvclass" Type="LVClass" URL="../Real-Time LED/Core/Real-Time LED-Core.lvclass"/>
 			</Item>
+			<Item Name="Real-Time LED_Color.ctl" Type="VI" URL="../Real-Time LED/Real-Time LED_Color.ctl"/>
 			<Item Name="Real-Time LED_Set Sequence.vi" Type="VI" URL="../Real-Time LED/Real-Time LED_Set Sequence.vi"/>
 			<Item Name="Real-Time LED_Turn Off.vi" Type="VI" URL="../Real-Time LED/Real-Time LED_Turn Off.vi"/>
 		</Item>
