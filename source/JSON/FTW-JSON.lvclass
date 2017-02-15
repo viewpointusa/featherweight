@@ -112,13 +112,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="FTW-JSON-Object-SetElement-Integer.vi" Type="VI" URL="../FTW-JSON-Object-SetElement-Integer.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#Q!I1(!!(A!!%B"'6&amp;=N3F.04CZM&gt;G.M98.T!!!,3F.04C"09GJF9X1!"!!!!#R!=!!?!!!3%%:56SV+5U^/,GRW9WRB=X-!!!^+5U^/)%^C;G6D&gt;#"P&gt;81!$%!Q`````Q.,:8E!#U!$!!6797RV:1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!&amp;!!9!"QBF=H*P=C"J&lt;A!!&amp;E"1!!-!"1!'!!=*:8*S&lt;X)A&lt;X6U!(U!]!!1!!!!!1!"!!%!!A!$!!%!"!!"!!%!!1!)!!%!!1!"!!E$!!%)!!!3!!!!!!!!!!!!!!!!!!!!$1!!!"!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#Q!I1(!!(A!!%B"'6&amp;=N3F.04CZM&gt;G.M98.T!!!,3F.04C"09GJF9X1!"!!!!#R!=!!?!!!3%%:56SV+5U^/,GRW9WRB=X-!!!^+5U^/)%^C;G6D&gt;#"P&gt;81!$%!Q`````Q.,:8E!#U!%!!6797RV:1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!&amp;!!9!"QBF=H*P=C"J&lt;A!!&amp;E"1!!-!"1!'!!=*:8*S&lt;X)A&lt;X6U!(U!]!!1!!!!!1!"!!%!!A!$!!%!"!!"!!%!!1!)!!%!!1!"!!E$!!%)!!!3!!!!!!!!!!!!!!!!!!!!$1!!!"!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
 		<Item Name="FTW-JSON-Object-SetElement-Object.vi" Type="VI" URL="../FTW-JSON-Object-SetElement-Object.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;K!!!!#Q!I1(!!(A!!%B"'6&amp;=N3F.04CZM&gt;G.M98.T!!!,3F.04C"09GJF9X1!"!!!!#Z!=!!?!!!3%%:56SV+5U^/,GRW9WRB=X-!!""+5U^/)&amp;*P&lt;X1A4W*K:7.U!!!-1$$`````!UNF?1!M1(!!(A!!%B"'6&amp;=N3F.04CZM&gt;G.M98.T!!!03F.04C"4&gt;7)N4W*K:7.U!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!5!"A!(#'6S=G^S)'FO!!!71&amp;!!!Q!&amp;!!9!"QFF=H*P=C"P&gt;81!@1$Q!"!!!!!"!!%!!1!#!!-!"!!"!!%!!1!"!!A!!1!"!!%!#1-!!1A!!")!!!!!!!!!!!!!!!!!!!!.!!!!%!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!"%!!!!!!1!!!!!!!!!!!!!!!!!"!!I!!!!!</Property>
@@ -236,7 +236,16 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342714384</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074536980</Property>
+	</Item>
+	<Item Name="FTW-JSON-SerializeAndDestroy.vi" Type="VI" URL="../FTW-JSON-SerializeAndDestroy.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%0!!!!#1!I1(!!(A!!%B"'6&amp;=N3F.04CZM&gt;G.M98.T!!!,3F.04C"09GJF9X1!"!!!!"R!-0````]43F.04C"4&gt;(*J&lt;G=A+&amp;652CUY+1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!$!!1!"1BF=H*P=C"J&lt;A!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!1!"!!)!!1!"!!%!!1!'!!%!!1!"!!=$!!%)!!!3!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
 	<Item Name="FTW-JSON-SerializeElement.vi" Type="VI" URL="../FTW-JSON-SerializeElement.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%]!!!!#Q!I1(!!(A!!%B"'6&amp;=N3F.04CZM&gt;G.M98.T!!!,3F.04C"09GJF9X1!"!!!!!R!-0````]$3W6Z!#"!-0````]727RF&lt;76O&gt;#"B=S"+5U^/)&amp;.U=GFO:Q!!$%!B"E:P&gt;7ZE0Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"1!'!!=):8*S&lt;X)A;7Y!!":!5!!$!!5!"A!(#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!1!"!!!!!A!$!!%!!1!"!!1!#!!"!!%!!1!*!Q!"#!!!%!!!!!!!!!!!!!!!!!!!!!U!!!!1!!!!#1!!!!!!!!!!!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!#A!!!!!</Property>
