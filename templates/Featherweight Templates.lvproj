@@ -22,9 +22,12 @@
 			<Item Name="Actor Template_Launch.vit" Type="VI" URL="../Actor Template/Actor Template_Launch.vit"/>
 			<Item Name="Actor Template_Template.vit" Type="VI" URL="../Actor Template/Actor Template_Template.vit"/>
 		</Item>
+		<Item Name="Extended Actor Template-Core.lvclass" Type="LVClass" URL="../Extended Actor Template/Core/Extended Actor Template-Core.lvclass"/>
+		<Item Name="FTW-ActorExtended.lvclass" Type="LVClass" URL="../../source/actor/Instance-Extended/FTW-ActorExtended.lvclass"/>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-AppLauncher-Core.lvclass" Type="LVClass" URL="../App Launcher/Core/FTW-AppLauncher-Core.lvclass"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
+		<Item Name="FTW-ExtendedActorTemplate.vi" Type="VI" URL="../FTW-ExtendedActorTemplate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
@@ -71,6 +74,8 @@
 			<Item Name="FTW-JSON-Element-Get.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Element-Get.vi"/>
 			<Item Name="FTW-JSON-Escape.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Escape.vi"/>
 			<Item Name="FTW-JSON-Format-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-String.vi"/>
+			<Item Name="FTW-JSON-Interpret-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Interpret-String.vi"/>
+			<Item Name="FTW-JSON-Keys.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Keys.vi"/>
 			<Item Name="FTW-JSON-Native-GetFlattenedValue.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Native-GetFlattenedValue.vi"/>
 			<Item Name="FTW-JSON-Native-HandleErrors.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Native-HandleErrors.vi"/>
 			<Item Name="FTW-JSON-Native-HandleUnflattenErrors.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Native-HandleUnflattenErrors.vi"/>
@@ -81,6 +86,7 @@
 			<Item Name="FTW-JSON-RegexHeader.vi" Type="VI" URL="../../source/JSON/FTW-JSON-RegexHeader.vi"/>
 			<Item Name="FTW-JSON-RegexParse.vi" Type="VI" URL="../../source/JSON/FTW-JSON-RegexParse.vi"/>
 			<Item Name="FTW-JSON-Type.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-Type.ctl"/>
+			<Item Name="FTW-JSON-Unescape.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Unescape.vi"/>
 			<Item Name="FTW-JSON-Validate.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Validate.vi"/>
 			<Item Name="FTW-JSON.lvclass" Type="LVClass" URL="../../source/JSON/FTW-JSON.lvclass"/>
 			<Item Name="FTW-Logger-Core.lvclass" Type="LVClass" URL="../../source/actor/EventLogger/Core/FTW-Logger-Core.lvclass"/>
