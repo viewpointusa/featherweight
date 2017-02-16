@@ -5,6 +5,7 @@
 		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
         "DebugEnableJobLogging": false,
+        "DebugShowPanel": true,
         "Publishers": {
             "PublisherOne": "inproc://*",
             "PublisherTwo": "tcp://localhost/publisher-two"
@@ -16,6 +17,7 @@
 		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
         "DebugEnableJobLogging": false,
+        "DebugShowPanel": true,
         "Connections": {
             "ActorOne": ""
         },
@@ -32,6 +34,7 @@
 		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
         "DebugEnableJobLogging": false,
+        "DebugShowPanel": true,
         "Connections": {
             "ActorOne": "",
 			"ActorThree": ""

@@ -74,6 +74,7 @@
 			<Item Name="FTW-JSON-Element-Get.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Element-Get.vi"/>
 			<Item Name="FTW-JSON-Escape.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Escape.vi"/>
 			<Item Name="FTW-JSON-Format-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-String.vi"/>
+			<Item Name="FTW-JSON-Interpret-Boolean.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Interpret-Boolean.vi"/>
 			<Item Name="FTW-JSON-Interpret-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Interpret-String.vi"/>
 			<Item Name="FTW-JSON-Keys.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Keys.vi"/>
 			<Item Name="FTW-JSON-Native-GetFlattenedValue.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Native-GetFlattenedValue.vi"/>
@@ -101,6 +102,7 @@
 			<Item Name="FTW-MessagePayload.ctl" Type="VI" URL="../../source/actor/Payload/FTW-MessagePayload.ctl"/>
 			<Item Name="FTW-NUM-Counter.vi" Type="VI" URL="../../source/Numeric/FTW-NUM-Counter.vi"/>
 			<Item Name="FTW-Panel-FrontPanel-Close.vi" Type="VI" URL="../../source/ui/Panel/FTW-Panel-FrontPanel-Close.vi"/>
+			<Item Name="FTW-Panel-FrontPanel-Open.vi" Type="VI" URL="../../source/ui/Panel/FTW-Panel-FrontPanel-Open.vi"/>
 			<Item Name="FTW-Publisher.lvclass" Type="LVClass" URL="../../source/actor/Publisher/FTW-Publisher.lvclass"/>
 			<Item Name="FTW-Reflection-Array.vi" Type="VI" URL="../../source/Reflection/FTW-Reflection-Array.vi"/>
 			<Item Name="FTW-Reflection-Cluster.vi" Type="VI" URL="../../source/Reflection/FTW-Reflection-Cluster.vi"/>
