@@ -1,5 +1,6 @@
-{
-    "ActorOne": {
+[
+    {
+        "Identity": "ActorOne",
         "InboxAddress": "inproc://*",
 		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
@@ -9,7 +10,8 @@
             "PublisherTwo": "tcp://localhost/publisher-two"
         }
     },
-    "ActorTwo": {
+    {
+        "Identity": "ActorTwo",
         "InboxAddress": "inproc://*",
 		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
@@ -24,7 +26,8 @@
             "PublisherOne": ""
         }
     },
-    "ActorThree": {
+    {
+        "Identity": "ActorThree",
         "InboxAddress": "inproc://*",
 		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
@@ -41,4 +44,4 @@
 			"PublisherThree": ""
         }
     }
-}
+]
