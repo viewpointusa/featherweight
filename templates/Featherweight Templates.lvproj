@@ -80,6 +80,7 @@
 			<Item Name="FTW-JSON-Native-GetFlattenedValue.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Native-GetFlattenedValue.vi"/>
 			<Item Name="FTW-JSON-Native-HandleErrors.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Native-HandleErrors.vi"/>
 			<Item Name="FTW-JSON-Native-HandleUnflattenErrors.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Native-HandleUnflattenErrors.vi"/>
+			<Item Name="FTW-JSON-ObjectManip-AddPair-Boolean.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair-Boolean.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-Element.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair-Element.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-Integer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair-Integer.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair.vi"/>
