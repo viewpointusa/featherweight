@@ -37,7 +37,7 @@
         "DebugShowPanel": true,
         "Connections": {
             "ActorOne": "",
-			"ActorThree": ""
+            "ActorTwo": ""
         },
         "Publishers": {
             "PublisherFour": "inproc://*"
