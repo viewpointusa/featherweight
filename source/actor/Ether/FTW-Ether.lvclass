@@ -59,13 +59,13 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="FTW-Ether-Connections-AE.vi" Type="VI" URL="../FTW-Ether-Connections-AE.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Y!!!!!A!%!!!!&lt;!$Q!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!1A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;F!!!!#Q!51$$`````#E.P&lt;GZF9X2J&lt;WY!!!1!!!"?!0%!!!!!!!!!!B&amp;'6&amp;=N282I:8)O&lt;(:D&lt;'&amp;T=S"'6&amp;=N282I:8)N1W^O&lt;G6D&gt;'FP&lt;H-N17.U;7^O,G.U&lt;!!D1"5!!Q62&gt;76S?1.":'1&amp;5G6T:81!"E&amp;D&gt;'FP&lt;A!!%%!Q`````Q&gt;":'2S:8.T!"B!-0````]02G6U9WBF:#"":'2S:8.T!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!5!"A!(#'6S=G^S)'FO!!!71&amp;!!!Q!&amp;!!9!"QFF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!"!!)!!1!"!!-!"!!"!!%!!1!"!!A!!1!"!!%!#1)!!1A!!B!!!!!!!!!!%!!!!!!!!!!!!!!#%!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074536963</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821059</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="FTW-Ether-CreateEndpoint.vi" Type="VI" URL="../FTW-Ether-CreateEndpoint.vi">
@@ -105,6 +105,24 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
+	</Item>
+	<Item Name="FTW-Ether-Connections-Add.vi" Type="VI" URL="../FTW-Ether-Connections-Add.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$P!!!!#1!51$$`````#E.P&lt;GZF9X2J&lt;WY!!!1!!!!11$$`````"U&amp;E:(*F=X-!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!Q!%!!5):8*S&lt;X)A;7Y!!":!5!!$!!-!"!!&amp;#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!%!!A!"!!%!!1!"!!%!"A!"!!%!!1!(!A!"#!!#%!!!!!!!!!!!!!!!!!!!!!!!!!)1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
+	</Item>
+	<Item Name="FTW-Ether-Connections-Query.vi" Type="VI" URL="../FTW-Ether-Connections-Query.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$X!!!!#1!51$$`````#E.P&lt;GZF9X2J&lt;WY!!!1!!!!91$$`````$U:F&gt;'.I:71A172E=G6T=Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!$!!1!"1BF=H*P=C"J&lt;A!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!1!"!!)!!1!"!!%!!1!'!!%!!1!"!!=#!!%)!!)1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 	</Item>
 	<Item Name="FTW-Ether-Construct.vi" Type="VI" URL="../FTW-Ether-Construct.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!#!!%!!!!)%!Q`````R&gt;'6&amp;=A282I:8)A1W^O:GFH&gt;8*B&gt;'FP&lt;A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!#!!-!"!BF=H*P=C"J&lt;A!!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!!!"!!!!!!!!!!!!!!!&amp;!!!!!!!!!!9$!!%)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!"Q!!!!!</Property>
