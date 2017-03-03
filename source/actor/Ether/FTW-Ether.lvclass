@@ -48,6 +48,16 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
+		<Item Name="FTW-Ether-Configuration-Populate.vi" Type="VI" URL="../FTW-Ether-Configuration-Populate.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%.!!!!#1!%!!!!(E!Q`````R2$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;.U=GFO:Q!!*%!Q`````RN';7RM:71A1W^O:GFH&gt;8*B&gt;'FP&lt;C"4&gt;(*J&lt;G=!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!Q!%!!5):8*S&lt;X)A;7Y!!":!5!!$!!-!"!!&amp;#76S=G^S)'^V&gt;!"M!0!!%!!!!!!!!!!!!!!!!1!#!!!!!!!!!!!!"A!!!!!!!!!(!Q!"#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777346</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074528784</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		</Item>
 		<Item Name="FTW-Ether-Connections-Action.ctl" Type="VI" URL="../FTW-Ether-Connections-Action.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!1"9!0%!!!!!!!!!!B&amp;'6&amp;=N282I:8)O&lt;(:D&lt;'&amp;T=S"'6&amp;=N282I:8)N1W^O&lt;G6D&gt;'FP&lt;H-N17.U;7^O,G.U&lt;!!&gt;1"5!!A62&gt;76S?1.":'1!"E&amp;D&gt;'FP&lt;A!!!1!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -168,5 +178,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="FTW-Ether-SpawnNewActor-Core.vi" Type="VI" URL="../FTW-Ether-SpawnNewActor-Core.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%X!!!!#A!%!!!!/E"Q!"Y!!"Q;2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!".'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S!":!-0````].1W^O:GFH&gt;8*B&gt;'FP&lt;A!=1#%75G6H;8.U:8)A4G6X)%&amp;E:(*F=X.F=Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"!!&amp;!!9):8*S&lt;X)A;7Y!!":!5!!$!!1!"1!'#76S=G^S)'^V&gt;!"M!0!!%!!!!!!!!!!!!!%!!A!!!!!!!!!$!!!!"Q!!!!!!!!!)!Q!"#!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 </LVClass>
