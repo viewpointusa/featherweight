@@ -25,7 +25,7 @@
 		</Item>
 		<Item Name="App Launcher" Type="Folder">
 			<Item Name="FTW-AppLauncher-Core.lvclass" Type="LVClass" URL="../App Launcher/Core/FTW-AppLauncher-Core.lvclass"/>
-			<Item Name="FTW_AppLauncher_Connection_Fetch.vi" Type="VI" URL="../App Launcher/FTW_AppLauncher_Connection_Fetch.vi"/>
+			<Item Name="FTW_AppLauncher_Connection_Query.vi" Type="VI" URL="../App Launcher/FTW_AppLauncher_Connection_Query.vi"/>
 		</Item>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
