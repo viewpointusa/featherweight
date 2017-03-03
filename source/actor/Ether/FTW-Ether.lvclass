@@ -48,6 +48,36 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
+		<Item Name="FTW-Ether-Configuration-Populate.vi" Type="VI" URL="../FTW-Ether-Configuration-Populate.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%.!!!!#1!%!!!!(E!Q`````R2$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;.U=GFO:Q!!*%!Q`````RN';7RM:71A1W^O:GFH&gt;8*B&gt;'FP&lt;C"4&gt;(*J&lt;G=!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!Q!%!!5):8*S&lt;X)A;7Y!!":!5!!$!!-!"!!&amp;#76S=G^S)'^V&gt;!"M!0!!%!!!!!!!!!!!!!!!!1!#!!!!!!!!!!!!"A!!!!!!!!!(!Q!"#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777346</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074528784</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		</Item>
+		<Item Name="FTW-Ether-Connections-Action.ctl" Type="VI" URL="../FTW-Ether-Connections-Action.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!1"9!0%!!!!!!!!!!B&amp;'6&amp;=N282I:8)O&lt;(:D&lt;'&amp;T=S"'6&amp;=N282I:8)N1W^O&lt;G6D&gt;'FP&lt;H-N17.U;7^O,G.U&lt;!!&gt;1"5!!A62&gt;76S?1.":'1!"E&amp;D&gt;'FP&lt;A!!!1!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		</Item>
+		<Item Name="FTW-Ether-Connections-AE.vi" Type="VI" URL="../FTW-Ether-Connections-AE.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;F!!!!#Q!51$$`````#E.P&lt;GZF9X2J&lt;WY!!!1!!!"?!0%!!!!!!!!!!B&amp;'6&amp;=N282I:8)O&lt;(:D&lt;'&amp;T=S"'6&amp;=N282I:8)N1W^O&lt;G6D&gt;'FP&lt;H-N17.U;7^O,G.U&lt;!!D1"5!!Q62&gt;76S?1.":'1&amp;5G6T:81!"E&amp;D&gt;'FP&lt;A!!%%!Q`````Q&gt;":'2S:8.T!"B!-0````]02G6U9WBF:#"":'2S:8.T!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!5!"A!(#'6S=G^S)'FO!!!71&amp;!!!Q!&amp;!!9!"QFF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!"!!)!!1!"!!-!"!!"!!%!!1!"!!A!!1!"!!%!#1)!!1A!!B!!!!!!!!!!%!!!!!!!!!!!!!!#%!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!+!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821059</Property>
+			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		</Item>
 		<Item Name="FTW-Ether-CreateEndpoint.vi" Type="VI" URL="../FTW-Ether-CreateEndpoint.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(T!!!!#A!%!!!!,E"Q!"Y!!"952F28,56O:("P;7ZU,GRW9WRB=X-!!!R'6&amp;=A27ZE='^J&lt;H1!!()!]=_#ZW5!!!!#%5:56SV&amp;&gt;'BF=CZM&gt;G.M98.T'E:56SV&amp;&gt;'BF=CV&amp;&lt;G2Q&lt;WFO&gt;&amp;2Z='5O9X2M!$V!&amp;A!%"F.F=H:F=A:$&lt;'FF&lt;H1*5(6C&lt;'FT;'6S#F.V9H.D=GFC:8)!!!V&amp;&lt;G2Q&lt;WFO&gt;#"5?8"F!)A!]&gt;(HV*1!!!!#%5:56SV&amp;&gt;'BF=CZM&gt;G.M98.T*%:56SV&amp;&gt;'BF=CV.:8.T97&gt;F6(*B&lt;H.Q&lt;X*U5W.I:7VF,G.U&lt;!"*1"9!!B:*&lt;C"Q=G^D:8.T)#BJ&lt;H"S&lt;W-[,S]J$&amp;2$5#!I&gt;'.Q/C]P+1!9476T=W&amp;H:3"5=G&amp;O=X"P=H1A5W.I:7VF!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!%!!5!"ABF=H*P=C"J&lt;A!!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!1!#!!!!!Q!!!!!!!!!(!!!!!!!!!!A#!!%)!!!!!!!!!!!!!!!!!!!!!!!!#1!!!"!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -85,6 +115,24 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 		</Item>
+	</Item>
+	<Item Name="FTW-Ether-Connections-Add.vi" Type="VI" URL="../FTW-Ether-Connections-Add.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$P!!!!#1!51$$`````#E.P&lt;GZF9X2J&lt;WY!!!1!!!!11$$`````"U&amp;E:(*F=X-!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!Q!%!!5):8*S&lt;X)A;7Y!!":!5!!$!!-!"!!&amp;#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!%!!A!"!!%!!1!"!!%!"A!"!!%!!1!(!A!"#!!#%!!!!!!!!!!!!!!!!!!!!!!!!!)1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342713856</Property>
+	</Item>
+	<Item Name="FTW-Ether-Connections-Query.vi" Type="VI" URL="../FTW-Ether-Connections-Query.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$X!!!!#1!51$$`````#E.P&lt;GZF9X2J&lt;WY!!!1!!!!91$$`````$U:F&gt;'.I:71A172E=G6T=Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!$!!1!"1BF=H*P=C"J&lt;A!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!1!"!!)!!1!"!!%!!1!'!!%!!1!"!!=#!!%)!!)1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268967936</Property>
 	</Item>
 	<Item Name="FTW-Ether-Construct.vi" Type="VI" URL="../FTW-Ether-Construct.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!#!!%!!!!)%!Q`````R&gt;'6&amp;=A282I:8)A1W^O:GFH&gt;8*B&gt;'FP&lt;A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!#!!-!"!BF=H*P=C"J&lt;A!!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!!!"!!!!!!!!!!!!!!!&amp;!!!!!!!!!!9$!!%)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!"Q!!!!!</Property>
@@ -130,5 +178,23 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="FTW-Ether-SpawnNewActor-Core.vi" Type="VI" URL="../FTW-Ether-SpawnNewActor-Core.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!$!!%!!!!/E"Q!"Y!!"Q;2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!".'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S!":!-0````].1W^O:GFH&gt;8*B&gt;'FP&lt;A!?1$$`````&amp;%FO;82J97RJ?G6E)&amp;*F=X"P&lt;H.F!!!A1$$`````&amp;EFO=X2B&lt;G.F)%FO9G^Y)%&amp;E:(*F=X-!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!5!"A!(#'6S=G^S)'FO!!!=1#%75G6H;8.U:8)A4G6X)%&amp;E:(*F=X.F=Q!!&amp;E"1!!-!"1!'!!=*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!1!#!!-!!!!%!!!!!!!)!!E!!!!!!!I$!!%)!!!!!!!!!!!!!!!!!!!!!!!!#1!!!"!!!!!*!!!!!!!!!!E!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="FTW-Ether-SpawnNewActor-Refnum.vi" Type="VI" URL="../FTW-Ether-SpawnNewActor-Refnum.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'?!!!!$A!%!!!!/E"Q!"Y!!"Q;2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!".'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S!":!-0````].1W^O:GFH&gt;8*B&gt;'FP&lt;A!?1$$`````&amp;%FO;82J97RJ?G6E)&amp;*F=X"P&lt;H.F!!!=1(!!#!!!!!)!!!^"9X2P=C"733"3:7:O&gt;7U!)%!Q`````R:*&lt;H.U97ZD:3"*&lt;G*P?#"":'2S:8.T!!!.1!-!"V2J&lt;76P&gt;81!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"Q!)!!E):8*S&lt;X)A;7Y!!"R!)2:3:7&gt;J=X2F=C"/:8=A172E=G6T=W6T!!!71&amp;!!!Q!(!!A!#1FF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!!!!!!!!!"!!)!!Q!%!!5!"A!!!!I!#Q!!!!!!$!-!!1A!!!!!!!!!!!!!!!!!!!!!!!!*!!!!%!!!!!E!!!!1!!!!#1!!!!A!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!.!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">160</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
 </LVClass>
