@@ -1,3 +1,6 @@
+Version 1.6.1
+-fixed bug in TCP request worker that would rail CPU if named connection is not found
+
 Version 1.6.0
 -added an optional event publisher to the event logger
 -log file name now includes time
