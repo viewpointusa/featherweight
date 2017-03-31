@@ -51,13 +51,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
 	<Item Name="FTW-Logger-Launch.vi" Type="VI" URL="../FTW-Logger-Launch.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#A!%!!!!.%"Q!"Y!!"132F28,5RP:W&gt;F=CZM&gt;G.M98.T!!!52F28)%RP:W&gt;F=C"$&lt;WZO:7.U&lt;X)!!#*!-0````]92F28)%RP:W&gt;F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O!!!91$$`````$ERP:W&gt;F=C"":'2S:8.T!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!%!!5!"ABF=H*P=C"J&lt;A!!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!1!#!!-!!!!!!!!!!!!(!!!!!!!!!!A$!!%)!!!!!!!!!!!!!!!!!!!!!!!!#1!!!"!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#1!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;4!!!!#Q!%!!!!.%"Q!"Y!!"132F28,5RP:W&gt;F=CZM&gt;G.M98.T!!!52F28)%RP:W&gt;F=C"$&lt;WZO:7.U&lt;X)!!#*!-0````]92F28)%RP:W&gt;F=C"$&lt;WZG;7&gt;V=G&amp;U;7^O!!!91$$`````$ERP:W&gt;F=C"":'2S:8.T!!!;1$$`````%6"V9GRJ=WBF=C"":'2S:8.T!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!5!"A!(#'6S=G^S)'FO!!!71&amp;!!!Q!&amp;!!9!"QFF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!!!!!!!!!"!!)!!Q!!!!1!!!!!!!A!!!!!!!!!#1-!!1A!!!!!!!!!!!!!!!!!!!!!!!!*!!!!%!!!!!E!!!!!!!!!#1!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
 	<Item Name="FTW-Logger-Level.ctl" Type="VI" URL="../FTW-Logger-Level.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#N!!!!!1#F!0%!!!!!!!!!!Q^'6&amp;=N17.U&lt;X)O&lt;(:M;7)82F28,56W:7ZU4'^H:W6S,GRW9WRB=X-22F28,5RP:SV-:8:F&lt;#ZD&gt;'Q!9U!8!!A*27VF=G&gt;F&lt;G.Z"5&amp;M:8*U#%.S;82J9W&amp;M"56S=G^S"V&gt;B=GZJ&lt;G='4G^U;7.F$5FO:G^S&lt;7&amp;U;7^O97Q&amp;2'6C&gt;7=!&amp;%6W:7ZU)&amp;.F&gt;G6S;82Z)%RF&gt;G6M!!!"!!!!!!!!</Property>

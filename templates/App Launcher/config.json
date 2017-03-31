@@ -1,0 +1,50 @@
+[
+    {
+        "Identity": "ActorOne",
+        "InboxAddress": "inproc://*",
+		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
+        "LoggerAddress": "",
+        "DebugEnableJobLogging": false,
+        "DebugShowPanel": true,
+        "Publishers": {
+            "PublisherOne": "inproc://*",
+            "PublisherTwo": "tcp://localhost/publisher-two"
+        }
+    },
+    {
+        "Identity": "ActorTwo",
+        "InboxAddress": "inproc://*",
+		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
+        "LoggerAddress": "",
+        "DebugEnableJobLogging": false,
+        "DebugShowPanel": true,
+        "Connections": {
+            "ActorOne": ""
+        },
+        "Publishers": {
+            "PublisherThree": "inproc://*"
+        },
+        "Subscriptions": {
+            "PublisherOne": ""
+        }
+    },
+    {
+        "Identity": "ActorThree",
+        "InboxAddress": "inproc://*",
+		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
+        "LoggerAddress": "",
+        "DebugEnableJobLogging": false,
+        "DebugShowPanel": true,
+        "Connections": {
+            "ActorOne": "",
+            "ActorTwo": ""
+        },
+        "Publishers": {
+            "PublisherFour": "inproc://*"
+        },
+        "Subscriptions": {
+            "PublisherOne": "",
+			"PublisherThree": ""
+        }
+    }
+]

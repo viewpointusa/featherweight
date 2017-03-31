@@ -19,6 +19,14 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="actor" Type="Folder">
+			<Item Name="Event" Type="Folder">
+				<Item Name="FTW-Event-Construct.vi" Type="VI" URL="../actor/Event/FTW-Event-Construct.vi"/>
+				<Item Name="FTW-Event-Deserialize-JSON.vi" Type="VI" URL="../actor/Event/FTW-Event-Deserialize-JSON.vi"/>
+				<Item Name="FTW-Event-Flatten.vi" Type="VI" URL="../actor/Event/FTW-Event-Flatten.vi"/>
+				<Item Name="FTW-Event-FlattenJSON.vi" Type="VI" URL="../actor/Event/FTW-Event-FlattenJSON.vi"/>
+				<Item Name="FTW-Event-Serialize-JSON.vi" Type="VI" URL="../actor/Event/FTW-Event-Serialize-JSON.vi"/>
+				<Item Name="FTW-Event.ctl" Type="VI" URL="../actor/Event/FTW-Event.ctl"/>
+			</Item>
 			<Item Name="Framework" Type="Folder"/>
 			<Item Name="Message" Type="Folder">
 				<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../actor/Message/Request/FTW-Message-IncomingRequest.lvclass"/>
@@ -47,6 +55,7 @@
 			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../actor/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			<Item Name="FTW-Actor-UserDefinedTraceEvent.vi" Type="VI" URL="../actor/Utility/FTW-Actor-UserDefinedTraceEvent.vi"/>
 			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../actor/Connector/FTW-ActorConnector.lvclass"/>
+			<Item Name="FTW-ActorExtended.lvclass" Type="LVClass" URL="../actor/Instance-Extended/FTW-ActorExtended.lvclass"/>
 			<Item Name="FTW-ActorInstance.lvclass" Type="LVClass" URL="../actor/Instance/FTW-ActorInstance.lvclass"/>
 			<Item Name="FTW-Ether.lvclass" Type="LVClass" URL="../actor/Ether/FTW-Ether.lvclass"/>
 			<Item Name="FTW-JobSequencer.lvclass" Type="LVClass" URL="../actor/JobSequencer/FTW-JobSequencer.lvclass"/>
@@ -250,6 +259,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">

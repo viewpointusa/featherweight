@@ -133,4 +133,22 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 	</Item>
+	<Item Name="FTW-SQLite-Transaction-Begin.vi" Type="VI" URL="../FTW-SQLite-Transaction-Begin.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'+!!!!#Q![1(!!(A!!(BR'6&amp;=N5V&amp;-;82F,5.P&lt;GZF9X2P=CZM&gt;G.M98.T!!!15V&amp;-;82F)%.P&lt;GZF9X2P=A!!"!!!!$Z!=!!?!!!?(%:56SV455RJ&gt;'5N1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!"2455RJ&gt;'5A1W^O&lt;G6D&gt;'^S)'^V&gt;!!!(5!+!"&gt;5;7VF)(2P)%6Y:7.V&gt;'5L1W^N='FM:1!:1!I!%V2J&lt;75A&gt;']A1W^N='FM:3"455Q!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"1!'!!=):8*S&lt;X)A;7Y!!":!5!!$!!5!"A!(#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!1!"!!)!!1!$!!%!"!!"!!%!#!!"!!%!!1!*!Q!"#!!!%!!!!!!!!!!!!!!!!!!!!!U!!!!!!!!!#1!!!!!!!!!*!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!#A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="FTW-SQLite-Transaction-End.vi" Type="VI" URL="../FTW-SQLite-Transaction-End.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'+!!!!#Q![1(!!(A!!(BR'6&amp;=N5V&amp;-;82F,5.P&lt;GZF9X2P=CZM&gt;G.M98.T!!!15V&amp;-;82F)%.P&lt;GZF9X2P=A!!"!!!!$Z!=!!?!!!?(%:56SV455RJ&gt;'5N1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!"2455RJ&gt;'5A1W^O&lt;G6D&gt;'^S)'^V&gt;!!!(5!+!"&gt;5;7VF)(2P)%6Y:7.V&gt;'5L1W^N='FM:1!:1!I!%V2J&lt;75A&gt;']A1W^N='FM:3"455Q!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"1!'!!=):8*S&lt;X)A;7Y!!":!5!!$!!5!"A!(#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!1!"!!)!!1!$!!%!"!!"!!%!#!!"!!%!!1!*!Q!"#!!!%!!!!!!!!!!!!!!!!!!!!!U!!!!!!!!!#1!!!!!!!!!*!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!#A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 </LVClass>
