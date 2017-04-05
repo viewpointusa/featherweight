@@ -1,3 +1,6 @@
+Version 1.7.1
+-fixed issue with not escaping pre-populated connections in FTW-Ether-Configuration-Populate.vi
+
 Version 1.7.0
 -added dummy launcher template
 -added FTW-JSON-Lint.vi to check a JSON string for validity as well as the best way of formatting a JSON string with indents (pretty print)
