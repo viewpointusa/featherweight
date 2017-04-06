@@ -1,3 +1,6 @@
+Version 1.7.2
+-inverted timeout and error case in endpoint receive worker to fix CPU railing when publisher is killed before subscriber
+
 Version 1.7.1
 -fixed issue with not escaping pre-populated connections in FTW-Ether-Configuration-Populate.vi
 
