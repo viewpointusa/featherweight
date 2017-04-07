@@ -1,3 +1,6 @@
+Version 1.7.3
+-fixed issue with extended actor fetching the wrong child
+
 Version 1.7.2
 -inverted timeout and error case in endpoint receive worker to fix CPU railing when publisher is killed before subscriber
 
