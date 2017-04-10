@@ -1,3 +1,26 @@
+Version 1.7.3
+-fixed issue with extended actor fetching the wrong child
+
+Version 1.7.2
+-inverted timeout and error case in endpoint receive worker to fix CPU railing when publisher is killed before subscriber
+
+Version 1.7.1
+-fixed issue with not escaping pre-populated connections in FTW-Ether-Configuration-Populate.vi
+
+Version 1.7.0
+-added dummy launcher template
+-added FTW-JSON-Lint.vi to check a JSON string for validity as well as the best way of formatting a JSON string with indents (pretty print)
+-added RT LED actor template
+-fixed a bug in FTW-JSON-SerializeElement.vi because of missing encoding flags
+-added extended actor class that automatically registers subscribers and connections
+-added app launcher template
+-added launch VIs to Ether that will register publisher and actor connector addresses that can be recalled as later actors are launched
+-added connection dictionary to Ether for actors launched from Ether launch VIs
+-added tool to view actors in memory and open their FPs or BDs
+-changed the event logger to publish a JSON flattened event message instead of the fully flattened event text
+-added SQLite transaction wrappers
+-added tool to wipe genealogy info from classes for better performance
+
 Version 1.6.1
 -fixed bug in TCP request worker that would rail CPU if named connection is not found
 
