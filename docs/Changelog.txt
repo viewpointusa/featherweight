@@ -1,3 +1,6 @@
+Version 1.7.4
+-fixed issue with removing the wrong child connection from actor extended
+
 Version 1.7.3
 -fixed issue with extended actor fetching the wrong child
 
