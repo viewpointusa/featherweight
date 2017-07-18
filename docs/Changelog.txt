@@ -1,3 +1,8 @@
+Version 1.8.0
+-exposed the connection timeout parameter for FTW-Subscriber-Subscribe.vi
+-made the timeout input optional for FTW-Subscriber-AddAddresses.vi
+-fixed issue with FTW-Actor-Destroy.vi that failed to close local messengers with an incoming error
+
 Version 1.7.4
 -fixed issue with removing the wrong child connection from actor extended
 
