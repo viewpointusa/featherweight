@@ -19,11 +19,13 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="actor" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Event" Type="Folder">
 				<Item Name="FTW-Event-Construct.vi" Type="VI" URL="../actor/Event/FTW-Event-Construct.vi"/>
 				<Item Name="FTW-Event-Deserialize-JSON.vi" Type="VI" URL="../actor/Event/FTW-Event-Deserialize-JSON.vi"/>
 				<Item Name="FTW-Event-Flatten.vi" Type="VI" URL="../actor/Event/FTW-Event-Flatten.vi"/>
 				<Item Name="FTW-Event-FlattenJSON.vi" Type="VI" URL="../actor/Event/FTW-Event-FlattenJSON.vi"/>
+				<Item Name="FTW-Event-Level.ctl" Type="VI" URL="../actor/Event/FTW-Event-Level.ctl"/>
 				<Item Name="FTW-Event-Serialize-JSON.vi" Type="VI" URL="../actor/Event/FTW-Event-Serialize-JSON.vi"/>
 				<Item Name="FTW-Event.ctl" Type="VI" URL="../actor/Event/FTW-Event.ctl"/>
 			</Item>
