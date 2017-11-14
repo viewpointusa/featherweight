@@ -1,3 +1,6 @@
+Version 1.9.1
+-fixed corner case of JSON deserialize not properly formatting an empty array of clusters
+
 Version 1.9.0
 -added a reply send worker to TCP so that actors don't wait for reply messages to send before moving on
 
