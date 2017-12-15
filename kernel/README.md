@@ -53,7 +53,7 @@ Win32: [![Win32 status](https://ci.appveyor.com/api/projects/status/gw4vlhfi50u0
 
   - To pull the latest changes: `git pull origin master` then `git submodule update --init --recursive`
 
-##Building for Windows
+## Building for Windows
 
 #### Prerequisites
   1. CMake 2.8.12 or higher
