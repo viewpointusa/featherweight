@@ -1,3 +1,8 @@
+Version 1.9.2
+-added more reminders to include static links in app launcher core, also set visible job to static links job
+-not pretty printing event JSON for brevity and for cases where it is passed as job data
+-added other waveform data types to conversion
+
 Version 1.9.1
 -fixed corner case of JSON deserialize not properly formatting an empty array of clusters
 
