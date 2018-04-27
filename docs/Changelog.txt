@@ -1,4 +1,5 @@
-Version 1.9.2
+Version 1.10.0
+-fixed incorrect interpretation of timestamp in JSON native parsing, changed it to accept both timestamp (string) and floating point fields
 -added more reminders to include static links in app launcher core, also set visible job to static links job
 -not pretty printing event JSON for brevity and for cases where it is passed as job data
 -added other waveform data types to conversion
