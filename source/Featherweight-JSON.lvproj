@@ -12,9 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="container" Type="Folder">
-			<Item Name="FTW-Container-Element-Get.vi" Type="VI" URL="../container/FTW-Container-Element-Get.vi"/>
-			<Item Name="FTW-Container-Element-Path.vi" Type="VI" URL="../container/FTW-Container-Element-Path.vi"/>
-			<Item Name="FTW-Container-Update.vi" Type="VI" URL="../container/FTW-Container-Update.vi"/>
+			<Item Name="FTW-Container.lvclass" Type="LVClass" URL="../container/FTW-Container.lvclass"/>
 		</Item>
 		<Item Name="json" Type="Folder">
 			<Item Name="core" Type="Folder">
