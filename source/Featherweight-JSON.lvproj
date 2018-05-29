@@ -99,6 +99,7 @@
 		</Item>
 		<Item Name="FTW-JSON-Container-Serialize.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Serialize.vi"/>
 		<Item Name="FTW-JSON-Container-Traverse.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Traverse.vi"/>
+		<Item Name="FTW-JSON-Interpret-Core.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret-Core.vi"/>
 		<Item Name="FTW-JSON-Interpret.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret.vi"/>
 		<Item Name="FTW-JSON-Part.ctl" Type="VI" URL="../JSON/FTW-JSON-Part.ctl"/>
 		<Item Name="FTW-JSON-Reflection-Type.vi" Type="VI" URL="../JSON/FTW-JSON-Reflection-Type.vi"/>
