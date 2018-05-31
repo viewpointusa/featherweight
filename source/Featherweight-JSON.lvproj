@@ -96,6 +96,7 @@
 		</Item>
 		<Item Name="test" Type="Folder">
 			<Item Name="FTW-Test-JSON-Container.vi" Type="VI" URL="../../test/JSON/FTW-Test-JSON-Container.vi"/>
+			<Item Name="FTW-Test-JSON-Parse.vi" Type="VI" URL="../../test/FTW-Test-JSON-Parse.vi"/>
 		</Item>
 		<Item Name="FTW-JSON-Container-Serialize.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Serialize.vi"/>
 		<Item Name="FTW-JSON-Container-Traverse.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Traverse.vi"/>
@@ -140,6 +141,7 @@
 			<Item Name="FTW-STR-Array-Delimit.vi" Type="VI" URL="../String/FTW-STR-Array-Delimit.vi"/>
 			<Item Name="FTW-STR-Encode-Base64.vi" Type="VI" URL="../String/FTW-STR-Encode-Base64.vi"/>
 			<Item Name="FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="../String/FTW-STR-ReplaceWhitespace.vi"/>
+			<Item Name="FTW-STR-Split.vi" Type="VI" URL="../String/FTW-STR-Split.vi"/>
 			<Item Name="FTW-Time-Display-Timestamp.vi" Type="VI" URL="../Time/FTW-Time-Display-Timestamp.vi"/>
 			<Item Name="FTW-Time-DisplayFormat-Timestamp.ctl" Type="VI" URL="../Time/FTW-Time-DisplayFormat-Timestamp.ctl"/>
 			<Item Name="FTW-Type-JSON.ctl" Type="VI" URL="../core/type/FTW-Type-JSON.ctl"/>
