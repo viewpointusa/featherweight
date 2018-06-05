@@ -45,13 +45,13 @@
 		</Item>
 	</Item>
 	<Item Name="FTW-Container-Destroy.vi" Type="VI" URL="../FTW-Container-Destroy.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$^!!!!#!!S1(!!(A!!&amp;R6'6&amp;=N1W^O&gt;'&amp;J&lt;G6S,GRW9WRB=X-!%%:56SV$&lt;WZU97FO:8)A37Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!#!!-!"!BF=H*P=C"J&lt;A!!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!1!"!!%!!1!"!!%!!1!&amp;!!%!!1!"!!9#!!%)!!!1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!"Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%:!!!!#A!S1(!!(A!!&amp;R6'6&amp;=N1W^O&gt;'&amp;J&lt;G6S,GRW9WRB=X-!%%:56SV$&lt;WZU97FO:8)A37Y!!!1!!!!/1$$`````"%ZB&lt;75!!!Z!5QF$&lt;WZU97FO:8)!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"!!&amp;!!9):8*S&lt;X)A;7Y!!":!5!!$!!1!"1!'#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!1!$!!%!!1!"!!%!"Q!"!!%!!1!)!A!"#!!!%!!!!!!!!!!!!!!!!!!!!!E!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 	<Item Name="FTW-Container-Element-Get.vi" Type="VI" URL="../FTW-Container-Element-Get.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'-!!!!$!!S1(!!(A!!&amp;R6'6&amp;=N1W^O&gt;'&amp;J&lt;G6S,GRW9WRB=X-!%%:56SV$&lt;WZU97FO:8)A37Y!!!1!!!!S1(!!(A!!&amp;R6'6&amp;=N1W^O&gt;'&amp;J&lt;G6S,GRW9WRB=X-!%5:56SV$&lt;WZU97FO:8)A4X6U!":!-0````]-27RF&lt;76O&gt;#"/97VF!!!M1(!!(A!!&amp;R6'6&amp;=N1W^O&gt;'&amp;J&lt;G6S,GRW9WRB=X-!#U6M:7VF&lt;H1A4X6U!!J!)16'&lt;X6O:!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!'!!=!#!BF=H*P=C"J&lt;A!!&amp;E"1!!-!"A!(!!A*:8*S&lt;X)A&lt;X6U!(U!]!!1!!!!!1!"!!%!!A!$!!1!!1!&amp;!!%!!1!*!!%!!1!"!!I$!!%)!!!1!!!!!!!!!!!!!!!!!!!!$1!!!B!!!!!*!!!!!!!!!!E!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!,!!!!!!</Property>
@@ -70,6 +70,15 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="FTW-Container-Equality.vi" Type="VI" URL="../FTW-Container-Equality.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;[!!!!#Q!S1(!!(A!!&amp;R6'6&amp;=N1W^O&gt;'&amp;J&lt;G6S,GRW9WRB=X-!%%:56SV$&lt;WZU97FO:8)A37Y!!!1!!!!S1(!!(A!!&amp;R6'6&amp;=N1W^O&gt;'&amp;J&lt;G6S,GRW9WRB=X-!%5:56SV$&lt;WZU97FO:8)A4X6U!$"!=!!?!!!8&amp;5:56SV$&lt;WZU97FO:8)O&lt;(:D&lt;'&amp;T=Q!04X2I:8)A1W^O&gt;'&amp;J&lt;G6S!!J!)16&amp;=86B&lt;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!&amp;!!9!"QBF=H*P=C"J&lt;A!!&amp;E"1!!-!"1!'!!=*:8*S&lt;X)A&lt;X6U!(U!]!!1!!!!!1!"!!%!!A!$!!%!!1!%!!%!!1!)!!%!!1!"!!E#!!%)!!!1!!!!!!!!!!!!!!!!!!!!$1!!!"!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!+!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
 	<Item Name="FTW-Container-New-FromContainer.vi" Type="VI" URL="../FTW-Container-New-FromContainer.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%6!!!!#A!/1$$`````"%ZB&lt;75!!!1!!!!O1(!!(A!!&amp;R6'6&amp;=N1W^O&gt;'&amp;J&lt;G6S,GRW9WRB=X-!$5:56SV$&lt;WZU97FO:8)!$E"4#5.P&lt;H2B;7ZF=A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!%!!5!"ABF=H*P=C"J&lt;A!!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!1!"!!%!!A!$!!%!!1!"!!%!!1!(!!%!!1!"!!A#!!%)!!)1!!!!!!!!!!!!!!!!!!!!#1!!!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#1!!!!!</Property>
