@@ -48,21 +48,10 @@
 			<Item Name="FTW-JSON-Native-GetFlattenedValue.vi" Type="VI" URL="../JSON/FTW-JSON-Native-GetFlattenedValue.vi"/>
 			<Item Name="FTW-JSON-Native-HandleErrors.vi" Type="VI" URL="../JSON/FTW-JSON-Native-HandleErrors.vi"/>
 			<Item Name="FTW-JSON-Native-HandleUnflattenErrors.vi" Type="VI" URL="../JSON/FTW-JSON-Native-HandleUnflattenErrors.vi"/>
-			<Item Name="FTW-JSON-Object-DeleteAllElements.vi" Type="VI" URL="../JSON/FTW-JSON-Object-DeleteAllElements.vi"/>
-			<Item Name="FTW-JSON-Object-DeleteElement.vi" Type="VI" URL="../JSON/FTW-JSON-Object-DeleteElement.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Bool.vi" Type="VI" URL="../JSON/FTW-JSON-Object-GetElement-Bool.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-DBL.vi" Type="VI" URL="../JSON/FTW-JSON-Object-GetElement-DBL.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Integer.vi" Type="VI" URL="../JSON/FTW-JSON-Object-GetElement-Integer.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-String.vi" Type="VI" URL="../JSON/FTW-JSON-Object-GetElement-String.vi"/>
-			<Item Name="FTW-JSON-Object-Join-String.vi" Type="VI" URL="../JSON/FTW-JSON-Object-Join-String.vi"/>
-			<Item Name="FTW-JSON-Object-Join.vi" Type="VI" URL="../JSON/FTW-JSON-Object-Join.vi"/>
-			<Item Name="FTW-JSON-Object-Keys.vi" Type="VI" URL="../JSON/FTW-JSON-Object-Keys.vi"/>
-			<Item Name="FTW-JSON-Object-SetElement-Bool.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-Bool.vi"/>
-			<Item Name="FTW-JSON-Object-SetElement-DBL.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-DBL.vi"/>
-			<Item Name="FTW-JSON-Object-SetElement-Integer.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-Integer.vi"/>
-			<Item Name="FTW-JSON-Object-SetElement-null.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-null.vi"/>
-			<Item Name="FTW-JSON-Object-SetElement-Object.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-Object.vi"/>
-			<Item Name="FTW-JSON-Object-SetElement-String.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-String.vi"/>
 			<Item Name="FTW-JSON-Object-Update.vi" Type="VI" URL="../JSON/FTW-JSON-Object-Update.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-Boolean.vi" Type="VI" URL="../JSON/FTW-JSON-ObjectManip-AddPair-Boolean.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-DBL.vi" Type="VI" URL="../JSON/FTW-JSON-ObjectManip-AddPair-DBL.vi"/>
@@ -79,13 +68,8 @@
 			<Item Name="FTW-JSON-Type.ctl" Type="VI" URL="../JSON/FTW-JSON-Type.ctl"/>
 			<Item Name="FTW-JSON-Unescape.vi" Type="VI" URL="../JSON/FTW-JSON-Unescape.vi"/>
 			<Item Name="FTW-JSON-Validate.vi" Type="VI" URL="../JSON/FTW-JSON-Validate.vi"/>
-			<Item Name="FTW-JSON-Validation.ctl" Type="VI" URL="../JSON/FTW-JSON-Validation.ctl"/>
 			<Item Name="FTW-JSON-Variant-Serialize.vi" Type="VI" URL="../JSON/FTW-JSON-Variant-Serialize.vi"/>
 			<Item Name="FTW-JSON-Variant-Traverse.vi" Type="VI" URL="../JSON/FTW-JSON-Variant-Traverse.vi"/>
-			<Item Name="FTWLib-Jansson-LinuxRT-ARMv7.so" Type="Document" URL="../JSON/FTWLib-Jansson-LinuxRT-ARMv7.so"/>
-			<Item Name="FTWLib-Jansson-LinuxRT.so" Type="Document" URL="../JSON/FTWLib-Jansson-LinuxRT.so"/>
-			<Item Name="FTWLib-Jansson-Win32.dll" Type="Document" URL="../JSON/FTWLib-Jansson-Win32.dll"/>
-			<Item Name="FTWLib-Jansson-Win64.dll" Type="Document" URL="../JSON/FTWLib-Jansson-Win64.dll"/>
 		</Item>
 		<Item Name="test" Type="Folder">
 			<Item Name="FTW-Benchmark-JSON-DeserializeXNode.vi" Type="VI" URL="../../test/FTW-Benchmark-JSON-DeserializeXNode.vi"/>
@@ -93,6 +77,7 @@
 			<Item Name="FTW-Test-JSON-Container.vi" Type="VI" URL="../../test/JSON/FTW-Test-JSON-Container.vi"/>
 			<Item Name="FTW-Test-JSON-Parse.vi" Type="VI" URL="../../test/FTW-Test-JSON-Parse.vi"/>
 		</Item>
+		<Item Name="FTW-JSON-Container-JsonType.vi" Type="VI" URL="../JSON/FTW-JSON-Container-JsonType.vi"/>
 		<Item Name="FTW-JSON-Container-Serialize.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Serialize.vi"/>
 		<Item Name="FTW-JSON-Container-Traverse.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Traverse.vi"/>
 		<Item Name="FTW-JSON-Interpret-Core.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret-Core.vi"/>
@@ -104,8 +89,8 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
+			<Item Name="FTW-CodeGen-Prototype.vi" Type="VI" URL="../CodeGen/JSON Deserialize/FTW-CodeGen-Prototype.vi"/>
 			<Item Name="FTW-ERR-Assert-DeveloperError.vi" Type="VI" URL="../Error/FTW-ERR-Assert-DeveloperError.vi"/>
 			<Item Name="FTW-ERR-CallChain.vi" Type="VI" URL="../Error/FTW-ERR-CallChain.vi"/>
 			<Item Name="FTW-ERR-Clear.vi" Type="VI" URL="../Error/FTW-ERR-Clear.vi"/>
