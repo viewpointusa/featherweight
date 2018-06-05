@@ -25,7 +25,6 @@
 			<Item Name="FTW-JSON-Array-Serialize.vi" Type="VI" URL="../JSON/FTW-JSON-Array-Serialize.vi"/>
 			<Item Name="FTW-JSON-CompareEquality.vi" Type="VI" URL="../JSON/FTW-JSON-CompareEquality.vi"/>
 			<Item Name="FTW-JSON-Construct-FromBuffer.vi" Type="VI" URL="../JSON/FTW-JSON-Construct-FromBuffer.vi"/>
-			<Item Name="FTW-JSON-Construct-FromPointer.vi" Type="VI" URL="../JSON/FTW-JSON-Construct-FromPointer.vi"/>
 			<Item Name="FTW-JSON-Construct-NewObject.vi" Type="VI" URL="../JSON/FTW-JSON-Construct-NewObject.vi"/>
 			<Item Name="FTW-JSON-Core-GetRootObject.vi" Type="VI" URL="../JSON/FTW-JSON-Core-GetRootObject.vi"/>
 			<Item Name="FTW-JSON-Core-LibraryError.vi" Type="VI" URL="../JSON/FTW-JSON-Core-LibraryError.vi"/>
