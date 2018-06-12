@@ -53,6 +53,12 @@
 			<Item Name="FTW-JSON-Object-GetElement-DBL.vi" Type="VI" URL="../JSON/FTW-JSON-Object-GetElement-DBL.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Integer.vi" Type="VI" URL="../JSON/FTW-JSON-Object-GetElement-Integer.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-String.vi" Type="VI" URL="../JSON/FTW-JSON-Object-GetElement-String.vi"/>
+			<Item Name="FTW-JSON-Object-SetElement-Bool.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-Bool.vi"/>
+			<Item Name="FTW-JSON-Object-SetElement-DBL.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-DBL.vi"/>
+			<Item Name="FTW-JSON-Object-SetElement-Integer.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-Integer.vi"/>
+			<Item Name="FTW-JSON-Object-SetElement-null.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-null.vi"/>
+			<Item Name="FTW-JSON-Object-SetElement-Object.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-Object.vi"/>
+			<Item Name="FTW-JSON-Object-SetElement-String.vi" Type="VI" URL="../JSON/FTW-JSON-Object-SetElement-String.vi"/>
 			<Item Name="FTW-JSON-Object-Update.vi" Type="VI" URL="../JSON/FTW-JSON-Object-Update.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-Boolean.vi" Type="VI" URL="../JSON/FTW-JSON-ObjectManip-AddPair-Boolean.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-DBL.vi" Type="VI" URL="../JSON/FTW-JSON-ObjectManip-AddPair-DBL.vi"/>
