@@ -92,7 +92,6 @@
 		<Item Name="FTW-JSON-Container-Traverse.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Traverse.vi"/>
 		<Item Name="FTW-JSON-Interpret.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Char.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Char.vi"/>
-		<Item Name="FTW-JSON-LexicalScan-CommaDelimiter.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-CommaDelimiter.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Digit.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Digit.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Error.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Error.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Get.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Get.vi"/>
