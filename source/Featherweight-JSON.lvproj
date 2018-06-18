@@ -92,15 +92,18 @@
 		<Item Name="FTW-JSON-Container-Traverse.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Traverse.vi"/>
 		<Item Name="FTW-JSON-Interpret.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Char.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Char.vi"/>
+		<Item Name="FTW-JSON-LexicalScan-CommaDelimiter.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-CommaDelimiter.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Digit.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Digit.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Error.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Error.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Get.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Get.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-IsControlChar.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-IsControlChar.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-IsDigit.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-IsDigit.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Number.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Number.vi"/>
+		<Item Name="FTW-JSON-LexicalScan-Pair.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Pair.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-String-Escaped.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-String-Escaped.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-String.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-String.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Unget.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Unget.vi"/>
+		<Item Name="FTW-JSON-LexicalScan-Value.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Value.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Whitespace.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Whitespace.vi"/>
 		<Item Name="FTW-JSON-LexicalScan.ctl" Type="VI" URL="../JSON/FTW-JSON-LexicalScan.ctl"/>
 		<Item Name="FTW-JSON-Parse.vi" Type="VI" URL="../JSON/FTW-JSON-Parse.vi"/>
