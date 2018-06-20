@@ -1,5 +1,6 @@
 Version x
 -changed conversion of flattened string data in xnode so that it handles variants on the input, may require a resave of old VIs
+-JSON deserialize now handles tags (DAQmx and other similar references)
 
 Version 1.10.0
 -fixed incorrect interpretation of timestamp in JSON native parsing, changed it to accept both timestamp (string) and floating point fields
