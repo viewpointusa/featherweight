@@ -92,17 +92,14 @@
 		<Item Name="FTW-JSON-Container-Traverse.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Traverse.vi"/>
 		<Item Name="FTW-JSON-Interpret.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Char.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Char.vi"/>
-		<Item Name="FTW-JSON-LexicalScan-Digit.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Digit.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Error.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Error.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Get.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Get.vi"/>
-		<Item Name="FTW-JSON-LexicalScan-IsControlChar.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-IsControlChar.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-IsDigit.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-IsDigit.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Number.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Number.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Pair.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Pair.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Parse.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Parse.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-String-Escaped.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-String-Escaped.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-String.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-String.vi"/>
-		<Item Name="FTW-JSON-LexicalScan-Unget.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Unget.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Value.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Value.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Whitespace.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Whitespace.vi"/>
 		<Item Name="FTW-JSON-LexicalScan.ctl" Type="VI" URL="../JSON/FTW-JSON-LexicalScan.ctl"/>
@@ -206,7 +203,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EC3C1ADB-740B-49D7-8BE0-B702737C783F}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FTW-Benchmark-JSON.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/JSON Benchmark/FTW-Benchmark-JSON.exe</Property>
