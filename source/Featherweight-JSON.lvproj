@@ -84,6 +84,7 @@
 			<Item Name="FTW-Benchmark-JSON.vi" Type="VI" URL="../../test/FTW-Benchmark-JSON.vi"/>
 			<Item Name="FTW-Benchmark-MessageTransports.vi" Type="VI" URL="../../test/FTW-Benchmark-MessageTransports.vi"/>
 			<Item Name="FTW-Test-JSON-Container.vi" Type="VI" URL="../../test/JSON/FTW-Test-JSON-Container.vi"/>
+			<Item Name="FTW-Test-JSON-DAQ-Types.vi" Type="VI" URL="../../test/FTW-Test-JSON-DAQ-Types.vi"/>
 			<Item Name="FTW-Test-JSON-Equality.vi" Type="VI" URL="../../test/JSON/FTW-Test-JSON-Equality.vi"/>
 			<Item Name="FTW-Test-JSON-Parse.vi" Type="VI" URL="../../test/FTW-Test-JSON-Parse.vi"/>
 		</Item>
