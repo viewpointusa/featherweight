@@ -90,7 +90,6 @@
 		<Item Name="FTW-JSON-Container-JsonType.vi" Type="VI" URL="../JSON/FTW-JSON-Container-JsonType.vi"/>
 		<Item Name="FTW-JSON-Container-Serialize.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Serialize.vi"/>
 		<Item Name="FTW-JSON-Container-Traverse.vi" Type="VI" URL="../JSON/FTW-JSON-Container-Traverse.vi"/>
-		<Item Name="FTW-JSON-Interpret.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Char.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Char.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Error.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Error.vi"/>
 		<Item Name="FTW-JSON-LexicalScan-Get.vi" Type="VI" URL="../JSON/FTW-JSON-LexicalScan-Get.vi"/>
@@ -154,6 +153,7 @@
 			<Item Name="FTW-File-ValidateFilepath.vi" Type="VI" URL="../File/FTW-File-ValidateFilepath.vi"/>
 			<Item Name="FTW-JobSequencer.lvclass" Type="LVClass" URL="../actor/JobSequencer/FTW-JobSequencer.lvclass"/>
 			<Item Name="FTW-JSON-Deserialize.xnode" Type="XNode" URL="../CodeGen/JSON Deserialize/FTW-JSON-Deserialize.xnode"/>
+			<Item Name="FTW-JSON-Interpret.vi" Type="VI" URL="../JSON/FTW-JSON-Interpret.vi"/>
 			<Item Name="FTW-Logger-Core.lvclass" Type="LVClass" URL="../actor/EventLogger/Core/FTW-Logger-Core.lvclass"/>
 			<Item Name="FTW-Logger.lvclass" Type="LVClass" URL="../actor/EventLogger/FTW-Logger.lvclass"/>
 			<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../actor/Message/Request/FTW-Message-IncomingRequest.lvclass"/>
