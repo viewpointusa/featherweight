@@ -1,3 +1,8 @@
+Version 1.11.0
+-changed conversion of flattened string data in xnode so that it handles variants on the input, may require a resave of old VIs
+-JSON deserialize now handles tags (DAQmx and other similar references)
+-added some documentation of TCP messages and some customer training docs
+
 Version 1.10.0
 -fixed incorrect interpretation of timestamp in JSON native parsing, changed it to accept both timestamp (string) and floating point fields
 -added more reminders to include static links in app launcher core, also set visible job to static links job
