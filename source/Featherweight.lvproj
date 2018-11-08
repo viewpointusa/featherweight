@@ -175,32 +175,8 @@
 		<Item Name="Time" Type="Folder" URL="../Time">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="UI" Type="Folder">
-			<Item Name="FileSystem" Type="Folder">
-				<Item Name="FTW-FileSystem-OpenDirectoryOrParent.vi" Type="VI" URL="../ui/FileSystem/FTW-FileSystem-OpenDirectoryOrParent.vi"/>
-				<Item Name="FTW-FileSystem-OpenURIwithDefaultHandler.vi" Type="VI" URL="../ui/FileSystem/FTW-FileSystem-OpenURIwithDefaultHandler.vi"/>
-			</Item>
-			<Item Name="Menu" Type="Folder">
-				<Item Name="FTW-Menu-BuildLevel.vi" Type="VI" URL="../ui/Menu/FTW-Menu-BuildLevel.vi"/>
-				<Item Name="FTW-Menu-DragDropDataAppend.vi" Type="VI" URL="../ui/Menu/FTW-Menu-DragDropDataAppend.vi"/>
-				<Item Name="FTW-Menu-Item.ctl" Type="VI" URL="../ui/Menu/FTW-Menu-Item.ctl"/>
-				<Item Name="FTW-Menu-TagDecode.vi" Type="VI" URL="../ui/Menu/FTW-Menu-TagDecode.vi"/>
-				<Item Name="FTW-Menu-TagEncode.vi" Type="VI" URL="../ui/Menu/FTW-Menu-TagEncode.vi"/>
-			</Item>
-			<Item Name="Panel" Type="Folder">
-				<Item Name="FTW-Panel-DeferPanelUpdates.vi" Type="VI" URL="../ui/Panel/FTW-Panel-DeferPanelUpdates.vi"/>
-				<Item Name="FTW-Panel-EnableControl.vi" Type="VI" URL="../ui/Panel/FTW-Panel-EnableControl.vi"/>
-				<Item Name="FTW-Panel-FrontPanel-Close.vi" Type="VI" URL="../ui/Panel/FTW-Panel-FrontPanel-Close.vi"/>
-				<Item Name="FTW-Panel-FrontPanel-Hide.vi" Type="VI" URL="../ui/Panel/FTW-Panel-FrontPanel-Hide.vi"/>
-				<Item Name="FTW-Panel-FrontPanel-Open.vi" Type="VI" URL="../ui/Panel/FTW-Panel-FrontPanel-Open.vi"/>
-				<Item Name="FTW-Panel-FrontPanel-SetCursor.vi" Type="VI" URL="../ui/Panel/FTW-Panel-FrontPanel-SetCursor.vi"/>
-			</Item>
-			<Item Name="Tree" Type="Folder">
-				<Item Name="FTW-Tree-EditCell.vi" Type="VI" URL="../ui/Tree/FTW-Tree-EditCell.vi"/>
-				<Item Name="FTW-Tree-GetChildNodes.vi" Type="VI" URL="../ui/Tree/FTW-Tree-GetChildNodes.vi"/>
-				<Item Name="FTW-Tree-ItemToggleOpen.vi" Type="VI" URL="../ui/Tree/FTW-Tree-ItemToggleOpen.vi"/>
-				<Item Name="FTW-Tree-PointToItem.vi" Type="VI" URL="../ui/Tree/FTW-Tree-PointToItem.vi"/>
-			</Item>
+		<Item Name="ui" Type="Folder" URL="../ui">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="URI" Type="Folder">
 			<Item Name="FTW-URI-Build.vi" Type="VI" URL="../URI/FTW-URI-Build.vi"/>
@@ -263,18 +239,29 @@
 		<Item Name="FTW-JSON-Deserialize.xnode" Type="XNode" URL="../CodeGen/JSON Deserialize/FTW-JSON-Deserialize.xnode"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="BuildErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/BuildErrorSource.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="FileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInfo.vi"/>
+				<Item Name="FileVersionInformation.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FileVersionInformation.ctl"/>
+				<Item Name="FixedFileInfo_Struct.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/FixedFileInfo_Struct.ctl"/>
+				<Item Name="GetFileVersionInfo.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfo.vi"/>
+				<Item Name="GetFileVersionInfoSize.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/GetFileVersionInfoSize.vi"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
+				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="FTW-Container.lvclass" Type="LVClass" URL="../container/FTW-Container.lvclass"/>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -282,6 +269,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="System.Core" Type="Document" URL="System.Core">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
