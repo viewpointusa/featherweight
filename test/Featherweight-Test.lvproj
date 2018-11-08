@@ -14,6 +14,7 @@
 		<Item Name="JSON" Type="Folder">
 			<Item Name="FTW-Benchmark-JSON-DeserializeXNode.vi" Type="VI" URL="../FTW-Benchmark-JSON-DeserializeXNode.vi"/>
 			<Item Name="FTW-Benchmark-JSON.vi" Type="VI" URL="../FTW-Benchmark-JSON.vi"/>
+			<Item Name="FTW-Test-JSON-Datatypes-Serialize.vi" Type="VI" URL="../FTW-Test-JSON-Datatypes-Serialize.vi"/>
 			<Item Name="FTW-Test-JSON-Datatypes.vi" Type="VI" URL="../FTW-Test-JSON-Datatypes.vi"/>
 			<Item Name="FTW-Test-JSON-Deserialize.vi" Type="VI" URL="../FTW-Test-JSON-Deserialize.vi"/>
 			<Item Name="FTW-Test-JSON-FloatingPoint.vi" Type="VI" URL="../FTW-Test-JSON-FloatingPoint.vi"/>
@@ -228,6 +229,7 @@
 			<Item Name="FTW-JSON-Serialize.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Serialize.vi"/>
 			<Item Name="FTW-JSON-SerializeAndDestroy.vi" Type="VI" URL="../../source/JSON/FTW-JSON-SerializeAndDestroy.vi"/>
 			<Item Name="FTW-JSON-SerializeElement.vi" Type="VI" URL="../../source/JSON/FTW-JSON-SerializeElement.vi"/>
+			<Item Name="FTW-JSON-SerializeOptions.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-SerializeOptions.ctl"/>
 			<Item Name="FTW-JSON-SetFlags-Encoding.vi" Type="VI" URL="../../source/JSON/FTW-JSON-SetFlags-Encoding.vi"/>
 			<Item Name="FTW-JSON-Type.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-Type.ctl"/>
 			<Item Name="FTW-JSON-Unescape.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Unescape.vi"/>
