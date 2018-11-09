@@ -27,6 +27,12 @@
 			<Item Name="FTW-AppLauncher-Core.lvclass" Type="LVClass" URL="../App Launcher/Core/FTW-AppLauncher-Core.lvclass"/>
 			<Item Name="FTW_AppLauncher_Connection_Query.vi" Type="VI" URL="../App Launcher/FTW_AppLauncher_Connection_Query.vi"/>
 		</Item>
+		<Item Name="Scripter" Type="Folder">
+			<Item Name="Steps" Type="Folder">
+				<Item Name="FTW-ScripterStep-Base.lvclass" Type="LVClass" URL="../Scripter Steps/Base/FTW-ScripterStep-Base.lvclass"/>
+				<Item Name="FTW-ScripterStep-Wait-Core.lvclass" Type="LVClass" URL="../Scripter Steps/Wait/core/FTW-ScripterStep-Wait-Core.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
 		<Item Name="FTW-ExtendedActorTemplate.vi" Type="VI" URL="../FTW-ExtendedActorTemplate.vi"/>
