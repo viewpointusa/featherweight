@@ -37,12 +37,16 @@
 			<Item Name="Gmsg_RR_Pinger.vi" Type="VI" URL="../ReqRep/Gmsg_RR_Pinger.vi"/>
 			<Item Name="Gmsg_RR_Sender.vi" Type="VI" URL="../ReqRep/Gmsg_RR_Sender.vi"/>
 		</Item>
+		<Item Name="Test Actor" Type="Folder">
+			<Item Name="FTW-Test-Actor-Core.lvclass" Type="LVClass" URL="../Test Actor/core/FTW-Test-Actor-Core.lvclass"/>
+		</Item>
 		<Item Name="FTW-ActorConnector-Test.vi" Type="VI" URL="../FTW-ActorConnector-Test.vi"/>
 		<Item Name="FTW-Benchmark-Actors.vi" Type="VI" URL="../FTW-Benchmark-Actors.vi"/>
 		<Item Name="FTW-Benchmark-ActorThroughput.vi" Type="VI" URL="../FTW-Benchmark-ActorThroughput.vi"/>
 		<Item Name="FTW-Benchmark-MessageTransports.vi" Type="VI" URL="../FTW-Benchmark-MessageTransports.vi"/>
 		<Item Name="FTW-Benchmark-ProducerConsumer.vi" Type="VI" URL="../FTW-Benchmark-ProducerConsumer.vi"/>
 		<Item Name="FTW-Benchmark-PublisherSubscriber.vi" Type="VI" URL="../FTW-Benchmark-PublisherSubscriber.vi"/>
+		<Item Name="FTW-Test-ActorInitFailed.vi" Type="VI" URL="../FTW-Test-ActorInitFailed.vi"/>
 		<Item Name="FTW-Test-BuildUtil-PostBuildAction.vi" Type="VI" URL="../FTW-Test-BuildUtil-PostBuildAction.vi"/>
 		<Item Name="FTW-Test-EndpointListener.vi" Type="VI" URL="../FTW-Test-EndpointListener.vi"/>
 		<Item Name="FTW-Test-Endpoints.vi" Type="VI" URL="../FTW-Test-Endpoints.vi"/>
@@ -193,6 +197,7 @@
 			<Item Name="FTW-JSON-Format-Boolean.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-Boolean.vi"/>
 			<Item Name="FTW-JSON-Format-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-String.vi"/>
 			<Item Name="FTW-JSON-Format-Timestamp.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-Timestamp.vi"/>
+			<Item Name="FTW-JSON-Interpret-Boolean.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Interpret-Boolean.vi"/>
 			<Item Name="FTW-JSON-Interpret-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Interpret-String.vi"/>
 			<Item Name="FTW-JSON-JoinMode.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-JoinMode.ctl"/>
 			<Item Name="FTW-JSON-Keys.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Keys.vi"/>
