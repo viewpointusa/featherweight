@@ -17,6 +17,7 @@
 			<Item Name="FTW-Test-JSON-Datatypes-Serialize.vi" Type="VI" URL="../FTW-Test-JSON-Datatypes-Serialize.vi"/>
 			<Item Name="FTW-Test-JSON-Datatypes.vi" Type="VI" URL="../FTW-Test-JSON-Datatypes.vi"/>
 			<Item Name="FTW-Test-JSON-Deserialize.vi" Type="VI" URL="../FTW-Test-JSON-Deserialize.vi"/>
+			<Item Name="FTW-Test-JSON-ElementSet.vi" Type="VI" URL="../JSON/FTW-Test-JSON-ElementSet.vi"/>
 			<Item Name="FTW-Test-JSON-FloatingPoint.vi" Type="VI" URL="../FTW-Test-JSON-FloatingPoint.vi"/>
 			<Item Name="FTW-Test-JSON-Fuzz.vi" Type="VI" URL="../FTW-Test-JSON-Fuzz.vi"/>
 			<Item Name="FTW-Test-JSON-ObjectDelete.vi" Type="VI" URL="../FTW-Test-JSON-ObjectDelete.vi"/>
@@ -224,6 +225,8 @@
 			<Item Name="FTW-JSON-Object-Keys.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-Keys.vi"/>
 			<Item Name="FTW-JSON-Object-SetElement-DBL.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-DBL.vi"/>
 			<Item Name="FTW-JSON-Object-SetElement-Integer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-Integer.vi"/>
+			<Item Name="FTW-JSON-Object-SetElement-Object.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-Object.vi"/>
+			<Item Name="FTW-JSON-Object-SetElement-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-String.vi"/>
 			<Item Name="FTW-JSON-Object-Update.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-Update.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-Integer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair-Integer.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair.vi"/>
