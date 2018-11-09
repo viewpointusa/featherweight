@@ -32,6 +32,8 @@
 				<Item Name="FTW-ScripterStep-Base.lvclass" Type="LVClass" URL="../Scripter Steps/Base/FTW-ScripterStep-Base.lvclass"/>
 				<Item Name="FTW-ScripterStep-Wait-Core.lvclass" Type="LVClass" URL="../Scripter Steps/Wait/core/FTW-ScripterStep-Wait-Core.lvclass"/>
 			</Item>
+			<Item Name="FTW-Scripter-ReportResults.vi" Type="VI" URL="../Scripter/FTW-Scripter-ReportResults.vi"/>
+			<Item Name="FTW-Scripter-Results.ctl" Type="VI" URL="../Scripter/FTW-Scripter-Results.ctl"/>
 		</Item>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
