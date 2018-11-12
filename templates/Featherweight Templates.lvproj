@@ -30,6 +30,7 @@
 		<Item Name="Scripter" Type="Folder">
 			<Item Name="Steps" Type="Folder">
 				<Item Name="FTW-ScripterStep-Base.lvclass" Type="LVClass" URL="../Scripter Steps/Base/FTW-ScripterStep-Base.lvclass"/>
+				<Item Name="FTW-ScripterStep-Template-Core.lvclass" Type="LVClass" URL="../Scripter Steps/Template/FTW-ScripterStep-Template-Core.lvclass"/>
 				<Item Name="FTW-ScripterStep-Wait-Core.lvclass" Type="LVClass" URL="../Scripter Steps/Wait/core/FTW-ScripterStep-Wait-Core.lvclass"/>
 			</Item>
 			<Item Name="FTW-Scripter-ReportResults.vi" Type="VI" URL="../Scripter/FTW-Scripter-ReportResults.vi"/>
