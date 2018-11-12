@@ -40,7 +40,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574612</Property>
 	</Item>
-	<Item Name="FTW-ScripterStep-Template-Core_Process.vi" Type="VI" URL="../FTW-ScripterStep-Template-Core_Process.vi">
+	<Item Name="FTW-ScripterStep-Template-Core_Step.vi" Type="VI" URL="../FTW-ScripterStep-Template-Core_Step.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$P!!!!#!!K1$$`````)%:56S""9X2P=C"*&lt;H.U97ZD:3"$&lt;WZG;7&gt;V=G&amp;U;7^O!!!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;%"1!!-!!A!$!!1(28*S&lt;X**&lt;A!31&amp;!!!Q!#!!-!"!6&amp;=H*P=A"M!0!!%!!!!!%!!1!"!!%!!1!"!!%!!1!"!!%!"1!"!!%!!1!'!Q!"#!!#%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!=!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777600</Property>
