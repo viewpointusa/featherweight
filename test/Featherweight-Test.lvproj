@@ -219,6 +219,7 @@
 			<Item Name="FTW-JSON-Object-GetElement-Bool.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Bool.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-DBL.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-DBL.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Integer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Integer.vi"/>
+			<Item Name="FTW-JSON-Object-GetElement-Object.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Object.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-String.vi"/>
 			<Item Name="FTW-JSON-Object-Join-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-Join-String.vi"/>
 			<Item Name="FTW-JSON-Object-Join.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-Join.vi"/>
@@ -230,6 +231,7 @@
 			<Item Name="FTW-JSON-Object-Update.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-Update.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair-Integer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair-Integer.vi"/>
 			<Item Name="FTW-JSON-ObjectManip-AddPair.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-AddPair.vi"/>
+			<Item Name="FTW-JSON-ObjectManip-GetPair-Integer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-ObjectManip-GetPair-Integer.vi"/>
 			<Item Name="FTW-JSON-Parse.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Parse.vi"/>
 			<Item Name="FTW-JSON-RegexHeader.vi" Type="VI" URL="../../source/JSON/FTW-JSON-RegexHeader.vi"/>
 			<Item Name="FTW-JSON-RegexParse.vi" Type="VI" URL="../../source/JSON/FTW-JSON-RegexParse.vi"/>
