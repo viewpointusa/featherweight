@@ -24,6 +24,7 @@
 			<Item Name="Extended Actor Template-Core.lvclass" Type="LVClass" URL="../Extended Actor Template/Core/Extended Actor Template-Core.lvclass"/>
 		</Item>
 		<Item Name="App Launcher" Type="Folder">
+			<Item Name="config.json" Type="Document" URL="../App Launcher/config.json"/>
 			<Item Name="FTW-AppLauncher-Core.lvclass" Type="LVClass" URL="../App Launcher/Core/FTW-AppLauncher-Core.lvclass"/>
 			<Item Name="FTW_AppLauncher_Connection_Query.vi" Type="VI" URL="../App Launcher/FTW_AppLauncher_Connection_Query.vi"/>
 		</Item>
