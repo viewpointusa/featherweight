@@ -36,8 +36,13 @@
 			</Item>
 			<Item Name="FTW-Scripter-Core.lvclass" Type="LVClass" URL="../Scripter/core/FTW-Scripter-Core.lvclass"/>
 			<Item Name="FTW-Scripter-Launch.vi" Type="VI" URL="../Scripter/FTW-Scripter-Launch.vi"/>
+			<Item Name="FTW-Scripter-LoadScript.vi" Type="VI" URL="../Scripter/FTW-Scripter-LoadScript.vi"/>
+			<Item Name="FTW-Scripter-Pause.vi" Type="VI" URL="../Scripter/FTW-Scripter-Pause.vi"/>
 			<Item Name="FTW-Scripter-ReportResults.vi" Type="VI" URL="../Scripter/FTW-Scripter-ReportResults.vi"/>
 			<Item Name="FTW-Scripter-Results.ctl" Type="VI" URL="../Scripter/FTW-Scripter-Results.ctl"/>
+			<Item Name="FTW-Scripter-Start.vi" Type="VI" URL="../Scripter/FTW-Scripter-Start.vi"/>
+			<Item Name="FTW-Scripter-Step.vi" Type="VI" URL="../Scripter/FTW-Scripter-Step.vi"/>
+			<Item Name="FTW-Scripter-Stop.vi" Type="VI" URL="../Scripter/FTW-Scripter-Stop.vi"/>
 		</Item>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
