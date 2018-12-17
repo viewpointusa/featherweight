@@ -43,6 +43,7 @@
 			<Item Name="FTW-Scripter-Start.vi" Type="VI" URL="../Scripter/FTW-Scripter-Start.vi"/>
 			<Item Name="FTW-Scripter-Step.vi" Type="VI" URL="../Scripter/FTW-Scripter-Step.vi"/>
 			<Item Name="FTW-Scripter-Stop.vi" Type="VI" URL="../Scripter/FTW-Scripter-Stop.vi"/>
+			<Item Name="FTW-Scripter_Step.ctl" Type="VI" URL="../Scripter/FTW-Scripter_Step.ctl"/>
 		</Item>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
