@@ -34,16 +34,16 @@
 				<Item Name="FTW-TestStep-Template-Core.lvclass" Type="LVClass" URL="../Test Steps/Template/FTW-TestStep-Template-Core.lvclass"/>
 				<Item Name="FTW-TestStep-Wait-Core.lvclass" Type="LVClass" URL="../Test Steps/Wait/FTW-TestStep-Wait-Core.lvclass"/>
 			</Item>
-			<Item Name="FTW-Scripter-Core.lvclass" Type="LVClass" URL="../Scripter/core/FTW-Scripter-Core.lvclass"/>
-			<Item Name="FTW-Scripter-Launch.vi" Type="VI" URL="../Scripter/FTW-Scripter-Launch.vi"/>
-			<Item Name="FTW-Scripter-LoadScript.vi" Type="VI" URL="../Scripter/FTW-Scripter-LoadScript.vi"/>
-			<Item Name="FTW-Scripter-Pause.vi" Type="VI" URL="../Scripter/FTW-Scripter-Pause.vi"/>
-			<Item Name="FTW-Scripter-ReportResults.vi" Type="VI" URL="../Scripter/FTW-Scripter-ReportResults.vi"/>
-			<Item Name="FTW-Scripter-Results.ctl" Type="VI" URL="../Scripter/FTW-Scripter-Results.ctl"/>
-			<Item Name="FTW-Scripter-Start.vi" Type="VI" URL="../Scripter/FTW-Scripter-Start.vi"/>
-			<Item Name="FTW-Scripter-Step.vi" Type="VI" URL="../Scripter/FTW-Scripter-Step.vi"/>
-			<Item Name="FTW-Scripter-Stop.vi" Type="VI" URL="../Scripter/FTW-Scripter-Stop.vi"/>
-			<Item Name="FTW-Scripter_Step.ctl" Type="VI" URL="../Scripter/FTW-Scripter_Step.ctl"/>
+			<Item Name="FTW-TestExecutive-Core.lvclass" Type="LVClass" URL="../Test Executive/core/FTW-TestExecutive-Core.lvclass"/>
+			<Item Name="FTW-TestExecutive-Launch.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Launch.vi"/>
+			<Item Name="FTW-TestExecutive-LoadSequence.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-LoadSequence.vi"/>
+			<Item Name="FTW-TestExecutive-Pause.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Pause.vi"/>
+			<Item Name="FTW-TestExecutive-ReportResults.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-ReportResults.vi"/>
+			<Item Name="FTW-TestExecutive-Results.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results.ctl"/>
+			<Item Name="FTW-TestExecutive-Start.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Start.vi"/>
+			<Item Name="FTW-TestExecutive-Step.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.vi"/>
+			<Item Name="FTW-TestExecutive-Stop.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Stop.vi"/>
+			<Item Name="FTW-TestExecutive_Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive_Step.ctl"/>
 		</Item>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
