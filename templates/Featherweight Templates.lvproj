@@ -30,9 +30,9 @@
 		</Item>
 		<Item Name="Test Executive" Type="Folder">
 			<Item Name="Steps" Type="Folder">
-				<Item Name="FTW-ScripterStep-Wait-Core.lvclass" Type="LVClass" URL="../Scripter Steps/Wait/core/FTW-ScripterStep-Wait-Core.lvclass"/>
 				<Item Name="FTW-TestStep-Base.lvclass" Type="LVClass" URL="../Test Steps/Base/FTW-TestStep-Base.lvclass"/>
 				<Item Name="FTW-TestStep-Template-Core.lvclass" Type="LVClass" URL="../Test Steps/Template/FTW-TestStep-Template-Core.lvclass"/>
+				<Item Name="FTW-TestStep-Wait-Core.lvclass" Type="LVClass" URL="../Test Steps/Wait/FTW-TestStep-Wait-Core.lvclass"/>
 			</Item>
 			<Item Name="FTW-Scripter-Core.lvclass" Type="LVClass" URL="../Scripter/core/FTW-Scripter-Core.lvclass"/>
 			<Item Name="FTW-Scripter-Launch.vi" Type="VI" URL="../Scripter/FTW-Scripter-Launch.vi"/>
