@@ -28,11 +28,11 @@
 			<Item Name="FTW-AppLauncher-Core.lvclass" Type="LVClass" URL="../App Launcher/Core/FTW-AppLauncher-Core.lvclass"/>
 			<Item Name="FTW_AppLauncher_Connection_Query.vi" Type="VI" URL="../App Launcher/FTW_AppLauncher_Connection_Query.vi"/>
 		</Item>
-		<Item Name="Scripter" Type="Folder">
+		<Item Name="Test Executive" Type="Folder">
 			<Item Name="Steps" Type="Folder">
-				<Item Name="FTW-ScripterStep-Base.lvclass" Type="LVClass" URL="../Scripter Steps/Base/FTW-ScripterStep-Base.lvclass"/>
 				<Item Name="FTW-ScripterStep-Template-Core.lvclass" Type="LVClass" URL="../Scripter Steps/Template/FTW-ScripterStep-Template-Core.lvclass"/>
 				<Item Name="FTW-ScripterStep-Wait-Core.lvclass" Type="LVClass" URL="../Scripter Steps/Wait/core/FTW-ScripterStep-Wait-Core.lvclass"/>
+				<Item Name="FTW-TestStep-Base.lvclass" Type="LVClass" URL="../Test Steps/Base/FTW-TestStep-Base.lvclass"/>
 			</Item>
 			<Item Name="FTW-Scripter-Core.lvclass" Type="LVClass" URL="../Scripter/core/FTW-Scripter-Core.lvclass"/>
 			<Item Name="FTW-Scripter-Launch.vi" Type="VI" URL="../Scripter/FTW-Scripter-Launch.vi"/>
