@@ -29,6 +29,9 @@
 			<Item Name="FTW_AppLauncher_Connection_Query.vi" Type="VI" URL="../App Launcher/FTW_AppLauncher_Connection_Query.vi"/>
 		</Item>
 		<Item Name="Test Executive" Type="Folder">
+			<Item Name="GUI" Type="Folder">
+				<Item Name="FTW-TestExecutiveGUI-Core.lvclass" Type="LVClass" URL="../Test Executve GUI/core/FTW-TestExecutiveGUI-Core.lvclass"/>
+			</Item>
 			<Item Name="Steps" Type="Folder">
 				<Item Name="FTW-TestStep-Base.lvclass" Type="LVClass" URL="../Test Steps/Base/FTW-TestStep-Base.lvclass"/>
 				<Item Name="FTW-TestStep-Template-Core.lvclass" Type="LVClass" URL="../Test Steps/Template/FTW-TestStep-Template-Core.lvclass"/>
