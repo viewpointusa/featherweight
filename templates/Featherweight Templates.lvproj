@@ -44,9 +44,10 @@
 			<Item Name="FTW-TestExecutive-ReportResults.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-ReportResults.vi"/>
 			<Item Name="FTW-TestExecutive-Results.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results.ctl"/>
 			<Item Name="FTW-TestExecutive-Start.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Start.vi"/>
+			<Item Name="FTW-TestExecutive-Step-State.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step-State.ctl"/>
+			<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.ctl"/>
 			<Item Name="FTW-TestExecutive-Step.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.vi"/>
 			<Item Name="FTW-TestExecutive-Stop.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Stop.vi"/>
-			<Item Name="FTW-TestExecutive_Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive_Step.ctl"/>
 		</Item>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
