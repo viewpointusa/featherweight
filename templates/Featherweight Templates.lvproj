@@ -31,6 +31,7 @@
 		<Item Name="Test Executive" Type="Folder">
 			<Item Name="GUI" Type="Folder">
 				<Item Name="FTW-TestExecutiveGUI-Core.lvclass" Type="LVClass" URL="../Test Executive GUI/core/FTW-TestExecutiveGUI-Core.lvclass"/>
+				<Item Name="FTW-TestExecutiveGUI-FormatSequenceForDisplay.vi" Type="VI" URL="../Test Executive GUI/FTW-TestExecutiveGUI-FormatSequenceForDisplay.vi"/>
 			</Item>
 			<Item Name="Steps" Type="Folder">
 				<Item Name="FTW-TestStep-Base.lvclass" Type="LVClass" URL="../Test Steps/Base/FTW-TestStep-Base.lvclass"/>
@@ -43,6 +44,7 @@
 			<Item Name="FTW-TestExecutive-Pause.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Pause.vi"/>
 			<Item Name="FTW-TestExecutive-ReportResults.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-ReportResults.vi"/>
 			<Item Name="FTW-TestExecutive-Results.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results.ctl"/>
+			<Item Name="FTW-TestExecutive-Sequence-Interpret.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Sequence-Interpret.vi"/>
 			<Item Name="FTW-TestExecutive-Start.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Start.vi"/>
 			<Item Name="FTW-TestExecutive-Step-State.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step-State.ctl"/>
 			<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.ctl"/>
