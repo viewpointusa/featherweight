@@ -38,6 +38,7 @@
 				<Item Name="FTW-TestStep-Template-Core.lvclass" Type="LVClass" URL="../Test Steps/Template/FTW-TestStep-Template-Core.lvclass"/>
 				<Item Name="FTW-TestStep-Wait-Core.lvclass" Type="LVClass" URL="../Test Steps/Wait/FTW-TestStep-Wait-Core.lvclass"/>
 			</Item>
+			<Item Name="FTW-TestExecutive-Abort.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Abort.vi"/>
 			<Item Name="FTW-TestExecutive-Core.lvclass" Type="LVClass" URL="../Test Executive/core/FTW-TestExecutive-Core.lvclass"/>
 			<Item Name="FTW-TestExecutive-Launch.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Launch.vi"/>
 			<Item Name="FTW-TestExecutive-LoadSequence.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-LoadSequence.vi"/>
@@ -49,7 +50,6 @@
 			<Item Name="FTW-TestExecutive-Step-State.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step-State.ctl"/>
 			<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.ctl"/>
 			<Item Name="FTW-TestExecutive-Step.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.vi"/>
-			<Item Name="FTW-TestExecutive-Stop.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Stop.vi"/>
 		</Item>
 		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
