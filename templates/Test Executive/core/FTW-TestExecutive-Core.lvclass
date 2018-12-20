@@ -36,7 +36,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="FTW-TestExecutive-Core_Initialize.vi" Type="VI" URL="../FTW-TestExecutive-Core_Initialize.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!++!!!!%Q!A1$$`````&amp;UFO;82J97RJ?G&amp;U;7^O)&amp;.F=86F&lt;G.F!!1!!!"#1(!!(A!!)"Z'6&amp;=N6'6T&gt;%6Y:7.V&gt;'FW:3V$&lt;X*F,GRW9WRB=X-!!"&gt;"9X2P=C"5:7VQ&lt;'&amp;U:3V$&lt;X*F)'^V&gt;!!K1$$`````)%:56S""9X2P=C"*&lt;H.U97ZD:3"$&lt;WZG;7&gt;V=G&amp;U;7^O!!!W1(!!(A!!*3.'6&amp;=N476T=W&amp;H:3V*&lt;G.P&lt;7FO:V*F=86F=X1O&lt;(:D&lt;'&amp;T=Q!(5G6R&gt;76T&gt;!!=1(!!'1!"!!1237ZD&lt;WVJ&lt;G=A5G6R&gt;76T&gt;(-!*%"Q!"=!!!!"!!%!!!0I!!5237ZD&lt;WVJ&lt;G=A5G6R&gt;76T&gt;(-!*E"Q!"Y!!"542F28,5VF=X.B:W5O&lt;(:D&lt;'&amp;T=Q!(476T=W&amp;H:1!31(!!'1!"!!=(476T=W&amp;H:1!C1(!!&amp;Q!!!!%!!1!!!_A!#!Z-&lt;W.B&lt;#".:8.T97&gt;F=Q!!+E"Q!"=!!!!"!!%!!!0I!!A85X6C=W.S;7*F=C"3:7&gt;J=X2S982J&lt;WY!'E"1!!-!"A!*!!I.28:F&lt;H1A5G6G&lt;H6N=Q!61!I!$F*F:H*F=WAA5'6S;7^E!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!.!!Y!$R.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!5!!$!!U!$A!0#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!Q!,!!%!!1!"!!Q!%!!"!!%!!1!2!Q!"#!!#%!!!!!!!!!!!!!!!!!!!!!E!!!)1!!!!#1!!!!!!!!!!!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!")!!!!!</Property>
@@ -66,6 +66,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 		<Item Name="FTW-TestExecutive-Core_OnSequenceComplete.vi" Type="VI" URL="../FTW-TestExecutive-Core_OnSequenceComplete.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!#1"!1(!!(A!!)"Z'6&amp;=N6'6T&gt;%6Y:7.V&gt;'FW:3V$&lt;X*F,GRW9WRB=X-!!"2'6&amp;=N5W.S;8"U:8)N1W^S:3"*&lt;A!!"!!!!%"!=!!?!!!A(E:56SV5:8.U28BF9X6U;8:F,5.P=G5O&lt;(:D&lt;'&amp;T=Q!!&amp;5:56SV49X*J=(2F=CV$&lt;X*F)%^V&gt;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!$!!1!"1BF=H*P=C"J&lt;A!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!(U!]!!1!!!!!1!"!!%!!A!"!!%!!1!"!!%!!1!'!!%!!1!"!!=$!!%)!!!1!!!!!!!!!!!!!!!!!!!!$1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!)!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">3</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+		</Item>
+		<Item Name="FTW-TestExecutive-Core_OnStartSequence.vi" Type="VI" URL="../FTW-TestExecutive-Core_OnStartSequence.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!#1"!1(!!(A!!)"Z'6&amp;=N6'6T&gt;%6Y:7.V&gt;'FW:3V$&lt;X*F,GRW9WRB=X-!!"2'6&amp;=N5W.S;8"U:8)N1W^S:3"*&lt;A!!"!!!!%"!=!!?!!!A(E:56SV5:8.U28BF9X6U;8:F,5.P=G5O&lt;(:D&lt;'&amp;T=Q!!&amp;5:56SV49X*J=(2F=CV$&lt;X*F)%^V&gt;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!$!!1!"1BF=H*P=C"J&lt;A!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!(U!]!!1!!!!!1!"!!%!!A!"!!%!!1!"!!%!!1!'!!%!!1!"!!=$!!%)!!!1!!!!!!!!!!!!!!!!!!!!$1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!)!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">3</Property>
