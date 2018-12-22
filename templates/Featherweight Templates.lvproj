@@ -33,6 +33,21 @@
 			<Item Name="FTW-ExtendedActorTemplate.vi" Type="VI" URL="../Classless Actors/FTW-ExtendedActorTemplate.vi"/>
 		</Item>
 		<Item Name="Test Executive" Type="Folder">
+			<Item Name="API" Type="Folder">
+				<Item Name="For Steps Only" Type="Folder">
+					<Item Name="FTW-TestExecutive-ReportResults.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-ReportResults.vi"/>
+				</Item>
+				<Item Name="FTW-TestExecutive-Abort.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Abort.vi"/>
+				<Item Name="FTW-TestExecutive-Launch.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Launch.vi"/>
+				<Item Name="FTW-TestExecutive-LoadSequence.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-LoadSequence.vi"/>
+				<Item Name="FTW-TestExecutive-Pause.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Pause.vi"/>
+				<Item Name="FTW-TestExecutive-Results.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results.ctl"/>
+				<Item Name="FTW-TestExecutive-Sequence-Interpret.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Sequence-Interpret.vi"/>
+				<Item Name="FTW-TestExecutive-Start.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Start.vi"/>
+				<Item Name="FTW-TestExecutive-Step-State.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step-State.ctl"/>
+				<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.ctl"/>
+				<Item Name="FTW-TestExecutive-Step.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.vi"/>
+			</Item>
 			<Item Name="GUI" Type="Folder">
 				<Item Name="FTW-TestExecutiveGUI-Core.lvclass" Type="LVClass" URL="../Test Executive GUI/core/FTW-TestExecutiveGUI-Core.lvclass"/>
 				<Item Name="FTW-TestExecutiveGUI-FormatSequenceForDisplay.vi" Type="VI" URL="../Test Executive GUI/FTW-TestExecutiveGUI-FormatSequenceForDisplay.vi"/>
@@ -42,18 +57,7 @@
 				<Item Name="FTW-TestStep-Template-Core.lvclass" Type="LVClass" URL="../Test Steps/Template/FTW-TestStep-Template-Core.lvclass"/>
 				<Item Name="FTW-TestStep-Wait-Core.lvclass" Type="LVClass" URL="../Test Steps/Wait/FTW-TestStep-Wait-Core.lvclass"/>
 			</Item>
-			<Item Name="FTW-TestExecutive-Abort.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Abort.vi"/>
 			<Item Name="FTW-TestExecutive-Core.lvclass" Type="LVClass" URL="../Test Executive/core/FTW-TestExecutive-Core.lvclass"/>
-			<Item Name="FTW-TestExecutive-Launch.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Launch.vi"/>
-			<Item Name="FTW-TestExecutive-LoadSequence.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-LoadSequence.vi"/>
-			<Item Name="FTW-TestExecutive-Pause.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Pause.vi"/>
-			<Item Name="FTW-TestExecutive-ReportResults.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-ReportResults.vi"/>
-			<Item Name="FTW-TestExecutive-Results.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results.ctl"/>
-			<Item Name="FTW-TestExecutive-Sequence-Interpret.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Sequence-Interpret.vi"/>
-			<Item Name="FTW-TestExecutive-Start.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Start.vi"/>
-			<Item Name="FTW-TestExecutive-Step-State.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step-State.ctl"/>
-			<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.ctl"/>
-			<Item Name="FTW-TestExecutive-Step.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.vi"/>
 		</Item>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
 		<Item Name="Dependencies" Type="Dependencies">
