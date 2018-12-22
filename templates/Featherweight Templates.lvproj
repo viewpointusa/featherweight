@@ -28,6 +28,10 @@
 			<Item Name="FTW-AppLauncher-Core.lvclass" Type="LVClass" URL="../App Launcher/Core/FTW-AppLauncher-Core.lvclass"/>
 			<Item Name="FTW_AppLauncher_Connection_Query.vi" Type="VI" URL="../App Launcher/FTW_AppLauncher_Connection_Query.vi"/>
 		</Item>
+		<Item Name="Classless Actors" Type="Folder">
+			<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../Classless Actors/FTW-ActorTemplate.vi"/>
+			<Item Name="FTW-ExtendedActorTemplate.vi" Type="VI" URL="../Classless Actors/FTW-ExtendedActorTemplate.vi"/>
+		</Item>
 		<Item Name="Test Executive" Type="Folder">
 			<Item Name="GUI" Type="Folder">
 				<Item Name="FTW-TestExecutiveGUI-Core.lvclass" Type="LVClass" URL="../Test Executive GUI/core/FTW-TestExecutiveGUI-Core.lvclass"/>
@@ -51,9 +55,7 @@
 			<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.ctl"/>
 			<Item Name="FTW-TestExecutive-Step.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.vi"/>
 		</Item>
-		<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../FTW-ActorTemplate.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
-		<Item Name="FTW-ExtendedActorTemplate.vi" Type="VI" URL="../FTW-ExtendedActorTemplate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/BuildErrorSource.vi"/>
@@ -296,7 +298,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Real-Time LED_Set Sequence.vi" Type="VI" URL="../Real-Time LED/Real-Time LED_Set Sequence.vi"/>
 			<Item Name="Real-Time LED_Turn Off.vi" Type="VI" URL="../Real-Time LED/Real-Time LED_Turn Off.vi"/>
 		</Item>
-		<Item Name="FTW-ActorTemplate-RT-TopLevel.vi" Type="VI" URL="../FTW-ActorTemplate-RT-TopLevel.vi"/>
+		<Item Name="FTW-ActorTemplate-RT-TopLevel.vi" Type="VI" URL="../Classless Actors/FTW-ActorTemplate-RT-TopLevel.vi"/>
 		<Item Name="RT Main-Core.lvclass" Type="LVClass" URL="../RT Main Core/RT Main-Core.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
