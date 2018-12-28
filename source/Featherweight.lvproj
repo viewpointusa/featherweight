@@ -18,8 +18,8 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="actor" Type="Folder">
-			<Item Name="Config" Type="Folder">
-				<Item Name="FTW-ActorConfig-FormatExpectedInitTime.vi" Type="VI" URL="../actor/Config/FTW-ActorConfig-FormatExpectedInitTime.vi"/>
+			<Item Name="Config" Type="Folder" URL="../actor/Config">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Event" Type="Folder">
 				<Item Name="FTW-Event-Construct.vi" Type="VI" URL="../actor/Event/FTW-Event-Construct.vi"/>
