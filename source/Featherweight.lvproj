@@ -4,7 +4,6 @@
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="CCSymbols" Type="Str"></Property>
-		<Property Name="NI.SortType" Type="Int">1</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">false</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">false</Property>
 		<Property Name="server.tcp.acl" Type="Str">0800000008000000</Property>
@@ -19,6 +18,9 @@
 		<Property Name="server.viscripting.showScriptingOperationsInEditor" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="actor" Type="Folder">
+			<Item Name="Config" Type="Folder">
+				<Item Name="FTW-ActorConfig-FormatExpectedInitTime.vi" Type="VI" URL="../actor/Config/FTW-ActorConfig-FormatExpectedInitTime.vi"/>
+			</Item>
 			<Item Name="Event" Type="Folder">
 				<Item Name="FTW-Event-Construct.vi" Type="VI" URL="../actor/Event/FTW-Event-Construct.vi"/>
 				<Item Name="FTW-Event-Deserialize-JSON.vi" Type="VI" URL="../actor/Event/FTW-Event-Deserialize-JSON.vi"/>
