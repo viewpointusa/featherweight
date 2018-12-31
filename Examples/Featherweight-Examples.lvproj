@@ -105,8 +105,10 @@
 			<Item Name="FTW-JSON-LexicalScan-Value.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-Value.vi"/>
 			<Item Name="FTW-JSON-LexicalScan-Whitespace.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-Whitespace.vi"/>
 			<Item Name="FTW-JSON-LexicalScan.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan.ctl"/>
+			<Item Name="FTW-JSON-Object-GetElement-Bool.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Bool.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Integer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Integer.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Object.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Object.vi"/>
+			<Item Name="FTW-JSON-Object-GetElement-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-String.vi"/>
 			<Item Name="FTW-JSON-Object-Keys.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-Keys.vi"/>
 			<Item Name="FTW-JSON-Object-SetElement-Object.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-Object.vi"/>
 			<Item Name="FTW-JSON-Object-SetElement-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-String.vi"/>
@@ -132,6 +134,7 @@
 			<Item Name="FTW-MessagePayload.ctl" Type="VI" URL="../../source/actor/Payload/FTW-MessagePayload.ctl"/>
 			<Item Name="FTW-NUM-Counter.vi" Type="VI" URL="../../source/Numeric/FTW-NUM-Counter.vi"/>
 			<Item Name="FTW-NUM-MovingAverage.vi" Type="VI" URL="../../source/Numeric/FTW-NUM-MovingAverage.vi"/>
+			<Item Name="FTW-Panel-FrontPanel-Open.vi" Type="VI" URL="../../source/ui/Panel/FTW-Panel-FrontPanel-Open.vi"/>
 			<Item Name="FTW-Producer.lvclass" Type="LVClass" URL="../../source/actor/Producer/FTW-Producer.lvclass"/>
 			<Item Name="FTW-Publisher.lvclass" Type="LVClass" URL="../../source/actor/Publisher/FTW-Publisher.lvclass"/>
 			<Item Name="FTW-Reflection-Array.vi" Type="VI" URL="../../source/Reflection/FTW-Reflection-Array.vi"/>
