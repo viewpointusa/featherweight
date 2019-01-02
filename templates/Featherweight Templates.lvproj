@@ -17,6 +17,8 @@
 			<Item Name="Actor Template_Connect-TCP Named.vit" Type="VI" URL="../Actor Template/Actor Template_Connect-TCP Named.vit"/>
 			<Item Name="Actor Template_Connect-TCP Port.vit" Type="VI" URL="../Actor Template/Actor Template_Connect-TCP Port.vit"/>
 			<Item Name="Actor Template_Example Message.vit" Type="VI" URL="../Actor Template/Actor Template_Example Message.vit"/>
+			<Item Name="Actor Template_Launch-Class Object.vit" Type="VI" URL="../Actor Template/Actor Template_Launch-Class Object.vit"/>
+			<Item Name="Actor Template_Launch-Static Class.vit" Type="VI" URL="../Actor Template/Actor Template_Launch-Static Class.vit"/>
 			<Item Name="Actor Template_Launch-Static Link.vit" Type="VI" URL="../Actor Template/Actor Template_Launch-Static Link.vit"/>
 			<Item Name="Actor Template_Launch-VI Refnum.vit" Type="VI" URL="../Actor Template/Actor Template_Launch-VI Refnum.vit"/>
 			<Item Name="Actor Template_Launch.vit" Type="VI" URL="../Actor Template/Actor Template_Launch.vit"/>
@@ -77,7 +79,6 @@
 				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
 				<Item Name="VerQueryValue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
 			</Item>
-			<Item Name="Actor Template-Core_Process.vi" Type="VI" URL="../Actor Template/Core/Actor Template-Core_Process.vi"/>
 			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../../source/actor/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorClassFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorClassFilepath.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorVIFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorVIFilepath.vi"/>
