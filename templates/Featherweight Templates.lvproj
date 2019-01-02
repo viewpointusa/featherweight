@@ -63,6 +63,9 @@
 				<Item Name="FTW-TestStep-Template-Core.lvclass" Type="LVClass" URL="../Test Steps/Template/FTW-TestStep-Template-Core.lvclass"/>
 				<Item Name="FTW-TestStep-Wait-Core.lvclass" Type="LVClass" URL="../Test Steps/Wait/FTW-TestStep-Wait-Core.lvclass"/>
 			</Item>
+			<Item Name="Template" Type="Folder">
+				<Item Name="FTW-CustomTestExecutive-Core.lvclass" Type="LVClass" URL="../Custom Test Executive/core/FTW-CustomTestExecutive-Core.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
 		<Item Name="Dependencies" Type="Dependencies">
