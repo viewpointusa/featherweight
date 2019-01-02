@@ -145,7 +145,6 @@
 			<Item Name="FTW-ActorConfig-FormatInitTimeout.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatInitTimeout.vi"/>
 			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../../source/actor/Connector/FTW-ActorConnector.lvclass"/>
 			<Item Name="FTW-ActorInstance.lvclass" Type="LVClass" URL="../../source/actor/Instance/FTW-ActorInstance.lvclass"/>
-			<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../../templates/FTW-ActorTemplate.vi"/>
 			<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../../templates/Classless Actors/FTW-ActorTemplate.vi"/>
 			<Item Name="FTW-BuildUtil-PostBuildAction.vi" Type="VI" URL="../../Utilities/FTW-BuildUtil-PostBuildAction.vi"/>
 			<Item Name="FTW-Collection-KeyValuePair.ctl" Type="VI" URL="../../source/Collection/FTW-Collection-KeyValuePair.ctl"/>
