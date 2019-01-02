@@ -51,6 +51,9 @@
 				<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.ctl"/>
 				<Item Name="FTW-TestExecutive-Step.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.vi"/>
 			</Item>
+			<Item Name="Core" Type="Folder">
+				<Item Name="FTW-TestExecutive-Core.lvclass" Type="LVClass" URL="../Test Executive/core/FTW-TestExecutive-Core.lvclass"/>
+			</Item>
 			<Item Name="GUI" Type="Folder">
 				<Item Name="FTW-TestExecutiveGUI-Core.lvclass" Type="LVClass" URL="../Test Executive GUI/core/FTW-TestExecutiveGUI-Core.lvclass"/>
 				<Item Name="FTW-TestExecutiveGUI-FormatSequenceForDisplay.vi" Type="VI" URL="../Test Executive GUI/FTW-TestExecutiveGUI-FormatSequenceForDisplay.vi"/>
@@ -60,7 +63,6 @@
 				<Item Name="FTW-TestStep-Template-Core.lvclass" Type="LVClass" URL="../Test Steps/Template/FTW-TestStep-Template-Core.lvclass"/>
 				<Item Name="FTW-TestStep-Wait-Core.lvclass" Type="LVClass" URL="../Test Steps/Wait/FTW-TestStep-Wait-Core.lvclass"/>
 			</Item>
-			<Item Name="FTW-TestExecutive-Core.lvclass" Type="LVClass" URL="../Test Executive/core/FTW-TestExecutive-Core.lvclass"/>
 		</Item>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -84,6 +86,7 @@
 			<Item Name="FTW-ActorConfig-FormatActorClassFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorClassFilepath.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorVIFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorVIFilepath.vi"/>
 			<Item Name="FTW-ActorConfig-FormatIdentity.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatIdentity.vi"/>
+			<Item Name="FTW-ActorConfig-FormatInboxAddress.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatInboxAddress.vi"/>
 			<Item Name="FTW-ActorConfig-FormatInitTimeout.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatInitTimeout.vi"/>
 			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../../source/actor/Connector/FTW-ActorConnector.lvclass"/>
 			<Item Name="FTW-ActorExtended.lvclass" Type="LVClass" URL="../../source/actor/Instance-Extended/FTW-ActorExtended.lvclass"/>
