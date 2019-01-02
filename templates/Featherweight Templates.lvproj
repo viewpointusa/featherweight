@@ -23,6 +23,7 @@
 			<Item Name="Actor Template_Launch-VI Refnum.vit" Type="VI" URL="../Actor Template/Actor Template_Launch-VI Refnum.vit"/>
 			<Item Name="Actor Template_Launch.vit" Type="VI" URL="../Actor Template/Actor Template_Launch.vit"/>
 			<Item Name="Actor Template_Template.vit" Type="VI" URL="../Actor Template/Actor Template_Template.vit"/>
+			<Item Name="DD Actor Template-Core.lvclass" Type="LVClass" URL="../Dynamic Dispatch/core/DD Actor Template-Core.lvclass"/>
 			<Item Name="Extended Actor Template-Core.lvclass" Type="LVClass" URL="../Extended Actor Template/Core/Extended Actor Template-Core.lvclass"/>
 		</Item>
 		<Item Name="App Launcher" Type="Folder">
