@@ -91,4 +91,4 @@ Contributions must be done using Git and by submitting pull requests. SVN is pur
 
 
 
-[Archive](/docs/Changelog.txt)
+[Archive](/docs/Changelog.md)
