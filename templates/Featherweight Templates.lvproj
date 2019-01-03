@@ -69,6 +69,7 @@
 			<Item Name="CustomTEAppLauncherConfig.json" Type="Document" URL="../Custom Test Executive/CustomTEAppLauncherConfig.json"/>
 			<Item Name="FTW-TestExecDummyLauncher.vit" Type="VI" URL="../Custom Test Executive/FTW-TestExecDummyLauncher.vit"/>
 		</Item>
+		<Item Name="FTW-ActorConfig-FormatActorVIName.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorVIName.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

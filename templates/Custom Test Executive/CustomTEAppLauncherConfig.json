@@ -2,14 +2,14 @@
     {
         "Identity": "TestExecutive",
         "InboxAddress": "inproc://*",
-		"ActorClassFilename": "FTW-CustomTestExecutive-Core.lvclass",
+		"ActorClassName": "FTW-CustomTestExecutive-Core.lvclass",
         "LoggerAddress": "",
         "DebugShowPanel": true
     },
     {
         "Identity": "TestExecutiveGUI",
         "InboxAddress": "inproc://*",
-		"ActorVIFilename": "FTW-TestExecutiveGUI-Core.lvclass:FTW-TestExecutiveGUI-Core_Process.vi",
+		"ActorVIName": "FTW-TestExecutiveGUI-Core.lvclass:FTW-TestExecutiveGUI-Core_Process.vi",
         "LoggerAddress": "",
         "DebugShowPanel": true,
         "Connections": {
