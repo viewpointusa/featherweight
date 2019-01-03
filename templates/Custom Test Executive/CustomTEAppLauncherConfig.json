@@ -1,25 +1,22 @@
 [
     {
-        "Identity": "TestExec",
+        "Identity": "TestExecutive",
         "InboxAddress": "inproc://*",
-		"ActorClassFilepath": "FTW-CustomTestExecutive-Core.lvclass",
+		"ActorClassFilename": "FTW-CustomTestExecutive-Core.lvclass",
         "LoggerAddress": "",
-        "DebugShowPanel": true,
-        "Publishers": {
-            "TestExecPub": "inproc://*"
-        }
+        "DebugShowPanel": true
     },
     {
-        "Identity": "TestExecGUI",
+        "Identity": "TestExecutiveGUI",
         "InboxAddress": "inproc://*",
-		"ActorVIFilepath": "FTW-TestExecutiveGUI-Core.lvclass:FTW-TestExecutiveGUI-Core_Process.vi",
+		"ActorVIFilename": "FTW-TestExecutiveGUI-Core.lvclass:FTW-TestExecutiveGUI-Core_Process.vi",
         "LoggerAddress": "",
         "DebugShowPanel": true,
         "Connections": {
-            "TestExec": ""
+            "TestExecutive": ""
         },
         "Subscriptions": {
-            "TestExecPub": ""
+            "TestExecStatusPub": ""
         }
     }
 ]
