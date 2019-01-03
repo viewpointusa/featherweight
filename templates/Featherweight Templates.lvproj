@@ -66,6 +66,7 @@
 			<Item Name="Template" Type="Folder">
 				<Item Name="FTW-CustomTestExecutive-Core.lvclass" Type="LVClass" URL="../Custom Test Executive/core/FTW-CustomTestExecutive-Core.lvclass"/>
 			</Item>
+			<Item Name="FTW-TestExecDummyLauncher.vit" Type="VI" URL="../Custom Test Executive/FTW-TestExecDummyLauncher.vit"/>
 		</Item>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -88,6 +89,7 @@
 			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../../source/actor/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorClassFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorClassFilepath.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorVIFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorVIFilepath.vi"/>
+			<Item Name="FTW-ActorConfig-FormatDebugShowPanel.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatDebugShowPanel.vi"/>
 			<Item Name="FTW-ActorConfig-FormatIdentity.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatIdentity.vi"/>
 			<Item Name="FTW-ActorConfig-FormatInboxAddress.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatInboxAddress.vi"/>
 			<Item Name="FTW-ActorConfig-FormatInitTimeout.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatInitTimeout.vi"/>
