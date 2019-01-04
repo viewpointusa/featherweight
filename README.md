@@ -48,7 +48,7 @@ Contributions must be done using Git and by submitting pull requests. SVN is pur
 
 ### Breaking changes
 * The *Initialized Response* input to `FTW-Actor-Initialized.vi` must be a valid JSON object (i.e. `{"a":"b"}`)
-* Actors defined in an app launcher implementation using the `ActorVIFilepath` config element and only specifying a file name must now use the `ActorVIName` element
+* Actors defined in an app launcher implementation using the `ActorVIFilepath` config element and only specifying a file name must now use the `ActorVIName` element (current custom copies of the app launcher are immune to this change)
 * Any VI that formats JSON now defaults to NOT pretty print
 * Added option for real number formatting in JSON serialize, default to 6 digits of precision hiding zeros
 * `HandshakeTimeout` config element has been replaced by `InitTimeout` and `ConstructTimeout`
