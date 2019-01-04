@@ -2,7 +2,7 @@
     {
         "Identity": "ActorOne",
         "InboxAddress": "inproc://*",
-		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
+		"ActorVIName": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
         "DebugEnableJobLogging": false,
         "DebugShowPanel": true,
@@ -14,7 +14,7 @@
     {
         "Identity": "ActorTwo",
         "InboxAddress": "inproc://*",
-		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
+		"ActorVIName": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
         "DebugEnableJobLogging": false,
         "DebugShowPanel": true,
@@ -31,7 +31,7 @@
     {
         "Identity": "ActorThree",
         "InboxAddress": "inproc://*",
-		"ActorVIFilepath": "FTW-ExtendedActorTemplate.vi",
+		"ActorVIName": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
         "DebugEnableJobLogging": false,
         "DebugShowPanel": true,
