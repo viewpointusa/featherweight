@@ -74,6 +74,7 @@ Contributions must be done using Git and by submitting pull requests. SVN is pur
         * Custom test executive override
         * Wait step type
         * Step template
+        * Basic GUI
 * Container class is a generic data type that will convert most data types in LV to one of the primitive types (Bool, int, real, string, cluster, array)
     * Used to convert to/from JSON, but can be used as a generic container for manipulating data in ways that LV does not allow natively (i.e. combining clusters)
     * Can be searched/added/removed much like a JSON or XML object
