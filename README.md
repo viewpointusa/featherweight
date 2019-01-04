@@ -52,6 +52,8 @@ Contributions must be done using Git and by submitting pull requests. SVN is pur
 * Any VI that formats JSON now defaults to NOT pretty print
 * Added option for real number formatting in JSON serialize, default to 6 digits of precision hiding zeros
 * `HandshakeTimeout` config element has been replaced by `InitTimeout` and `ConstructTimeout`
+    * `InitTimeout` is the more direct replacement for `HandshakeTimeout` and is the time from actor construct to initialization complete
+    * `ConstructTimeout` is the time for the VI to start executing and respond to the launcher and is not needed in most cases (hence leaving it off the connector pane)
 
 ### New features
 * Actors can now inherit from `FTW-ActorInstance.lvclass` and override `FTW-Actor.vi` to launch actors as a dynamic dispatch VI (see examples)
