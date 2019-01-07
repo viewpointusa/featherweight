@@ -98,7 +98,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1118306832</Property>
 		</Item>
-		<Item Name="FTW-Actor-ConstructExtended.vi" Type="VI" URL="../FTW-Actor-ConstructExtended.vi">
+		<Item Name="FTW-Actor-ExternalConnections.vi" Type="VI" URL="../FTW-Actor-ExternalConnections.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!((!!!!$1!]1(!!(A!!'RF'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T!"&gt;'6&amp;=A17.U&lt;X)A37ZT&gt;'&amp;O9W5A6(FQ:1!%!!!!/%"Q!"Y!!"M:2F28,5&amp;D&gt;'^S37ZT&gt;'&amp;O9W5O&lt;(:D&lt;'&amp;T=Q!32F28)%&amp;D&gt;'^S)%FO=X2B&lt;G.F!!!G1$$`````(%&amp;D&gt;'^S)%FO=X2B&lt;G.F)%.P&lt;G:J:X6S982J&lt;WY!!#:!=!!?!!!6%U:56SV.:8.T97&gt;F,GRW9WRB=X-!"UVF=X.B:W5!%E"Q!"E!!1!%"UVF=X.B:W5!+E"Q!"=!!!!"!!%!!!0I!!585X6C=W.S;7*F=C"3:7&gt;J=X2S982J&lt;WY!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!"Q!)!!E):8*S&lt;X)A;7Y!!":!5!!$!!=!#!!*#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!1!"!!)!!1!"!!-!"A!"!!%!#A!"!!%!!1!,!Q!"#!!!EA!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!!!!!!B!!!!!*!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!$1M!!!!"!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
