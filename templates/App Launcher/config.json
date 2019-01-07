@@ -1,31 +1,30 @@
 [
     {
-        "Identity": "ActorOne",
+        "Identity": "TraditionalActor",
         "InboxAddress": "inproc://*",
 		"ActorVIName": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
-        "DebugEnableJobLogging": false,
         "DebugShowPanel": true,
         "Publishers": {
-            "PublisherOne": "inproc://*",
-            "PublisherTwo": "tcp://localhost/publisher-two"
+            "WildcardInprocPublisher": "inproc://*",
+            "StaticTCPPublisher": "tcp://localhost/static-name"
         }
     },
     {
-        "Identity": "ActorTwo",
+        "Identity": "DynamicDispatchActor",
         "InboxAddress": "inproc://*",
-		"ActorVIName": "FTW-ExtendedActorTemplate.vi",
+		"ActorClassName": "DD Actor Template-Core.lvclass",
         "LoggerAddress": "",
-        "DebugEnableJobLogging": false,
         "DebugShowPanel": true,
         "Connections": {
-            "ActorOne": ""
+            "TraditionalActor": ""
         },
         "Publishers": {
-            "PublisherThree": "inproc://*"
+            "StaticInprocPublisher": "inproc://static-name"
         },
         "Subscriptions": {
-            "PublisherOne": ""
+            "WildcardInprocPublisher": "",
+            "StaticTCPPublisher": ""
         }
     },
     {
@@ -33,18 +32,17 @@
         "InboxAddress": "inproc://*",
 		"ActorVIName": "FTW-ExtendedActorTemplate.vi",
         "LoggerAddress": "",
-        "DebugEnableJobLogging": false,
         "DebugShowPanel": true,
         "Connections": {
-            "ActorOne": "",
-            "ActorTwo": ""
+            "TraditionalActor": "",
+            "DynamicDispatchActor": ""
         },
         "Publishers": {
-            "PublisherFour": "inproc://*"
+            "StaticTCPPortPublisher": "tcp://localhost:12345"
         },
         "Subscriptions": {
-            "PublisherOne": "",
-			"PublisherThree": ""
+            "WildcardInprocPublisher": "",
+			"StaticInprocPublisher": ""
         }
     }
 ]
