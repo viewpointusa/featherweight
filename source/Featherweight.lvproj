@@ -51,6 +51,7 @@
 				<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../actor/Subscriber/FTW-Subscriber.lvclass"/>
 			</Item>
 			<Item Name="Transport" Type="Folder">
+				<Item Name="FTW-Endpoint-HTTP.lvclass" Type="LVClass" URL="../actor/HTTP/FTW-Endpoint-HTTP.lvclass"/>
 				<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../actor/TCP/FTW-Endpoint-TCP.lvclass"/>
 				<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../actor/Endpoint/FTW-Endpoint.lvclass"/>
 			</Item>
