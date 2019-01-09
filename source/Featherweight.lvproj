@@ -31,6 +31,7 @@
 			</Item>
 			<Item Name="Framework" Type="Folder"/>
 			<Item Name="Message" Type="Folder">
+				<Item Name="FTW-Message-HttpRequest.lvclass" Type="LVClass" URL="../actor/Message/HttpRequest/FTW-Message-HttpRequest.lvclass"/>
 				<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../actor/Message/Request/FTW-Message-IncomingRequest.lvclass"/>
 				<Item Name="FTW-Message-Lossy.lvclass" Type="LVClass" URL="../actor/Message/Lossy/FTW-Message-Lossy.lvclass"/>
 				<Item Name="FTW-Message.lvclass" Type="LVClass" URL="../actor/Message/Base/FTW-Message.lvclass"/>
@@ -49,6 +50,7 @@
 				<Item Name="FTW-Reply.lvclass" Type="LVClass" URL="../actor/Reply/FTW-Reply.lvclass"/>
 				<Item Name="FTW-Request.lvclass" Type="LVClass" URL="../actor/Request/FTW-Request.lvclass"/>
 				<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../actor/Subscriber/FTW-Subscriber.lvclass"/>
+				<Item Name="FTW-WebServer.lvclass" Type="LVClass" URL="../actor/WebServer/FTW-WebServer.lvclass"/>
 			</Item>
 			<Item Name="Transport" Type="Folder">
 				<Item Name="FTW-Endpoint-HTTP.lvclass" Type="LVClass" URL="../actor/HTTP/FTW-Endpoint-HTTP.lvclass"/>
