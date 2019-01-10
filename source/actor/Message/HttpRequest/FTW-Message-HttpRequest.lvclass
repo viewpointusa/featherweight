@@ -36,6 +36,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
+	<Item Name="FTW-Message-HttpRequest-Interpret.vi" Type="VI" URL="../FTW-Message-HttpRequest-Interpret.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;S!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;E!Q`````QR3:8&amp;V:8.U)%*P:(E!!"B!-0````]/5G6R&gt;76T&gt;#"):7&amp;E:8)!!%2!=!!?!!!B(U:56SV.:8.T97&gt;F,5BU&gt;("3:8&amp;V:8.U,GRW9WRB=X-!'%:56S"*&lt;G.P&lt;7FO:S"3:8&amp;V:8.U)'^V&gt;!!!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"!1(!!(A!!)2^'6&amp;=N476T=W&amp;H:3V)&gt;(2Q5G6R&gt;76T&gt;#ZM&gt;G.M98.T!"2'6&amp;=A37ZD&lt;WVJ&lt;G=A5G6R&gt;76T&gt;!!!91$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!"Q!(!!E$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+	</Item>
 	<Item Name="FTW-Message-HttpRequest-Request.ctl" Type="VI" URL="../FTW-Message-HttpRequest-Request.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -47,15 +56,6 @@
 	</Item>
 	<Item Name="FTW-Message-Request-Body.vi" Type="VI" URL="../FTW-Message-Request-Body.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;E!Q`````QR3:8&amp;V:8.U)%*P:(E!!!1!!!"%1(!!(A!!)2^'6&amp;=N476T=W&amp;H:3V)&gt;(2Q5G6R&gt;76T&gt;#ZM&gt;G.M98.T!"B'6&amp;=A37ZD&lt;WVJ&lt;G=A5G6R&gt;76T&gt;#"P&gt;81!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"!1(!!(A!!)2^'6&amp;=N476T=W&amp;H:3V)&gt;(2Q5G6R&gt;76T&gt;#ZM&gt;G.M98.T!"2'6&amp;=A37ZD&lt;WVJ&lt;G=A5G6R&gt;76T&gt;!!!91$Q!!Q!!Q!%!!5!"A!&amp;!!5!"1!&amp;!!=!"1!&amp;!!A$!!"Y!!!.#!!!#1!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
-	</Item>
-	<Item Name="FTW-Message-Request-Interpret.vi" Type="VI" URL="../FTW-Message-Request-Interpret.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;S!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;E!Q`````QR3:8&amp;V:8.U)%*P:(E!!"B!-0````]/5G6R&gt;76T&gt;#"):7&amp;E:8)!!%2!=!!?!!!B(U:56SV.:8.T97&gt;F,5BU&gt;("3:8&amp;V:8.U,GRW9WRB=X-!'%:56S"*&lt;G.P&lt;7FO:S"3:8&amp;V:8.U)'^V&gt;!!!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!"!1(!!(A!!)2^'6&amp;=N476T=W&amp;H:3V)&gt;(2Q5G6R&gt;76T&gt;#ZM&gt;G.M98.T!"2'6&amp;=A37ZD&lt;WVJ&lt;G=A5G6R&gt;76T&gt;!!!91$Q!!Q!!Q!%!!5!"A!(!!=!"Q!(!!A!"Q!(!!E$!!"Y!!!.#!!!#1!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
