@@ -20,6 +20,8 @@
 			<Item Name="FTW-Test-JSON-ElementSet.vi" Type="VI" URL="../JSON/FTW-Test-JSON-ElementSet.vi"/>
 			<Item Name="FTW-Test-JSON-FloatingPoint.vi" Type="VI" URL="../FTW-Test-JSON-FloatingPoint.vi"/>
 			<Item Name="FTW-Test-JSON-Fuzz.vi" Type="VI" URL="../FTW-Test-JSON-Fuzz.vi"/>
+			<Item Name="FTW-Test-JSON-NumberFormats.vi" Type="VI" URL="../JSON/FTW-Test-JSON-NumberFormats.vi"/>
+			<Item Name="FTW-Test-JSON-NumericParse.vi" Type="VI" URL="../JSON/FTW-Test-JSON-NumericParse.vi"/>
 			<Item Name="FTW-Test-JSON-ObjectDelete.vi" Type="VI" URL="../FTW-Test-JSON-ObjectDelete.vi"/>
 			<Item Name="FTW-Test-JSON-ObjectJoin.vi" Type="VI" URL="../FTW-Test-JSON-ObjectJoin.vi"/>
 			<Item Name="FTW-Test-JSON-ObjectKeys.vi" Type="VI" URL="../FTW-Test-JSON-ObjectKeys.vi"/>
@@ -209,8 +211,11 @@
 			<Item Name="FTW-JSON-JoinMode.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-JoinMode.ctl"/>
 			<Item Name="FTW-JSON-Keys.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Keys.vi"/>
 			<Item Name="FTW-JSON-LexicalScan-Char.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-Char.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-Digits.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-Digits.vi"/>
 			<Item Name="FTW-JSON-LexicalScan-Error.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-Error.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-FloatDeserialize.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-FloatDeserialize.vi"/>
 			<Item Name="FTW-JSON-LexicalScan-Get.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-Get.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-IntegerDeserialize.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-IntegerDeserialize.vi"/>
 			<Item Name="FTW-JSON-LexicalScan-IsDigit.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-IsDigit.vi"/>
 			<Item Name="FTW-JSON-LexicalScan-Number.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-Number.vi"/>
 			<Item Name="FTW-JSON-LexicalScan-Pair.vi" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan-Pair.vi"/>
