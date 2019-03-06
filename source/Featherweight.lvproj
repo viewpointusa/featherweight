@@ -52,7 +52,9 @@
 			</Item>
 			<Item Name="Tag" Type="Folder">
 				<Item Name="FTW-Tag-Core.lvclass" Type="LVClass" URL="../actor/TagEngine/Core/FTW-Tag-Core.lvclass"/>
+				<Item Name="FTW-Tag-Get.vi" Type="VI" URL="../actor/TagEngine/FTW-Tag-Get.vi"/>
 				<Item Name="FTW-Tag-Launch.vi" Type="VI" URL="../actor/TagEngine/FTW-Tag-Launch.vi"/>
+				<Item Name="FTW-Tag-Set.vi" Type="VI" URL="../actor/TagEngine/FTW-Tag-Set.vi"/>
 			</Item>
 			<Item Name="Transport" Type="Folder">
 				<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../actor/TCP/FTW-Endpoint-TCP.lvclass"/>
