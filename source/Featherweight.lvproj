@@ -50,6 +50,10 @@
 				<Item Name="FTW-Request.lvclass" Type="LVClass" URL="../actor/Request/FTW-Request.lvclass"/>
 				<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../actor/Subscriber/FTW-Subscriber.lvclass"/>
 			</Item>
+			<Item Name="Tag" Type="Folder">
+				<Item Name="FTW-Tag-Core.lvclass" Type="LVClass" URL="../actor/TagEngine/Core/FTW-Tag-Core.lvclass"/>
+				<Item Name="FTW-Tag-Launch.vi" Type="VI" URL="../actor/TagEngine/FTW-Tag-Launch.vi"/>
+			</Item>
 			<Item Name="Transport" Type="Folder">
 				<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../actor/TCP/FTW-Endpoint-TCP.lvclass"/>
 				<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../actor/Endpoint/FTW-Endpoint.lvclass"/>
