@@ -51,6 +51,7 @@
 				<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../actor/Subscriber/FTW-Subscriber.lvclass"/>
 			</Item>
 			<Item Name="Tag" Type="Folder">
+				<Item Name="FTW-Tag-Connect.vi" Type="VI" URL="../actor/TagEngine/FTW-Tag-Connect.vi"/>
 				<Item Name="FTW-Tag-Core.lvclass" Type="LVClass" URL="../actor/TagEngine/Core/FTW-Tag-Core.lvclass"/>
 				<Item Name="FTW-Tag-Get.vi" Type="VI" URL="../actor/TagEngine/FTW-Tag-Get.vi"/>
 				<Item Name="FTW-Tag-GetAll.vi" Type="VI" URL="../actor/TagEngine/FTW-Tag-GetAll.vi"/>

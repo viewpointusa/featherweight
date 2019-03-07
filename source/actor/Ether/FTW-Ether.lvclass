@@ -198,6 +198,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
+	<Item Name="FTW-Ether-NewTagConnection.vi" Type="VI" URL="../FTW-Ether-NewTagConnection.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%6!!!!#1!%!!!!.E"Q!"Y!!"Q;2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!!Z597=A1W^O&lt;G6D&gt;'FP&lt;A!!&amp;%!Q`````QN597=A172E=G6T=Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!$!!1!"1BF=H*P=C"J&lt;A!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!'Q!]!!1!!!!!!!!!!!!!1!#!!!!!!!!!!!!!!!'!!!!!!!!!!=$!!%)!!!!!!!!!!!!!!!!!!!!!!!!#1!!!1)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!.#Q!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+	</Item>
 	<Item Name="FTW-Ether-SpawnNewActor-Core.vi" Type="VI" URL="../FTW-Ether-SpawnNewActor-Core.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;:!!!!#Q!%!!!!/E"Q!"Y!!"Q;2F28,5&amp;D&gt;'^S1W^O&lt;G6D&gt;'^S,GRW9WRB=X-!!".'6&amp;=A17.U&lt;X)A1W^O&lt;G6D&gt;'^S!":!-0````].1W^O:GFH&gt;8*B&gt;'FP&lt;A!?1$$`````&amp;%FO;82J97RJ?G6E)&amp;*F=X"P&lt;H.F!!!A1$$`````&amp;EFO=X2B&lt;G.F)%FO9G^Y)%&amp;E:(*F=X-!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!5!"A!(#'6S=G^S)'FO!!!71&amp;!!!Q!&amp;!!9!"QFF=H*P=C"P&gt;81!&lt;!$Q!"!!!!!!!!!!!!!"!!)!!Q!!!!1!!!!!!!A!!!!!!!!!#1-!!1A!!!!!!!!!!!!!!!!!!!!!!!!*!!!#%!!!!!E!!!!!!!!!#1!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!U,!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
