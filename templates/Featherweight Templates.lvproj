@@ -44,6 +44,8 @@
 				<Item Name="FTW-TestExecutive-Launch.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Launch.vi"/>
 				<Item Name="FTW-TestExecutive-LoadSequence.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-LoadSequence.vi"/>
 				<Item Name="FTW-TestExecutive-Pause.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Pause.vi"/>
+				<Item Name="FTW-TestExecutive-Results-Deserialize.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results-Deserialize.vi"/>
+				<Item Name="FTW-TestExecutive-Results-Serialize.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results-Serialize.vi"/>
 				<Item Name="FTW-TestExecutive-Results.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results.ctl"/>
 				<Item Name="FTW-TestExecutive-Sequence-Interpret.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Sequence-Interpret.vi"/>
 				<Item Name="FTW-TestExecutive-Start.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Start.vi"/>
@@ -93,6 +95,7 @@
 			<Item Name="FTW-ActorConfig-FormatActorClassFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorClassFilepath.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorVIFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorVIFilepath.vi"/>
 			<Item Name="FTW-ActorConfig-FormatDebugShowPanel.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatDebugShowPanel.vi"/>
+			<Item Name="FTW-ActorConfig-FormatExtendedPublishers.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatExtendedPublishers.vi"/>
 			<Item Name="FTW-ActorConfig-FormatIdentity.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatIdentity.vi"/>
 			<Item Name="FTW-ActorConfig-FormatInboxAddress.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatInboxAddress.vi"/>
 			<Item Name="FTW-ActorConfig-FormatInitTimeout.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatInitTimeout.vi"/>
@@ -170,10 +173,14 @@
 			<Item Name="FTW-JSON-LexicalScan.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-LexicalScan.ctl"/>
 			<Item Name="FTW-JSON-MergeStrings.vi" Type="VI" URL="../../source/JSON/FTW-JSON-MergeStrings.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Bool.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Bool.vi"/>
+			<Item Name="FTW-JSON-Object-GetElement-DBL.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-DBL.vi"/>
+			<Item Name="FTW-JSON-Object-GetElement-EXT.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-EXT.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Integer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Integer.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Object.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Object.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-String.vi"/>
 			<Item Name="FTW-JSON-Object-Keys.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-Keys.vi"/>
+			<Item Name="FTW-JSON-Object-SetElement-Bool.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-Bool.vi"/>
+			<Item Name="FTW-JSON-Object-SetElement-DBL.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-DBL.vi"/>
 			<Item Name="FTW-JSON-Object-SetElement-Object.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-Object.vi"/>
 			<Item Name="FTW-JSON-Object-SetElement-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-String.vi"/>
 			<Item Name="FTW-JSON-Object-Update.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-Update.vi"/>
@@ -225,6 +232,11 @@
 			<Item Name="FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="../../source/String/FTW-STR-ReplaceWhitespace.vi"/>
 			<Item Name="FTW-STR-Split.vi" Type="VI" URL="../../source/String/FTW-STR-Split.vi"/>
 			<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../../source/actor/Subscriber/FTW-Subscriber.lvclass"/>
+			<Item Name="FTW-Tag-Connect.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Connect.vi"/>
+			<Item Name="FTW-Tag-Core.lvclass" Type="LVClass" URL="../../source/actor/TagEngine/Core/FTW-Tag-Core.lvclass"/>
+			<Item Name="FTW-Tag-Get.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Get.vi"/>
+			<Item Name="FTW-Tag-Launch.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Launch.vi"/>
+			<Item Name="FTW-Tag-Set.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Set.vi"/>
 			<Item Name="FTW-Time-Display-Timestamp.vi" Type="VI" URL="../../source/Time/FTW-Time-Display-Timestamp.vi"/>
 			<Item Name="FTW-Time-DisplayFormat-Timestamp.ctl" Type="VI" URL="../../source/Time/FTW-Time-DisplayFormat-Timestamp.ctl"/>
 			<Item Name="FTW-Time-Elapse.vi" Type="VI" URL="../../source/Time/FTW-Time-Elapse.vi"/>
@@ -342,6 +354,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../../source/actor/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorClassFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorClassFilepath.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorVIFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorVIFilepath.vi"/>
+			<Item Name="FTW-ActorConfig-FormatExtendedPublishers.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatExtendedPublishers.vi"/>
 			<Item Name="FTW-ActorConfig-FormatIdentity.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatIdentity.vi"/>
 			<Item Name="FTW-ActorConfig-FormatInitTimeout.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatInitTimeout.vi"/>
 			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../../source/actor/Connector/FTW-ActorConnector.lvclass"/>
@@ -383,6 +396,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FTW-File-ValidateFilepath.vi" Type="VI" URL="../../source/File/FTW-File-ValidateFilepath.vi"/>
 			<Item Name="FTW-JobSequencer.lvclass" Type="LVClass" URL="../../source/actor/JobSequencer/FTW-JobSequencer.lvclass"/>
 			<Item Name="FTW-JSON-Construct-FromBuffer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Construct-FromBuffer.vi"/>
+			<Item Name="FTW-JSON-Construct-NewObject.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Construct-NewObject.vi"/>
 			<Item Name="FTW-JSON-Container-JsonType.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Container-JsonType.vi"/>
 			<Item Name="FTW-JSON-Container-Serialize.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Container-Serialize.vi"/>
 			<Item Name="FTW-JSON-Container-Traverse.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Container-Traverse.vi"/>
@@ -461,6 +475,11 @@ AddOutputFilter chunkFilter
 			<Item Name="FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="../../source/String/FTW-STR-ReplaceWhitespace.vi"/>
 			<Item Name="FTW-STR-Split.vi" Type="VI" URL="../../source/String/FTW-STR-Split.vi"/>
 			<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../../source/actor/Subscriber/FTW-Subscriber.lvclass"/>
+			<Item Name="FTW-Tag-Connect.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Connect.vi"/>
+			<Item Name="FTW-Tag-Core.lvclass" Type="LVClass" URL="../../source/actor/TagEngine/Core/FTW-Tag-Core.lvclass"/>
+			<Item Name="FTW-Tag-Get.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Get.vi"/>
+			<Item Name="FTW-Tag-Launch.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Launch.vi"/>
+			<Item Name="FTW-Tag-Set.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Set.vi"/>
 			<Item Name="FTW-Time-Display-Timestamp.vi" Type="VI" URL="../../source/Time/FTW-Time-Display-Timestamp.vi"/>
 			<Item Name="FTW-Time-DisplayFormat-Timestamp.ctl" Type="VI" URL="../../source/Time/FTW-Time-DisplayFormat-Timestamp.ctl"/>
 			<Item Name="FTW-Time-Elapse.vi" Type="VI" URL="../../source/Time/FTW-Time-Elapse.vi"/>
