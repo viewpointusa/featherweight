@@ -48,6 +48,7 @@
 				<Item Name="FTW-TestExecutive-Results-Serialize.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results-Serialize.vi"/>
 				<Item Name="FTW-TestExecutive-Results.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results.ctl"/>
 				<Item Name="FTW-TestExecutive-Sequence-Interpret.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Sequence-Interpret.vi"/>
+				<Item Name="FTW-TestExecutive-Sequence-Serialize.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Sequence-Serialize.vi"/>
 				<Item Name="FTW-TestExecutive-Start.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Start.vi"/>
 				<Item Name="FTW-TestExecutive-Step-State.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step-State.ctl"/>
 				<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.ctl"/>
@@ -140,6 +141,7 @@
 			<Item Name="FTW-JSON-Array-Deserialize.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Array-Deserialize.vi"/>
 			<Item Name="FTW-JSON-Array-Elements.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Array-Elements.vi"/>
 			<Item Name="FTW-JSON-Construct-FromBuffer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Construct-FromBuffer.vi"/>
+			<Item Name="FTW-JSON-Construct-NewArray.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Construct-NewArray.vi"/>
 			<Item Name="FTW-JSON-Construct-NewObject.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Construct-NewObject.vi"/>
 			<Item Name="FTW-JSON-Container-JsonType.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Container-JsonType.vi"/>
 			<Item Name="FTW-JSON-Container-Serialize.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Container-Serialize.vi"/>
@@ -177,6 +179,7 @@
 			<Item Name="FTW-JSON-Object-GetElement-EXT.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-EXT.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Integer.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Integer.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-Object.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-Object.vi"/>
+			<Item Name="FTW-JSON-Object-GetElement-SerializedObject.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-SerializedObject.vi"/>
 			<Item Name="FTW-JSON-Object-GetElement-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-GetElement-String.vi"/>
 			<Item Name="FTW-JSON-Object-Keys.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-Keys.vi"/>
 			<Item Name="FTW-JSON-Object-SetElement-Bool.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Object-SetElement-Bool.vi"/>
