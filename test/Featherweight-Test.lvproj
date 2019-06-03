@@ -145,6 +145,7 @@
 			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../../source/actor/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorClassFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorClassFilepath.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorVIFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorVIFilepath.vi"/>
+			<Item Name="FTW-ActorConfig-FormatExtendedPublishers.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatExtendedPublishers.vi"/>
 			<Item Name="FTW-ActorConfig-FormatIdentity.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatIdentity.vi"/>
 			<Item Name="FTW-ActorConfig-FormatInitTimeout.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatInitTimeout.vi"/>
 			<Item Name="FTW-ActorConnector.lvclass" Type="LVClass" URL="../../source/actor/Connector/FTW-ActorConnector.lvclass"/>
@@ -206,7 +207,6 @@
 			<Item Name="FTW-JSON-Escape.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Escape.vi"/>
 			<Item Name="FTW-JSON-Format-Boolean.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-Boolean.vi"/>
 			<Item Name="FTW-JSON-Format-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-String.vi"/>
-			<Item Name="FTW-JSON-Format-Timestamp.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Format-Timestamp.vi"/>
 			<Item Name="FTW-JSON-Interpret-Boolean.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Interpret-Boolean.vi"/>
 			<Item Name="FTW-JSON-Interpret-String.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Interpret-String.vi"/>
 			<Item Name="FTW-JSON-JoinMode.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-JoinMode.ctl"/>
@@ -286,8 +286,14 @@
 			<Item Name="FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="../../source/String/FTW-STR-ReplaceWhitespace.vi"/>
 			<Item Name="FTW-STR-Split.vi" Type="VI" URL="../../source/String/FTW-STR-Split.vi"/>
 			<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../../source/actor/Subscriber/FTW-Subscriber.lvclass"/>
+			<Item Name="FTW-Tag-Connect.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Connect.vi"/>
 			<Item Name="FTW-Tag-Core.lvclass" Type="LVClass" URL="../../source/actor/TagEngine/Core/FTW-Tag-Core.lvclass"/>
+			<Item Name="FTW-Tag-Get.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Get.vi"/>
+			<Item Name="FTW-Tag-GetAll.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-GetAll.vi"/>
+			<Item Name="FTW-Tag-GetVariant.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-GetVariant.vi"/>
 			<Item Name="FTW-Tag-Launch.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Launch.vi"/>
+			<Item Name="FTW-Tag-Set.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Set.vi"/>
+			<Item Name="FTW-Tag-SetVariant.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-SetVariant.vi"/>
 			<Item Name="FTW-Time-Display-Timestamp.vi" Type="VI" URL="../../source/Time/FTW-Time-Display-Timestamp.vi"/>
 			<Item Name="FTW-Time-DisplayFormat-Timestamp.ctl" Type="VI" URL="../../source/Time/FTW-Time-DisplayFormat-Timestamp.ctl"/>
 			<Item Name="FTW-Time-Elapse.vi" Type="VI" URL="../../source/Time/FTW-Time-Elapse.vi"/>
