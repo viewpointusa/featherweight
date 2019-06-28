@@ -36,33 +36,11 @@
 			<Item Name="FTW-ExtendedActorTemplate.vi" Type="VI" URL="../Classless Actors/FTW-ExtendedActorTemplate.vi"/>
 		</Item>
 		<Item Name="Test Executive" Type="Folder">
-			<Item Name="API" Type="Folder">
-				<Item Name="For Steps Only" Type="Folder">
-					<Item Name="FTW-TestExecutive-ReportResults.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-ReportResults.vi"/>
-				</Item>
-				<Item Name="FTW-TestExecutive-Abort.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Abort.vi"/>
-				<Item Name="FTW-TestExecutive-Launch.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Launch.vi"/>
-				<Item Name="FTW-TestExecutive-LoadSequence.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-LoadSequence.vi"/>
-				<Item Name="FTW-TestExecutive-Pause.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Pause.vi"/>
-				<Item Name="FTW-TestExecutive-Results-Deserialize.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results-Deserialize.vi"/>
-				<Item Name="FTW-TestExecutive-Results-Serialize.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results-Serialize.vi"/>
-				<Item Name="FTW-TestExecutive-Results.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Results.ctl"/>
-				<Item Name="FTW-TestExecutive-Sequence-Interpret.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Sequence-Interpret.vi"/>
-				<Item Name="FTW-TestExecutive-Sequence-Serialize.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Sequence-Serialize.vi"/>
-				<Item Name="FTW-TestExecutive-Start.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Start.vi"/>
-				<Item Name="FTW-TestExecutive-Step-State.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step-State.ctl"/>
-				<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.ctl"/>
-				<Item Name="FTW-TestExecutive-Step.vi" Type="VI" URL="../Test Executive/FTW-TestExecutive-Step.vi"/>
-			</Item>
-			<Item Name="Core" Type="Folder">
-				<Item Name="FTW-TestExecutive-Core.lvclass" Type="LVClass" URL="../Test Executive/core/FTW-TestExecutive-Core.lvclass"/>
-			</Item>
 			<Item Name="GUI" Type="Folder">
 				<Item Name="FTW-TestExecutiveGUI-Core.lvclass" Type="LVClass" URL="../Test Executive GUI/core/FTW-TestExecutiveGUI-Core.lvclass"/>
 				<Item Name="FTW-TestExecutiveGUI-FormatSequenceForDisplay.vi" Type="VI" URL="../Test Executive GUI/FTW-TestExecutiveGUI-FormatSequenceForDisplay.vi"/>
 			</Item>
 			<Item Name="Steps" Type="Folder">
-				<Item Name="FTW-TestStep-Base.lvclass" Type="LVClass" URL="../Test Steps/Base/FTW-TestStep-Base.lvclass"/>
 				<Item Name="FTW-TestStep-Template-Core.lvclass" Type="LVClass" URL="../Test Steps/Template/FTW-TestStep-Template-Core.lvclass"/>
 				<Item Name="FTW-TestStep-Wait-Core.lvclass" Type="LVClass" URL="../Test Steps/Wait/FTW-TestStep-Wait-Core.lvclass"/>
 			</Item>
@@ -72,7 +50,6 @@
 			<Item Name="CustomTEAppLauncherConfig.json" Type="Document" URL="../Custom Test Executive/CustomTEAppLauncherConfig.json"/>
 			<Item Name="FTW-TestExecDummyLauncher.vit" Type="VI" URL="../Custom Test Executive/FTW-TestExecDummyLauncher.vit"/>
 		</Item>
-		<Item Name="FTW-ActorConfig-FormatActorVIName.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorVIName.vi"/>
 		<Item Name="FTW-DummyLauncherTemplate.vit" Type="VI" URL="../FTW-DummyLauncherTemplate.vit"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -95,6 +72,7 @@
 			<Item Name="FTW-Actor-DynamicLaunchOptions.vi" Type="VI" URL="../../source/actor/Utility/FTW-Actor-DynamicLaunchOptions.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorClassFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorClassFilepath.vi"/>
 			<Item Name="FTW-ActorConfig-FormatActorVIFilepath.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorVIFilepath.vi"/>
+			<Item Name="FTW-ActorConfig-FormatActorVIName.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatActorVIName.vi"/>
 			<Item Name="FTW-ActorConfig-FormatDebugShowPanel.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatDebugShowPanel.vi"/>
 			<Item Name="FTW-ActorConfig-FormatExtendedPublishers.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatExtendedPublishers.vi"/>
 			<Item Name="FTW-ActorConfig-FormatIdentity.vi" Type="VI" URL="../../source/actor/Config/FTW-ActorConfig-FormatIdentity.vi"/>
@@ -239,6 +217,21 @@
 			<Item Name="FTW-Tag-Get.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Get.vi"/>
 			<Item Name="FTW-Tag-Launch.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Launch.vi"/>
 			<Item Name="FTW-Tag-Set.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Set.vi"/>
+			<Item Name="FTW-TestExecutive-Abort.vi" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Abort.vi"/>
+			<Item Name="FTW-TestExecutive-Core.lvclass" Type="LVClass" URL="../../source/actor/TestExecutive/core/FTW-TestExecutive-Core.lvclass"/>
+			<Item Name="FTW-TestExecutive-LoadSequence.vi" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-LoadSequence.vi"/>
+			<Item Name="FTW-TestExecutive-Pause.vi" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Pause.vi"/>
+			<Item Name="FTW-TestExecutive-ReportResults.vi" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-ReportResults.vi"/>
+			<Item Name="FTW-TestExecutive-Results-Deserialize.vi" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Results-Deserialize.vi"/>
+			<Item Name="FTW-TestExecutive-Results-Serialize.vi" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Results-Serialize.vi"/>
+			<Item Name="FTW-TestExecutive-Results.ctl" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Results.ctl"/>
+			<Item Name="FTW-TestExecutive-Sequence-Interpret.vi" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Sequence-Interpret.vi"/>
+			<Item Name="FTW-TestExecutive-Sequence-Serialize.vi" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Sequence-Serialize.vi"/>
+			<Item Name="FTW-TestExecutive-Start.vi" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Start.vi"/>
+			<Item Name="FTW-TestExecutive-Step-State.ctl" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Step-State.ctl"/>
+			<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Step.ctl"/>
+			<Item Name="FTW-TestExecutive-Step.vi" Type="VI" URL="../../source/actor/TestExecutive/FTW-TestExecutive-Step.vi"/>
+			<Item Name="FTW-TestStep-Base.lvclass" Type="LVClass" URL="../../source/actor/TestStepBase/FTW-TestStep-Base.lvclass"/>
 			<Item Name="FTW-Time-Display-Timestamp.vi" Type="VI" URL="../../source/Time/FTW-Time-Display-Timestamp.vi"/>
 			<Item Name="FTW-Time-DisplayFormat-Timestamp.ctl" Type="VI" URL="../../source/Time/FTW-Time-DisplayFormat-Timestamp.ctl"/>
 			<Item Name="FTW-Time-Elapse.vi" Type="VI" URL="../../source/Time/FTW-Time-Elapse.vi"/>
