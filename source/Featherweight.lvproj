@@ -60,6 +60,24 @@
 				<Item Name="FTW-Tag-Set.vi" Type="VI" URL="../actor/TagEngine/FTW-Tag-Set.vi"/>
 				<Item Name="FTW-Tag-SetVariant.vi" Type="VI" URL="../actor/TagEngine/FTW-Tag-SetVariant.vi"/>
 			</Item>
+			<Item Name="TestExecutive" Type="Folder">
+				<Item Name="FTW-TestExecutive-Abort.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Abort.vi"/>
+				<Item Name="FTW-TestExecutive-Core.lvclass" Type="LVClass" URL="../actor/TestExecutive/core/FTW-TestExecutive-Core.lvclass"/>
+				<Item Name="FTW-TestExecutive-Launch.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Launch.vi"/>
+				<Item Name="FTW-TestExecutive-LoadSequence.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-LoadSequence.vi"/>
+				<Item Name="FTW-TestExecutive-Pause.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Pause.vi"/>
+				<Item Name="FTW-TestExecutive-ReportResults.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-ReportResults.vi"/>
+				<Item Name="FTW-TestExecutive-Results-Deserialize.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Results-Deserialize.vi"/>
+				<Item Name="FTW-TestExecutive-Results-Serialize.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Results-Serialize.vi"/>
+				<Item Name="FTW-TestExecutive-Results.ctl" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Results.ctl"/>
+				<Item Name="FTW-TestExecutive-Sequence-Interpret.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Sequence-Interpret.vi"/>
+				<Item Name="FTW-TestExecutive-Sequence-Serialize.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Sequence-Serialize.vi"/>
+				<Item Name="FTW-TestExecutive-Start.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Start.vi"/>
+				<Item Name="FTW-TestExecutive-Step-State.ctl" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Step-State.ctl"/>
+				<Item Name="FTW-TestExecutive-Step.ctl" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Step.ctl"/>
+				<Item Name="FTW-TestExecutive-Step.vi" Type="VI" URL="../actor/TestExecutive/FTW-TestExecutive-Step.vi"/>
+				<Item Name="FTW-TestStep-Base.lvclass" Type="LVClass" URL="../actor/TestStepBase/FTW-TestStep-Base.lvclass"/>
+			</Item>
 			<Item Name="Transport" Type="Folder">
 				<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../actor/TCP/FTW-Endpoint-TCP.lvclass"/>
 				<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../actor/Endpoint/FTW-Endpoint.lvclass"/>
