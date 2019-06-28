@@ -41,5 +41,5 @@ svn propset svn:externals "http://github.com/viewpointusa/featherweight/branches
 Contributions must be done using Git and by submitting pull requests. SVN is purely for consumption only.
 
 ## Release Notes
-* [v2.0.0 (unreleased)](/docs/release_notes/v2.0.0.md)
-* [Archive](/docs/Changelog.md)
+* [v2.0.0 (June 2019)](/docs/release_notes/v2.0.0.md)
+* [Archive](/docs/release_notes/archive.md)
