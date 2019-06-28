@@ -1,0 +1,22 @@
+[
+    {
+        "Identity": "TestExecutive",
+        "InboxAddress": "inproc://*",
+		"ActorClassName": "FTW-CustomTestExecutive-Core.lvclass",
+        "LoggerAddress": "",
+        "DebugShowPanel": true
+    },
+    {
+        "Identity": "TestExecutiveGUI",
+        "InboxAddress": "inproc://*",
+		"ActorVIName": "FTW-TestExecutiveGUI-Core.lvclass:FTW-TestExecutiveGUI-Core_Process.vi",
+        "LoggerAddress": "",
+        "DebugShowPanel": true,
+        "Connections": {
+            "TestExecutive": ""
+        },
+        "Subscriptions": {
+            "TestExecStatusPub": ""
+        }
+    }
+]

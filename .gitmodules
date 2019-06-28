@@ -1,0 +1,3 @@
+[submodule "jansson"]
+	path = kernel/jansson/upstream
+	url = https://github.com/featherweight/ftw-kernel-jansson.git
