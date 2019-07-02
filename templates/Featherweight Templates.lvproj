@@ -30,6 +30,8 @@
 			<Item Name="config.json" Type="Document" URL="../App Launcher/config.json"/>
 			<Item Name="FTW-AppLauncher-Core.lvclass" Type="LVClass" URL="../App Launcher/Core/FTW-AppLauncher-Core.lvclass"/>
 			<Item Name="FTW_AppLauncher_Connection_Query.vi" Type="VI" URL="../App Launcher/FTW_AppLauncher_Connection_Query.vi"/>
+			<Item Name="FTW_AppLauncher_Panel_Hide.vi" Type="VI" URL="../App Launcher/FTW_AppLauncher_Panel_Hide.vi"/>
+			<Item Name="FTW_AppLauncher_Panel_Show.vi" Type="VI" URL="../App Launcher/FTW_AppLauncher_Panel_Show.vi"/>
 		</Item>
 		<Item Name="Classless Actors" Type="Folder">
 			<Item Name="FTW-ActorTemplate.vi" Type="VI" URL="../Classless Actors/FTW-ActorTemplate.vi"/>
@@ -210,6 +212,7 @@
 			<Item Name="FTW-STR-Encode-Base64.vi" Type="VI" URL="../../source/String/FTW-STR-Encode-Base64.vi"/>
 			<Item Name="FTW-STR-Random-Hex.vi" Type="VI" URL="../../source/String/FTW-STR-Random-Hex.vi"/>
 			<Item Name="FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="../../source/String/FTW-STR-ReplaceWhitespace.vi"/>
+			<Item Name="FTW-STR-Split-Comma.vi" Type="VI" URL="../../source/String/FTW-STR-Split-Comma.vi"/>
 			<Item Name="FTW-STR-Split.vi" Type="VI" URL="../../source/String/FTW-STR-Split.vi"/>
 			<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../../source/actor/Subscriber/FTW-Subscriber.lvclass"/>
 			<Item Name="FTW-Tag-Connect.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Connect.vi"/>
@@ -467,6 +470,7 @@ AddOutputFilter chunkFilter
 			<Item Name="FTW-STR-Encode-Base64.vi" Type="VI" URL="../../source/String/FTW-STR-Encode-Base64.vi"/>
 			<Item Name="FTW-STR-Random-Hex.vi" Type="VI" URL="../../source/String/FTW-STR-Random-Hex.vi"/>
 			<Item Name="FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="../../source/String/FTW-STR-ReplaceWhitespace.vi"/>
+			<Item Name="FTW-STR-Split-Comma.vi" Type="VI" URL="../../source/String/FTW-STR-Split-Comma.vi"/>
 			<Item Name="FTW-STR-Split.vi" Type="VI" URL="../../source/String/FTW-STR-Split.vi"/>
 			<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../../source/actor/Subscriber/FTW-Subscriber.lvclass"/>
 			<Item Name="FTW-Tag-Connect.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Connect.vi"/>
