@@ -199,6 +199,7 @@
 			<Item Name="FTW-STR-Repeat.vi" Type="VI" URL="../String/FTW-STR-Repeat.vi"/>
 			<Item Name="FTW-STR-ReplaceAll.vi" Type="VI" URL="../String/FTW-STR-ReplaceAll.vi"/>
 			<Item Name="FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="../String/FTW-STR-ReplaceWhitespace.vi"/>
+			<Item Name="FTW-STR-Split-Comma.vi" Type="VI" URL="../String/FTW-STR-Split-Comma.vi"/>
 			<Item Name="FTW-STR-Split.vi" Type="VI" URL="../String/FTW-STR-Split.vi"/>
 		</Item>
 		<Item Name="System" Type="Folder">
