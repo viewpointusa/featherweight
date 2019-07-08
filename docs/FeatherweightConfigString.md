@@ -82,24 +82,29 @@ Addresses must be supplied for publishers in other instances of LabVIEW, other a
 ```
 
 ## Local messages
-FTW will automatically spawn local message workers using these parameters. They will stop when the actor is stopped.
+FTW will automatically spawn local message workers using these parameters. The workers will stop when the actor is stopped.
 
 The connection pairs consist of a message header followed by a list of parameters.
 
 Parameter | Type | Required | Default | Description
 --------- | ---- | -------- | ------- | -----------
-`MessageBody` |
-`SendRate` |
-`Lossless` |
-`MaxQueueSize` |
+`MessageBody` | String | No | | Body to be sent with each message
+`SendRate` | Number | Yes | `1` | Message send period in seconds
+`Lossless` | Bool | No | `false` | If true, the messages will be lossless. Note that making messages lossless can result in memory leaks if the actor cannot respond to the messages at least as fast as they are sent.
+`MaxQueueSize` | Number | No | `1` | Queue depth for lossless messages. This usually does not need to change.
 
 **Example:**
 ``` json
 {
     "Identity": "MyActorInstanceName",
-    "Subscriptions": {
-        "PublisherInThisApp": "",
-        "PublisherOnAnotherPC": "tcp://1.2.3.4:5678/"
+    "LocalMessages": {
+        "MY: Message": {
+            "SendRate": 5
+        },
+        "ANOTHER: Message": {
+            "SendRate": 1,
+            "MaxQueueSize": 3
+        }
     }
 }
 ```
