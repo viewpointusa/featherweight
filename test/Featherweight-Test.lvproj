@@ -11,6 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="CSV" Type="Folder">
+			<Item Name="FTW-Test-CSV-Datatypes-Serialize.vi" Type="VI" URL="../FTW-Test-CSV-Datatypes-Serialize.vi"/>
+			<Item Name="FTW-Test-CSV-Object.vi" Type="VI" URL="../FTW-Test-CSV-Object.vi"/>
+		</Item>
 		<Item Name="JSON" Type="Folder">
 			<Item Name="FTW-Benchmark-JSON-DeserializeXNode.vi" Type="VI" URL="../FTW-Benchmark-JSON-DeserializeXNode.vi"/>
 			<Item Name="FTW-Benchmark-JSON.vi" Type="VI" URL="../FTW-Benchmark-JSON.vi"/>
@@ -155,6 +159,10 @@
 			<Item Name="FTW-Collection-KeyValuePair.ctl" Type="VI" URL="../../source/Collection/FTW-Collection-KeyValuePair.ctl"/>
 			<Item Name="FTW-Consumer.lvclass" Type="LVClass" URL="../../source/actor/Consumer/FTW-Consumer.lvclass"/>
 			<Item Name="FTW-Container.lvclass" Type="LVClass" URL="../../source/container/FTW-Container.lvclass"/>
+			<Item Name="FTW-CSV-Escape.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Escape.vi"/>
+			<Item Name="FTW-CSV-SerializeOptions.ctl" Type="VI" URL="../../source/CSV/FTW-CSV-SerializeOptions.ctl"/>
+			<Item Name="FTW-CSV-Variant-Serialize.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-Serialize.vi"/>
+			<Item Name="FTW-CSV-Variant-Traverse.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-Traverse.vi"/>
 			<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../../source/actor/TCP/FTW-Endpoint-TCP.lvclass"/>
 			<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../../source/actor/Endpoint/FTW-Endpoint.lvclass"/>
 			<Item Name="FTW-ERR-Assert-DeveloperError.vi" Type="VI" URL="../../source/Error/FTW-ERR-Assert-DeveloperError.vi"/>
@@ -280,10 +288,12 @@
 			<Item Name="FTW-Reply.lvclass" Type="LVClass" URL="../../source/actor/Reply/FTW-Reply.lvclass"/>
 			<Item Name="FTW-Request.lvclass" Type="LVClass" URL="../../source/actor/Request/FTW-Request.lvclass"/>
 			<Item Name="FTW-SQLite-RandomBLOB.vi" Type="VI" URL="../../../src/database/FTW-SQLite-RandomBLOB.vi"/>
+			<Item Name="FTW-STR-Array-Delimit-Comma.vi" Type="VI" URL="../../source/String/FTW-STR-Array-Delimit-Comma.vi"/>
 			<Item Name="FTW-STR-Array-Delimit.vi" Type="VI" URL="../../source/String/FTW-STR-Array-Delimit.vi"/>
 			<Item Name="FTW-STR-Encode-Base64.vi" Type="VI" URL="../../source/String/FTW-STR-Encode-Base64.vi"/>
 			<Item Name="FTW-STR-Random-Hex.vi" Type="VI" URL="../../source/String/FTW-STR-Random-Hex.vi"/>
 			<Item Name="FTW-STR-ReplaceWhitespace.vi" Type="VI" URL="../../source/String/FTW-STR-ReplaceWhitespace.vi"/>
+			<Item Name="FTW-STR-Split-Comma.vi" Type="VI" URL="../../source/String/FTW-STR-Split-Comma.vi"/>
 			<Item Name="FTW-STR-Split.vi" Type="VI" URL="../../source/String/FTW-STR-Split.vi"/>
 			<Item Name="FTW-Subscriber.lvclass" Type="LVClass" URL="../../source/actor/Subscriber/FTW-Subscriber.lvclass"/>
 			<Item Name="FTW-Tag-Connect.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Connect.vi"/>
