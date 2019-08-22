@@ -165,6 +165,8 @@
 			<Item Name="FTW-CSV-Escape.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Escape.vi"/>
 			<Item Name="FTW-CSV-SerializeOptions.ctl" Type="VI" URL="../../source/CSV/FTW-CSV-SerializeOptions.ctl"/>
 			<Item Name="FTW-CSV-Variant-Serialize.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-Serialize.vi"/>
+			<Item Name="FTW-CSV-Variant-Traverse-Array.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-Traverse-Array.vi"/>
+			<Item Name="FTW-CSV-Variant-Traverse-Cluster.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-Traverse-Cluster.vi"/>
 			<Item Name="FTW-CSV-Variant-Traverse.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-Traverse.vi"/>
 			<Item Name="FTW-Endpoint-TCP.lvclass" Type="LVClass" URL="../../source/actor/TCP/FTW-Endpoint-TCP.lvclass"/>
 			<Item Name="FTW-Endpoint.lvclass" Type="LVClass" URL="../../source/actor/Endpoint/FTW-Endpoint.lvclass"/>
