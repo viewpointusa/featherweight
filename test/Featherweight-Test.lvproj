@@ -17,6 +17,7 @@
 			<Item Name="FTW-Test-CSV-ArrayOfClusters.vi" Type="VI" URL="../FTW-Test-CSV-ArrayOfClusters.vi"/>
 			<Item Name="FTW-Test-CSV-Datatypes-Serialize.vi" Type="VI" URL="../FTW-Test-CSV-Datatypes-Serialize.vi"/>
 			<Item Name="FTW-Test-CSV-Object.vi" Type="VI" URL="../FTW-Test-CSV-Object.vi"/>
+			<Item Name="FTW-Test-CSV-ObjectHeaders.vi" Type="VI" URL="../FTW-Test-CSV-ObjectHeaders.vi"/>
 		</Item>
 		<Item Name="JSON" Type="Folder">
 			<Item Name="FTW-Benchmark-JSON-DeserializeXNode.vi" Type="VI" URL="../FTW-Benchmark-JSON-DeserializeXNode.vi"/>
@@ -164,6 +165,8 @@
 			<Item Name="FTW-Container.lvclass" Type="LVClass" URL="../../source/container/FTW-Container.lvclass"/>
 			<Item Name="FTW-CSV-Escape.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Escape.vi"/>
 			<Item Name="FTW-CSV-SerializeOptions.ctl" Type="VI" URL="../../source/CSV/FTW-CSV-SerializeOptions.ctl"/>
+			<Item Name="FTW-CSV-Variant-Headers.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-Headers.vi"/>
+			<Item Name="FTW-CSV-Variant-HeaderTraverse.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-HeaderTraverse.vi"/>
 			<Item Name="FTW-CSV-Variant-Serialize.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-Serialize.vi"/>
 			<Item Name="FTW-CSV-Variant-Traverse-Array.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-Traverse-Array.vi"/>
 			<Item Name="FTW-CSV-Variant-Traverse-Cluster.vi" Type="VI" URL="../../source/CSV/FTW-CSV-Variant-Traverse-Cluster.vi"/>
