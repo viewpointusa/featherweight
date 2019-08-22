@@ -131,6 +131,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="File" Type="Folder">
+			<Item Name="FTW-File-AppendStringToFileName.vi" Type="VI" URL="../File/FTW-File-AppendStringToFileName.vi"/>
 			<Item Name="FTW-File-AppendTimestampToFileName.vi" Type="VI" URL="../File/FTW-File-AppendTimestampToFileName.vi"/>
 			<Item Name="FTW-File-CalculateRelativeFilepath.vi" Type="VI" URL="../File/FTW-File-CalculateRelativeFilepath.vi"/>
 			<Item Name="FTW-File-CompareFilepaths.vi" Type="VI" URL="../File/FTW-File-CompareFilepaths.vi"/>
