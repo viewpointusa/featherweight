@@ -12,6 +12,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CSV" Type="Folder">
+			<Item Name="FTW-Test-CSV-2DArray.vi" Type="VI" URL="../FTW-Test-CSV-2DArray.vi"/>
+			<Item Name="FTW-Test-CSV-Array.vi" Type="VI" URL="../FTW-Test-CSV-Array.vi"/>
+			<Item Name="FTW-Test-CSV-ArrayOfClusters.vi" Type="VI" URL="../FTW-Test-CSV-ArrayOfClusters.vi"/>
 			<Item Name="FTW-Test-CSV-Datatypes-Serialize.vi" Type="VI" URL="../FTW-Test-CSV-Datatypes-Serialize.vi"/>
 			<Item Name="FTW-Test-CSV-Object.vi" Type="VI" URL="../FTW-Test-CSV-Object.vi"/>
 		</Item>
@@ -288,7 +291,6 @@
 			<Item Name="FTW-Reply.lvclass" Type="LVClass" URL="../../source/actor/Reply/FTW-Reply.lvclass"/>
 			<Item Name="FTW-Request.lvclass" Type="LVClass" URL="../../source/actor/Request/FTW-Request.lvclass"/>
 			<Item Name="FTW-SQLite-RandomBLOB.vi" Type="VI" URL="../../../src/database/FTW-SQLite-RandomBLOB.vi"/>
-			<Item Name="FTW-STR-Array-Delimit-Comma.vi" Type="VI" URL="../../source/String/FTW-STR-Array-Delimit-Comma.vi"/>
 			<Item Name="FTW-STR-Array-Delimit.vi" Type="VI" URL="../../source/String/FTW-STR-Array-Delimit.vi"/>
 			<Item Name="FTW-STR-Encode-Base64.vi" Type="VI" URL="../../source/String/FTW-STR-Encode-Base64.vi"/>
 			<Item Name="FTW-STR-Random-Hex.vi" Type="VI" URL="../../source/String/FTW-STR-Random-Hex.vi"/>
