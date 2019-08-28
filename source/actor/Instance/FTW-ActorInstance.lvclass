@@ -447,6 +447,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074536964</Property>
 	</Item>
+	<Item Name="FTW-Actor-AddJob-NextConditional.vi" Type="VI" URL="../FTW-Actor-AddJob-NextConditional.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&lt;!!!!"1!%!!!!(E!Q`````R6":'1A4G6Y&gt;#"J&lt;C"+&lt;W)A586F&gt;75!/%"Q!"Y!!"M:2F28,5&amp;D&gt;'^S37ZT&gt;'&amp;O9W5O&lt;(:D&lt;'&amp;T=Q!32F28)%&amp;D&gt;'^S)%FO=X2B&lt;G.F!!!]1(!!(A!!'RF'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T!":'6&amp;=A17.U&lt;X)A37ZT&gt;'&amp;O9W5A&lt;X6U!!"^!0!!%!!!!!!!!1!!!!!!!!!!!!)!!Q!!!!!!!!!!!!!!!!!!!A!"#!!!!!!!!!!!!!)1!!!!!!!!!!!!!!!!!!!!!!!!!")!!!!."Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%1!!!!!!!!!!#!!!!!!!!!!!!!%!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+	</Item>
 	<Item Name="FTW-Actor-BeginShutdownSequence.vi" Type="VI" URL="../FTW-Actor-BeginShutdownSequence.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$9!!!!"1!]1(!!(A!!'RF'6&amp;=N17.U&lt;X**&lt;H.U97ZD:3ZM&gt;G.M98.T!":'6&amp;=A17.U&lt;X)A37ZT&gt;'&amp;O9W5A&lt;X6U!!!I1$$`````(UJP9H-A5(*J&lt;X)A&gt;']A5WBV&gt;'2P&gt;WYA5W6R&gt;76O9W5!"!!!!$B!=!!?!!!&lt;'5:56SV"9X2P=EFO=X2B&lt;G.F,GRW9WRB=X-!%E:56S""9X2P=C"*&lt;H.U97ZD:1!!-!$Q!!5!!!!"!!)!!Q!#!A!!_!!!$1-!!AA!!!!!!!!!%A!!!!!!!!9%!!!!!!!!!1!%!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
