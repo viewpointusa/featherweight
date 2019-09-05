@@ -36,6 +36,7 @@
 			<Item Name="FTW-Test-JSON-Parallelization.vi" Type="VI" URL="../FTW-Test-JSON-Parallelization.vi"/>
 			<Item Name="FTW-Test-JSON-Stress.vi" Type="VI" URL="../FTW-Test-JSON-Stress.vi"/>
 			<Item Name="FTW-Test-JSON-Units.vi" Type="VI" URL="../FTW-Test-JSON-Units.vi"/>
+			<Item Name="FTW-Test-JSON-Variants.vi" Type="VI" URL="../JSON/FTW-Test-JSON-Variants.vi"/>
 			<Item Name="FTW-Test-JSON.vi" Type="VI" URL="../FTW-Test-JSON.vi"/>
 		</Item>
 		<Item Name="PubSub" Type="Folder">
