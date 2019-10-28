@@ -109,11 +109,6 @@
 		<Item Name="container" Type="Folder" URL="../container">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="core" Type="Folder">
-			<Item Name="type" Type="Folder">
-				<Item Name="FTW-Type-JSON.ctl" Type="VI" URL="../core/type/FTW-Type-JSON.ctl"/>
-			</Item>
-		</Item>
 		<Item Name="CSV" Type="Folder" URL="../CSV">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
