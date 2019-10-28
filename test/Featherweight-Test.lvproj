@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -69,11 +69,8 @@
 		<Item Name="FTW-Test-TagActor.vi" Type="VI" URL="../FTW-Test-TagActor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
 				<Item Name="Filter Error Codes (Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Array)__ogtk.vi"/>
-				<Item Name="Filter Error Codes (Scalar)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes (Scalar)__ogtk.vi"/>
 				<Item Name="Filter Error Codes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filter Error Codes__ogtk.vi"/>
-				<Item Name="Filtered Error Details - Cluster__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Filtered Error Details - Cluster__ogtk.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3D Plot Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot Datatype/3D Plot Datatype.lvclass"/>
@@ -219,6 +216,7 @@
 			<Item Name="FTW-JSON-Core-EncodingFlags.vi" Type="VI" URL="../../source/JSON/core/FTW-JSON-Core-EncodingFlags.vi"/>
 			<Item Name="FTW-JSON-Core-GetFlattenedValue.vi" Type="VI" URL="../../source/CodeGen/JSON Deserialize/FTW-JSON-Core-GetFlattenedValue.vi"/>
 			<Item Name="FTW-JSON-Core-LibraryFilepath.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Core-LibraryFilepath.vi"/>
+			<Item Name="FTW-JSON-Deserialize.vim" Type="VI" URL="../../source/JSON/FTW-JSON-Deserialize.vim"/>
 			<Item Name="FTW-JSON-Destroy.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Destroy.vi"/>
 			<Item Name="FTW-JSON-Duplicate.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Duplicate.vi"/>
 			<Item Name="FTW-JSON-Escape.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Escape.vi"/>
@@ -272,6 +270,7 @@
 			<Item Name="FTW-JSON-Type.ctl" Type="VI" URL="../../source/JSON/FTW-JSON-Type.ctl"/>
 			<Item Name="FTW-JSON-Unescape.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Unescape.vi"/>
 			<Item Name="FTW-JSON-Variant-Serialize.vi" Type="VI" URL="../../source/JSON/FTW-JSON-Variant-Serialize.vi"/>
+			<Item Name="FTW-JSON-Variant-Serialize.vim" Type="VI" URL="../../source/JSON/FTW-JSON-Variant-Serialize.vim"/>
 			<Item Name="FTW-Logger-Core.lvclass" Type="LVClass" URL="../../source/actor/EventLogger/Core/FTW-Logger-Core.lvclass"/>
 			<Item Name="FTW-Logger.lvclass" Type="LVClass" URL="../../source/actor/EventLogger/FTW-Logger.lvclass"/>
 			<Item Name="FTW-Message-IncomingRequest.lvclass" Type="LVClass" URL="../../source/actor/Message/Request/FTW-Message-IncomingRequest.lvclass"/>
