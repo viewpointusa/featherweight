@@ -332,7 +332,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BE416756-BF85-47B1-9C95-014E03421107}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].libraryName" Type="Str">FTW-JSON.lvlib</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/lib/lib-JSON</Property>
