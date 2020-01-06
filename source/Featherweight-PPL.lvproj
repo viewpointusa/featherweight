@@ -34,8 +34,22 @@
 			<Item Name="FTW-ERR-ThrowImpossibleError.vi" Type="VI" URL="../../builds/lib/lib-JSON/Error/FTW-ERR-ThrowImpossibleError.vi"/>
 			<Item Name="FTW-ERR-ThrowInvalidReferenceError.vi" Type="VI" URL="../../builds/lib/lib-JSON/Error/FTW-ERR-ThrowInvalidReferenceError.vi"/>
 			<Item Name="FTW-ERR-ThrowWarning.vi" Type="VI" URL="../../builds/lib/lib-JSON/Error/FTW-ERR-ThrowWarning.vi"/>
-			<Item Name="FTW-JSON-JoinMode.ctl" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-JoinMode.ctl"/>
-			<Item Name="FTW-JSON-Serialize.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-Serialize.vi"/>
+			<Item Name="FTW-JSON-Core-EncodingFlags.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/core/FTW-JSON-Core-EncodingFlags.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-Char.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-Char.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-Digits.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-Digits.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-Error.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-Error.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-FloatDeserialize.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-FloatDeserialize.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-Get.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-Get.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-IntegerDeserialize.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-IntegerDeserialize.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-IsDigit.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-IsDigit.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-Number.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-Number.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-Pair.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-Pair.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-Parse.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-Parse.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-String-Escaped.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-String-Escaped.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-String.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-String.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-Value.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-Value.vi"/>
+			<Item Name="FTW-JSON-LexicalScan-Whitespace.vi" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan-Whitespace.vi"/>
+			<Item Name="FTW-JSON-LexicalScan.ctl" Type="VI" URL="../../builds/lib/lib-JSON/JSON/FTW-JSON-LexicalScan.ctl"/>
 			<Item Name="FTW-Reflection-Array.vi" Type="VI" URL="../../builds/lib/lib-JSON/Reflection/FTW-Reflection-Array.vi"/>
 			<Item Name="FTW-Reflection-Cluster.vi" Type="VI" URL="../../builds/lib/lib-JSON/Reflection/FTW-Reflection-Cluster.vi"/>
 			<Item Name="FTW-Reflection-Enum.vi" Type="VI" URL="../../builds/lib/lib-JSON/Reflection/FTW-Reflection-Enum.vi"/>
@@ -60,7 +74,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{402042CE-6328-4627-A293-0140C765654A}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">FTW-JSON.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FTW-JSON/FTW-JSON.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -72,7 +86,9 @@
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F3C2CD52-DB0D-4197-B31A-476B3DAD38C0}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[0].itemID" Type="Str">{275A95C7-64A1-4620-B29B-A736C8C7D9FA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/lib-JSON/FTW-JSON.lvlib</Property>
