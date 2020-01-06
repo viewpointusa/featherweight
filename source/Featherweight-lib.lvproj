@@ -163,7 +163,7 @@
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build tools/FTW-BuildUtil-PreBuild Action-Clean.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{BE416756-BF85-47B1-9C95-014E03421107}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].libraryName" Type="Str">FTW-JSON.lvlib</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/lib/lib-JSON</Property>
@@ -177,7 +177,9 @@
 				<Property Name="Destination[3].path" Type="Path">../builds/lib/lib-JSON/FTW-JSON.llb</Property>
 				<Property Name="Destination[3].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{585CD8E7-F766-4DC5-A880-E8ED3DE7F57C}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4FE115A5-5E3D-4582-AE02-97637FA8230A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/malleable VIs/FTW-JSON-Deserialize.vim</Property>
