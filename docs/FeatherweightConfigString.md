@@ -126,6 +126,7 @@ Parameter | Type | Required | Default | Description
 `ApplicationName` | String | Yes | | Used as part of the log file name
 `ApplicationVersion` | String | No | | Not currently used
 `LoggerAddress` | String | No | `inproc://*` | FTW address to be used for connections to the logger
+`LoggerPublisher` | String | No | | Address to publish all events that are logged to file
 `LoggerName` | String | No | `Log` | Used as part of the log file name
 `LoggerDirectory` | String | Yes | | Directory where log files will be created
 `LoggerDiskThrashDelay` | Number | No | `200` | Period in ms when log events are written to disk in bulk to reduce disk writes during periods of logging at high frequency
