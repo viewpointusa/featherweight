@@ -18,6 +18,7 @@ Parameter | Type | Required | Default | Description
 `Connections` | Object | No | | Named list of registered inboxes to connect to. See description below.
 `Publishers` | Object | No | | Named list of publishers to create. See description below.
 `Subscriptions` | Object | No | | Named list of registered publishers to subscribe to. See description below.
+`SubscriberDepth` | Number | No | `1` | Depth used for subscriptions created with `Subscriptions`
 `LocalMessages` | Object | No | | Named list of local message workers to spawn. See description below.
 
 `*` One of these parameters must be used or must be populated by one of the launch VIs to have an actor to launch. These parameters are evaluated in the order listed above.
