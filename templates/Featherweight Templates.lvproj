@@ -22,6 +22,7 @@
 			<Item Name="Actor Template_Launch-Static Link.vit" Type="VI" URL="../Actor Template/Actor Template_Launch-Static Link.vit"/>
 			<Item Name="Actor Template_Launch-VI Refnum.vit" Type="VI" URL="../Actor Template/Actor Template_Launch-VI Refnum.vit"/>
 			<Item Name="Actor Template_Launch.vit" Type="VI" URL="../Actor Template/Actor Template_Launch.vit"/>
+			<Item Name="Actor Template_Malleable Ask Message.vit" Type="VI" URL="../Actor Template/Actor Template_Malleable Ask Message.vit"/>
 			<Item Name="Actor Template_Template.vit" Type="VI" URL="../Actor Template/Actor Template_Template.vit"/>
 			<Item Name="DD Actor Template-Core.lvclass" Type="LVClass" URL="../Dynamic Dispatch/core/DD Actor Template-Core.lvclass"/>
 		</Item>
