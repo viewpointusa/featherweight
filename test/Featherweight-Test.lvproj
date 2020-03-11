@@ -309,10 +309,10 @@
 			<Item Name="FTW-Tag-Core.lvclass" Type="LVClass" URL="../../source/actor/TagEngine/Core/FTW-Tag-Core.lvclass"/>
 			<Item Name="FTW-Tag-Get.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Get.vi"/>
 			<Item Name="FTW-Tag-GetAll.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-GetAll.vi"/>
-			<Item Name="FTW-Tag-GetVariant.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-GetVariant.vi"/>
+			<Item Name="FTW-Tag-GetVariant.vim" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-GetVariant.vim"/>
 			<Item Name="FTW-Tag-Launch.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Launch.vi"/>
 			<Item Name="FTW-Tag-Set.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-Set.vi"/>
-			<Item Name="FTW-Tag-SetVariant.vi" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-SetVariant.vi"/>
+			<Item Name="FTW-Tag-SetVariant.vim" Type="VI" URL="../../source/actor/TagEngine/FTW-Tag-SetVariant.vim"/>
 			<Item Name="FTW-Time-Display-Timestamp.vi" Type="VI" URL="../../source/Time/FTW-Time-Display-Timestamp.vi"/>
 			<Item Name="FTW-Time-DisplayFormat-Timestamp.ctl" Type="VI" URL="../../source/Time/FTW-Time-DisplayFormat-Timestamp.ctl"/>
 			<Item Name="FTW-Time-Elapse.vi" Type="VI" URL="../../source/Time/FTW-Time-Elapse.vi"/>
